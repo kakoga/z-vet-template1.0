@@ -212,7 +212,7 @@
           <!-- 3. RESOURCES -->
           <templateset name="resources" name_friendly="Resources" view="resources">
               <fields>
-                  <text name="page_title" name_friendly="Page Title" />
+                  <text name="page_title" name_friendly="Page Title" required="1" />
                   <images name="main_image" name_friendly="Main Image" />
                   <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
               </fields>
@@ -230,10 +230,10 @@
           <!-- Resources Dataset -->
           <dataset name="frequently_asked_questions" name_friendly="Frequently Asked Questions" parent_item="faq">
               <fields>
-                  <text name="category" name_friendly="Category" />
-                  <wysiwyg_advanced name="question" name_friendly="Question" />
-                  <wysiwyg_advanced name="answer" name_friendly="Answer" />
-                  <sort name="sort_order" name_friendly="Sort Order" />
+                  <text name="category" name_friendly="Category" list="1" />
+                  <wysiwyg_advanced name="question" name_friendly="Question" list="1" />
+                  <wysiwyg_advanced name="answer" name_friendly="Answer" list="1" />
+                  <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
           </dataset>
           <!-- RESOURCES END -->
