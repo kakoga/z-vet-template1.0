@@ -87,29 +87,35 @@
                     <text name="subtitle1" name_friendly="Sub Title (Section 1)" required="1" />
                     <text name="button_text_1" name_friendly="Button Text (Section 1)" required="1" />
                     <images name="image1" name_friendly="Header Image (Default image if feature article has no image)" limit="1" />
+
                     <text name="title2" name_friendly="Title Section 2" required="1" />
                     <text name="button_text_2" name_friendly="Button Text (Section 2)" required="1" />
+
                     <text name="title3" name_friendly="Sub Title (Section 3)" required="1" />
                     <text name="sub_title3" name_friendly="Title (Section 3)" required="1" />
                     <text name="button_text_3" name_friendly="Button Text (Section 3)" required="1" />
+
                     <text name="title4" name_friendly="Title (Section 4)" required="1" />
                     <text name="sub_title4" name_friendly="Sub Title (Section 4)" required="1" />
                     <text name="button_text_4" name_friendly="Button Text (Section 4)" required="1" />
                 </fields>
                 <items>
                     <item link_title="Home" path_part="zesty_home">
-                        <title1>Korean In Or</title1>
-                        <subtitle1>Herbal Culpeper Misnomer</subtitle1>
-                        <button_text_1>For French Guiana</button_text_1>
-                        <image1><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></image1>
-                        <title2>For French Of</title2>
-                        <button_text_2>French Cayenne Is</button_text_2>
-                        <title3>Units Is At</title3>
-                        <sub_title3>(Solanaceae) Capsicum</sub_title3>
-                        <button_text_3>Scoville 50000 30000</button_text_3>
-                        <title4>It Related Related</title4>
-                        <sub_title4>For Guiana French</sub_title4>
-                        <button_text_4>While Green Eaten</button_text_4>
+                        <title1><![CDATA[Your product changes lives.]]></title1>
+                        <subtitle1><![CDATA[Let your customers tell others how.]]></subtitle1>
+                        <button_text_1><![CDATA[Share your Story]]></button_text_1>
+                        <image1><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/header-bg.jpg?raw=true]]></image1>
+
+                        <title2><![CDATA[People talk, amplify it]]></title2>
+                        <button_text_2><![CDATA[Open the Spotlight]]></button_text_2>
+
+                        <title3><![CDATA[YOUR STORY]]></title3>
+                        <sub_title3><![CDATA[You're more than a product; tell your story]]></sub_title3>
+                        <button_text_3><![CDATA[Share your story]]></button_text_3>
+
+                        <title4><![CDATA[YOU BUILD PRODUCTS THAT CHANGE LIVES.]]></title4>
+                        <sub_title4><![CDATA[Let your customers tell others how]]></sub_title4>
+                        <button_text_4><![CDATA[Read influencer stories]]></button_text_4>
                     </item>
                 </items>
             </templateset>
@@ -119,6 +125,7 @@
                     <text name="second_line" name_friendly="Second Line" />
                     <files name="background_video" name_friendly="Background Video" />
                     <images name="background_image" name_friendly="Background Image (Fallback Image if Video)" />
+
                     <text name="button_text" name_friendly="Button Text" />
                     <internal_link name="links_to" name_friendly="Links To" />
                     <sort name="sort_order" name_friendly="Sort Order" />
