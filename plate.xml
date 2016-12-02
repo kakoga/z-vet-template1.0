@@ -38,22 +38,22 @@
                 </fields>
                 <items>
                     <item link_title="" path_part="">
-                        <timeframe>And Asian As</timeframe>
-                        <title>Cuisine) Form Sauce</title>
+                        <timeframe><![CDATA[2010]]></timeframe>
+                        <title><![CDATA[Where It All Began]]></title>
                         <image><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/about_1.jpg?raw=true]]></image>
-                        <short_blurb>The cayenne pepper&#x2014; red pepper&#x2014;is a annuum relas, jalape&#xF1;os, paprika and others</short_blurb>
+                        <short_blurb><![CDATA[The best place to start is the beginning. Share how your idea came to be.]]></short_blurb>
                     </item>
                     <item link_title="" path_part="">
-                        <timeframe>Especially Red Flavour</timeframe>
-                        <title>Bell A Bell</title>
-                        <image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></image>
-                        <short_blurb>The cayenne pepper&#x2014; red pepper&#x2014;is a annuum relas, jalape&#xF1;os, paprika and others</short_blurb>
+                        <timeframe><![CDATA[2012-2015]]></timeframe>
+                        <title><![CDATA[The Process]]></title>
+                        <image><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/about_2.jpg?raw=true]]></image>
+                        <short_blurb><![CDATA[Make your product human. Were you funded through Kickstarter or Indiegogo? What changes were made to your product? When did you add new variations?]]></short_blurb>
                     </item>
                     <item link_title="" path_part="">
-                        <timeframe>Dried Then Are</timeframe>
-                        <title>The Capsicum Capsicum</title>
-                        <image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></image>
-                        <short_blurb>The cayenne pepper&#x2014; red pepper&#x2014;is a annuum relas, jalape&#xF1;os, paprika and others</short_blurb>
+                        <timeframe><![CDATA[2015-Present]]></timeframe>
+                        <title><![CDATA[Where You're At]]></title>
+                        <image><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/about_3.jpg?raw=true]]></image>
+                        <short_blurb><![CDATA[Where are you now, and where are you going?]]></short_blurb>
                     </item>
                 </items>
             </dataset>
@@ -65,24 +65,19 @@
                 </fields>
                 <items>
                     <item link_title="" path_part="">
-                        <name>A Was Pepper'[3]</name>
-                        <font_awesome_icon>Capsicum In (Solanaceae)</font_awesome_icon>
-                        <url>Pepper Powdered As</url>
+                        <name><![CDATA[Facebook]]></name>
+                        <font_awesome_icon><![CDATA[facebook]]></font_awesome_icon>
+                        <url><![CDATA[https://www.facebook.com]]></url>
                     </item>
                     <item link_title="" path_part="">
-                        <name>Generally It Is</name>
-                        <font_awesome_icon>Generally 50000 50000</font_awesome_icon>
-                        <url>Baked Of Generally</url>
+                        <name><![CDATA[Twitter]]></name>
+                        <font_awesome_icon><![CDATA[twitter]]></font_awesome_icon>
+                        <url><![CDATA[https://www.twitter.com]]></url>
                     </item>
                     <item link_title="" path_part="">
-                        <name>Generally 50000 It</name>
-                        <font_awesome_icon>Family Nightshade In</font_awesome_icon>
-                        <url>Is Cooking Used</url>
-                    </item>
-                    <item link_title="" path_part="">
-                        <name>Also Green When</name>
-                        <font_awesome_icon>In Pepper[2] Pepper</font_awesome_icon>
-                        <url>30000 Units 50000</url>
+                        <name><![CDATA[Instagram]]></name>
+                        <font_awesome_icon><![CDATA[instagram]]></font_awesome_icon>
+                        <url><![CDATA[https://www.pinterest.com]]></url>
                     </item>
                 </items>
             </dataset>
