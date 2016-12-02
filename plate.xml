@@ -178,7 +178,7 @@
           <!-- 1. SIMPLE PAGE -->
           <templateset name="simple_page" name_friendly="Simple Page" view="simple_page">
             <fields>
-              <text name="page_title" name_friendly="Page Title" />
+              <text name="page_title" name_friendly="Page Title" required="1" />
               <images name="main_image" name_friendly="Main Image" />
               <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
             </fields>
@@ -195,7 +195,7 @@
           <!-- 2. CONTACT US -->
           <templateset name="contact_us" name_friendly="Contact Us" view="contact_us">
               <fields>
-                  <text name="page_title" name_friendly="Page Title" />
+                  <text name="page_title" name_friendly="Page Title" required="1"/>
                   <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
                   <textarea name="google_map_embed" name_friendly="Google Map Embed" />
               </fields>
