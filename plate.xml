@@ -16,17 +16,38 @@
             <googlefont family="Roboto Slab" />
         </head>
         <clippings>
-            <text name="site_name" name_friendly="Site Name" required="1">Brand Epicenter</text>
-            <images name="logo" name_friendly="Site Logo" limit="1" />
-            <text name="footer_text" name_friendly="Footer Text">Zesty.io Brand Epicenter</text>
-            <text name="global_hashtag" name_friendly="Global Hashtag (tied to all areas of the site)" required="1">#brandepicenter</text>
-            <text name="product_nick_name" name_friendly="Product Nick Name (used in for short form product refernces)" required="1">Product</text>
-            <text name="featured_title" name_friendly="Feature title">Join our Story, find our product in these stores.</text>
-            <text name="form_title" name_friendly="Form Title" required="1">Join our Mailing List</text>
-            <textarea name="form_text" name_friendly="Form Sub Text" required="1">Get emails weekly!</textarea>
-            <text name="form_webhook" name_friendly="Form Webhook (optional)" />
-            <text name="form_button_text" name_friendly="Form Button Text" required="1">Join</text>
+          <clippings>
+          <text name="site_name" name_friendly="Site Name" required="1">
+            <![CDATA[Brand Epicenter]]>
+          </text>
+          <images name="logo" name_friendly="Site Logo" limit="1" />
+          <text name="footer_text" name_friendly="Footer Text">
+            <![CDATA[Zesty.io Brand Epicenter]]>
+          </text>
+          <text name="global_hashtag" name_friendly="Global Hashtag (tied to all areas of the site)" required="1">
+            <![CDATA[#brandepicenter]]>
+          </text>
+          <text name="product_nick_name" name_friendly="Product Nick Name (used in for short form product refernces)" required="1">
+            <![CDATA[Product]]>
+          </text>
+          <text name="featured_title" name_friendly="Feature title">
+            <![CDATA[Join our Story, find our product in these stores.]]>
+          </text>
+          <text name="form_title" name_friendly="Form Title" required="1">
+            <![CDATA[Join our Mailing List]]>
+          </text>
+
+          <textarea name="form_text" name_friendly="Form Sub Text" required="1">
+            <![CDATA[Get emails weekly!]]>
+          </textarea>
+          <text name="form_webhook" name_friendly="Form Webhook (optional)">
+            <![CDATA[]]>
+          </text>
+          <text name="form_button_text" name_friendly="Form Button Text" required="1">
+            <![CDATA[Join]]>
+          </text>
         </clippings>
+  </clippings>
         <ingredients>
             <dataset name="home_page_about_timeline" name_friendly="Homepage Timeline">
                 <fields>
