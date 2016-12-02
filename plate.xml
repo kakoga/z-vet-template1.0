@@ -152,7 +152,7 @@
                 </items>
             </dataset>
           <!-- 1. SIMPLE PAGE -->
-          <!-- <templateset name="simple_page" name_friendly="Simple Page" view="simple_page"> -->
+          <templateset name="simple_page" name_friendly="Simple Page" view="simple_page">
             <fields>
               <text name="page_title" name_friendly="Page Title" required="1" />
               <images name="main_image" name_friendly="Main Image" limit="1" />
