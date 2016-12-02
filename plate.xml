@@ -132,22 +132,22 @@
                 </fields>
                 <items>
                     <item link_title="Care and Wellness for Your Pet" path_part="">
-                        <title>Eaten Colored Also</title>
-                        <second_line>Vinegar-based Asian As</second_line>
+                        <title><![CDATA[Your product changes lives.]]></title>
+                        <second_line><![CDATA[Your product changes lives.]]></second_line>
                         <background_video><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></background_video>
                         <background_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></background_image>
-                        <button_text>Was Misnomer Also</button_text>
-                        <links_to>501</links_to>
-                        <sort_order>0</sort_order>
+                        <button_text><![CDATA[Learn More]]></button_text>
+                        <links_to><![CDATA[501]]></links_to>
+                        <sort_order><![CDATA[1]]></sort_order>
                     </item>
                     <item link_title="Special Offers" path_part="">
-                        <title>It Herbal An</title>
-                        <second_line>Pepper&#x2014;is Pepper&#x2014;is Form</second_line>
+                        <title><![CDATA[Your product changes lives.]]></title>
+                        <second_line><![CDATA[Your product changes lives.]]></second_line>
                         <background_video><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></background_video>
                         <background_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></background_image>
-                        <button_text>Capsicum In Is</button_text>
-                        <links_to>501</links_to>
-                        <sort_order>0</sort_order>
+                        <button_text><![CDATA[Click]]></button_text>
+                        <links_to><![CDATA[501]]></links_to>
+                        <sort_order><![CDATA[1]]></sort_order>
                     </item>
                 </items>
             </dataset>
@@ -190,6 +190,27 @@
             </items>
           </templateset>
           <!-- SIMPLE PAGE END -->
+
+          <templateset name="generic-page" name_friendly="Generic Page" view="generic_page">
+        		<fields>
+        			<text name="title" name_friendly="Page Title (h1)" required="1" />
+        			<wysiwyg_advanced name="content" name_friendly="Page Content" />
+        		</fields>
+      		  <items>
+        			<item link_title="Privacy Policy" path_part="privacy-policy" active="-1">
+        			  <title><![CDATA[Privacy Policy]]></title>
+        			  <content><![CDATA[See an example boilerplate privacy policy here: <a href="https://www.bbb.org/dallas/for-businesses/bbb-sample-privacy-policy1/">https://www.bbb.org/dallas/for-businesses/bbb-sample-privacy-policy1/</a>]]></content>
+        			</item>
+        			<item link_title="Terms of Use" path_part="terms-of-use">
+        			  <title><![CDATA[Terms of Use]]></title>
+        			  <content><![CDATA[See an example boilerplate terms of use here: <a href="https://termsfeed.com/blog/sample-terms-of-use-template/">https://termsfeed.com/blog/sample-terms-of-use-template/</a>]]></content>
+        			</item>
+        			<item link_title="Thank You" path_part="thank-you">
+        			  <title><![CDATA[Thank You]]></title>
+        			  <content><![CDATA[We will be sending you awesome stories once a month.]]></content>
+        			</item>
+      		</items>
+      	</templateset>
 
           <!-- 2. CONTACT US -->
           <templateset name="contact_us" name_friendly="Contact Us" view="contact_us">
