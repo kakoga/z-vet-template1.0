@@ -16,7 +16,7 @@
             <googlefont family="Roboto Slab" />
         </head>
         <clippings>
-            <text name="site_name" name_friendly="Site Name" required="1">Brand Epicenter</text>
+            <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[Brand Epicenter]]></text>
             <images name="logo" name_friendly="Site Logo" limit="1" />
             <text name="footer_text" name_friendly="Footer Text">Zesty.io Brand Epicenter</text>
             <text name="global_hashtag" name_friendly="Global Hashtag (tied to all areas of the site)" required="1">#brandepicenter</text>
