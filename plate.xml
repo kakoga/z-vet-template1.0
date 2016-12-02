@@ -475,7 +475,7 @@
               </fields>
               <items>
                   <item link_title="About Us" path_part="about-us">
-                      <page_title>Zesty Vet Clinic | About Us</page_title>
+                      <page_title>About Us</page_title>
                   </item>
                   <item link_title="Meet the Team" path_part="meet-the-team" parent="about-us">
                       <page_title>Meet the Team</page_title>
@@ -485,13 +485,13 @@
                       <!-- H2 -->
                       &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
                        <!-- paragraph -->
-                      &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
+                      &lt;p&gt;e&#xF1;At Zesty Pet Clinic we're here to support the health and wellness of your pet. We offer:&lt;/p&gt;
                       <!-- unordered list -->
                       &lt;ul&gt;
-                      &lt;li&gt;Its Korean,&lt;/li&gt;
-                      &lt;li&gt;Sauce Cuisine),&lt;/li&gt;
-                      &lt;li&gt;(such Cuisine),&lt;/li&gt;
-                      &lt;li&gt;Spicy As&lt;/li&gt;
+                      &lt;li&gt;Boarding&lt;/li&gt;
+                      &lt;li&gt;Day Care&lt;/li&gt;
+                      &lt;li&gt;Medical Services: spay/neuter, ultrasound,  &lt;/li&gt;
+                      &lt;li&gt;General Care and Care Packages: vaccinations, annual checkups, flea medication, baby, adult, and senior care &lt;/li&gt;
                       &lt;/ul&gt;
                       <!-- paragraph -->
                       &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt;
