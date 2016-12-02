@@ -9,6 +9,8 @@
             <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" />
             <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" />
             <script src="//cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.js" />
+            <link  rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+            <link  rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
             <googlefont family="Montserrat" />
             <googlefont family="Droid Serif" />
             <googlefont family="Roboto Slab" />
@@ -26,35 +28,6 @@
             <text name="form_button_text" name_friendly="Form Button Text" required="1">Join</text>
         </clippings>
         <ingredients>
-            <dataset name="featured_in" name_friendly="Featured In Logos">
-                <fields>
-                    <text name="name" name_friendly="Name of Feature Logo" required="1" />
-                    <images name="image" name_friendly="Logo" limit="1" />
-                    <text name="url" name_friendly="Link (optional)" limit="1" />
-                </fields>
-                <items>
-                    <item link_title="" path_part="">
-                        <name>30000 Rated Units</name>
-                        <image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></image>
-                        <url>Capsicum (Solanaceae) Family</url>
-                    </item>
-                    <item link_title="" path_part="">
-                        <name>The To The</name>
-                        <image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></image>
-                        <url>Is Peppers</url>
-                    </item>
-                    <item link_title="" path_part="">
-                        <name>50000 Units Generally</name>
-                        <image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></image>
-                        <url>Is It Ripened</url>
-                    </item>
-                    <item link_title="" path_part="">
-                        <name>Paprika Cultivar Is</name>
-                        <image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></image>
-                        <url>At 30000 Units</url>
-                    </item>
-                </items>
-            </dataset>
             <dataset name="home_page_about_timeline" name_friendly="Homepage Timeline">
                 <fields>
                     <text name="timeframe" name_friendly="Name of Feature Logo" required="1" />
