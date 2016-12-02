@@ -241,7 +241,7 @@
          <!-- 4. PROMOTIONS -->
           <templateset name="promotions" name_friendly="Promotions" view="promotions">
               <fields>
-                  <text name="page_title" name_friendly="Page Title" />
+                  <text name="page_title" name_friendly="Page Title" required="1" />
               </fields>
               <items>
                   <item link_title="Promotions" path_part="promotions">
@@ -252,12 +252,12 @@
           <!-- Promotions dataset -->
           <dataset name="special_promotions" name_friendly="Special Promotions" parent_item="promotions">
               <fields>
-                  <text name="promo_title" name_friendly="Promo Title" />
-                  <wysiwyg_advanced name="promo_description" name_friendly="Promo Description" />
-                  <images name="promo_image" name_friendly="Promo Image" />
-                  <text name="promo_code" name_friendly="Promo Code" />
-                  <files name="promo_print_coupon" name_friendly="Promo Print Coupon" />
-                  <sort name="sort_order" name_friendly="Sort Order" />
+                  <text name="promo_title" name_friendly="Promo Title"  list="1" />
+                  <wysiwyg_advanced name="promo_description" name_friendly="Promo Description" list="1" />
+                  <images name="promo_image" name_friendly="Promo Image" list="1" />
+                  <text name="promo_code" name_friendly="Promo Code" list="1" />
+                  <files name="promo_print_coupon" name_friendly="Promo Print Coupon" list="1" />
+                  <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
           </dataset>
           <!-- PROMOTIONS END -->
