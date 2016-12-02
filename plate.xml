@@ -265,7 +265,7 @@
           <!-- 5. PATIENT RESOURCES -->
           <templateset name="patient_resources" name_friendly="Patient Resources" view="new_patients">
               <fields>
-                  <text name="page_title" name_friendly="Page Title" />
+                  <text name="page_title" name_friendly="Page Title" required="1" />
                   <images name="main_image" name_friendly="Main Image" />
                   <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
               </fields>
@@ -288,16 +288,16 @@
           <!-- Patient Resources Datasets -->
           <dataset name="online_forms" name_friendly="Online Forms" parent_item="patient-forms">
               <fields>
-                  <text name="form_title" name_friendly="Form Title" />
-                  <wysiwyg_advanced name="form_description" name_friendly="Form Description" />
-                  <files name="form_pdf" name_friendly="Form PDF" />
-                  <sort name="sort_order" name_friendly="Sort Order" />
+                  <text name="form_title" name_friendly="Form Title" list="1" />
+                  <wysiwyg_advanced name="form_description" name_friendly="Form Description" list="1" />
+                  <files name="form_pdf" name_friendly="Form PDF" list="1" />
+                  <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
           </dataset>
           <dataset name="payment_opts" name_friendly="Payment Opts" parent_item="payment-options">
               <fields>
-                  <text name="payment_type" name_friendly="Payment Type" />
-                  <sort name="sort_order" name_friendly="Sort Order" />
+                  <text name="payment_type" name_friendly="Payment Type" list="1" />
+                  <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
           </dataset>
           <!-- PATIENT RESOURCES END -->
