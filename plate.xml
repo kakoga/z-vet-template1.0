@@ -341,7 +341,7 @@
                         <!-- H2 -->
                         &lt;h2&gt;Zesty Pet Clinic Promotions&lt;/h2&gt;
                          <!-- paragraph -->
-                        &lt;p&gt;check out our latest promotions to help you care for your loved one!&lt;/p&gt;
+                        &lt;p&gt;check out our latest promotions to help you care for your loved one! &lt;/p&gt;
 
                       </body_text>
                   </item>
@@ -357,6 +357,24 @@
                   <files name="promo_print_coupon" name_friendly="Promo Print Coupon" list="1" />
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
+              <items>
+                <items>
+                  <promo_title><![CDATA[&#36;25 Off Your Visit!]]></promo_title>
+                  <promo_description><![CDATA[Get &#36;25.00 off your first visit. New clients only]]></promo_description>
+                  <promo_image><![CDATA[]]></promo_image>
+                  <promo_code><![CDATA[FIRSTVISIT25]]></promo_code>
+                  <promo_print_coupon><![CDATA[]]></promo_print_coupon>
+                  <sort_order><![CDATA[1]]></sort_order>
+                </items>
+                <items>
+                  <promo_title><![CDATA[2 for 1 Flea Treatments]]></promo_title>
+                  <promo_description><![CDATA[Purchase one topical flea treatment and one of equal or lesser value for free.]]></promo_description>
+                  <promo_image><![CDATA[2FLEAS]]></promo_image>
+                  <promo_code><![CDATA[]]></promo_code>
+                  <promo_print_coupon><![CDATA[]]></promo_print_coupon>
+                  <sort_order><![CDATA[2]]></sort_order>
+                </items>
+              </items>
           </dataset>
           <!-- PROMOTIONS END -->
 
