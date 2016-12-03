@@ -3,9 +3,6 @@
   {{ page.page_title }}
   {{ page.body_text }}
   <div class="promo-offers">
-    {{ each promo as promo sort by promo.sort asc }}
-    <h3>{{promo.promo_title}}</h3>
-    <p>{{promo.promo_description}}</p>
-    {{ end-each }}
+    
   </div>
 </div>
