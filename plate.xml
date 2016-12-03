@@ -238,30 +238,28 @@
               </fields>
               <items>
                   <item link_title="Contact Us" path_part="contact-us" parent_item="contact-us">
-                      <page_title>Colored Still To</page_title>
+                      <page_title>Contact Us</page_title>
                       <body_text>
                         <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
                         <!-- H2 -->
                         &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
                          <!-- paragraph -->
-                        &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
+                        &lt;p&gt;Zesty Pet Clinic&lt;/p&gt;
+                        &lt;p&gt;1045 Sixth Avenue&lt;/p&gt;
+                        &lt;p&gt;San Diego, CA 92101&lt;/p&gt;
                         <!-- unordered list -->
                         &lt;ul&gt;
-                        &lt;li&gt;Its Korean,&lt;/li&gt;
-                        &lt;li&gt;Sauce Cuisine),&lt;/li&gt;
-                        &lt;li&gt;(such Cuisine),&lt;/li&gt;
-                        &lt;li&gt;Spicy As&lt;/li&gt;
+                        &lt;li&gt;Sunday 10am - 3pm&lt;/li&gt;
+                        &lt;li&gt;Monday 9am - 7pm&lt;/li&gt;
+                        &lt;li&gt;Tuesday 9am - 6pm&lt;/li&gt;
+                        &lt;li&gt;Wednesday9am - 7pm&lt;/li&gt;
+                        &lt;li&gt;Thursday 9am - 6pm&lt;/li&gt;
+                        &lt;li&gt;Friday 9am - 7pm&lt;/li&gt;
+                        &lt;li&gt;Saturday 9am - 6pm&lt;/li&gt;
                         &lt;/ul&gt;
+
                         <!-- paragraph -->
-                        &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt;
-                        <!-- blockquote -->
-                        &lt;blockquote&gt;Cayenne is used in
-                        cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based
-                        sauce&lt;/blockquote&gt;
-                        <!-- paragraph -->
-                        &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
-                        generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same
-                        name&lt;/p&gt;
+                        &lt;p&gt;Tel: 555-555-5555&lt;/p&gt;
                       </body_text>
                       <google_map_embed></google_map_embed>
                   </item>
