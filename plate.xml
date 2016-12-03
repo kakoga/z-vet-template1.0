@@ -348,7 +348,7 @@
               </items>
           </templateset>
           <!-- Promotions dataset -->
-          <dataset name="special_promotions" name_friendly="Special Promotions" parent_item="promotions">
+          <dataset name="promo" name_friendly="Special Promotions" parent_item="promotions">
               <fields>
                   <text name="promo_title" name_friendly="Promo Title"  list="1" />
                   <wysiwyg_advanced name="promo_description" name_friendly="Promo Description" list="1" />
