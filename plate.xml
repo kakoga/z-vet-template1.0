@@ -380,7 +380,7 @@
       			</items>
 		      </dataset>
           <!-- Resources Dataset -->
-          <dataset name="frequently_asked_questions" name_friendly="Frequently Asked Questions" parent_item="faq-categories">
+          <dataset name="frequently_asked_questions" name_friendly="Frequently Asked Questions" parent_item="faq_categories">
               <fields>
                   <text name="category" name_friendly="Category" list="1" />
                   <wysiwyg_advanced name="question" name_friendly="Question" list="1" />
