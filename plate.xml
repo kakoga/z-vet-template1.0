@@ -308,15 +308,14 @@
                         <!-- H2 -->
                         &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
                          <!-- paragraph -->
-                        &lt;p&gt;At Zesty Pet Clinic we are here to support you. Please see our list of resources below.
-                        If you think of something else that we may be able to help you with, please &lt;a href="#"&gt;contact us&lt;/a&gt;&lt;/p&gt;!
-                        &lt;p&gt;Please select from our options below:&lt;/p&gt;
+                        &lt;p&gt;Please see a list of frequently asked questions below. Select a category to get started, or scroll down to browse on your own/p&gt;!
+                        &lt;p&gt;Need more information? Please &lt;a href="#"&gt;contact us&lt;/a&gt;&lt;/p&gt;
+                        &lt;p&gt;Please select a category below:&lt;/p&gt;
                         <!-- unordered list -->
                         &lt;ul&gt;
-                        &lt;li&gt;&lt;a href="#"&gt;FAQ&lt;/a&gt;&lt;/li&gt;
-                        &lt;li&gt;&lt;a href="#"&gt;Breeder Questions&lt;/a&gt;&lt;/li&gt;
-                        &lt;li&gt;&lt;a href="#"&gt;Links&lt;/a&gt;&lt;/li&gt;
-                        &lt;li&gt;&lt;a href="#"&gt;Breeder Questions&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;General Information&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;Medical Services&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;Health and Wellness&lt;/a&gt;&lt;/li&gt;
                         &lt;/ul&gt;
                       </body_text>
                   </item>
@@ -326,18 +325,10 @@
                     <body_text>
                       <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
                       <!-- H2 -->
-                      &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
+                      &lt;h2&gt;Questions to Ask Your Potential Breeder&lt;/h2&gt;
                        <!-- paragraph -->
-                      &lt;p&gt;At Zesty Pet Clinic we are here to support you. Please see our list of resources below.
-                      If you think of something else that we may be able to help you with, please &lt;a href="#"&gt;contact us&lt;/a&gt;&lt;/p&gt;!
-                      &lt;p&gt;Please select from our options below:&lt;/p&gt;
-                      <!-- unordered list -->
-                      &lt;ul&gt;
-                      &lt;li&gt;&lt;a href="#"&gt;FAQ&lt;/a&gt;&lt;/li&gt;
-                      &lt;li&gt;&lt;a href="#"&gt;Breeder Questions&lt;/a&gt;&lt;/li&gt;
-                      &lt;li&gt;&lt;a href="#"&gt;Links&lt;/a&gt;&lt;/li&gt;
-                      &lt;li&gt;&lt;a href="#"&gt;Breeder Questions&lt;/a&gt;&lt;/li&gt;
-                      &lt;/ul&gt;
+                      &lt;p&gt;When selecting a breeder it can be difficult to know what questions to ask. We've provided a list of common questions to ask your potential breeder.&lt;p&gt; &lt;/p&gt;
+                      &lt;p&gt; &lt;/p&gt;These have been adapted from the &lt;a href="http://www.akc.org/content/dog-care/articles/questions-to-ask-your-potential-breeder/"&gt;American Kennel Club's blog&lt;/a&gt;&lt;/p&gt;.
                     </body_text>
                   </item>
                   <item link_title="Links" path_part="links" parent="resources">
@@ -346,17 +337,16 @@
                     <body_text>
                       <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
                       <!-- H2 -->
-                      &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
+                      &lt;h2&gt;Helpful Links&lt;/h2&gt;
                        <!-- paragraph -->
-                      &lt;p&gt;At Zesty Pet Clinic we are here to support you. Please see our list of resources below.
-                      If you think of something else that we may be able to help you with, please &lt;a href="#"&gt;contact us&lt;/a&gt;&lt;/p&gt;!
-                      &lt;p&gt;Please select from our options below:&lt;/p&gt;
+                      &lt;p&gt;Here is a list of links to some of our favorite resources &lt;a href="#"&gt;contact us&lt;/a&gt;&lt;/p&gt;!
+                      &lt;p&gt;Please select from a category below or scroll down to browse the list:&lt;/p&gt;
                       <!-- unordered list -->
                       &lt;ul&gt;
-                      &lt;li&gt;&lt;a href="#"&gt;FAQ&lt;/a&gt;&lt;/li&gt;
-                      &lt;li&gt;&lt;a href="#"&gt;Breeder Questions&lt;/a&gt;&lt;/li&gt;
-                      &lt;li&gt;&lt;a href="#"&gt;Links&lt;/a&gt;&lt;/li&gt;
-                      &lt;li&gt;&lt;a href="#"&gt;Breeder Questions&lt;/a&gt;&lt;/li&gt;
+                      &lt;li&gt;&lt;a href="#"&gt;Educational&lt;/a&gt;&lt;/li&gt;
+                      &lt;li&gt;&lt;a href="#"&gt;Local Partners&lt;/a&gt;&lt;/li&gt;
+                      &lt;li&gt;&lt;a href="#"&gt;Pet Supplies&lt;/a&gt;&lt;/li&gt;
+                      &lt;li&gt;&lt;a href="#"&gt;Entertainment&lt;/a&gt;&lt;/li&gt;
                       &lt;/ul&gt;
                     </body_text>
                   </item>
@@ -370,6 +360,37 @@
                   <wysiwyg_advanced name="answer" name_friendly="Answer" list="1" />
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
+              <items>
+                <item>
+                  <item>
+                    <category></category>
+                    <question></question>
+                    <answer></answer>
+                    <sort_order></sort_order>
+                  </item>
+                  <item>
+                    <category></category>
+                    <question></question>
+                    <answer></answer>
+                    <sort_order></sort_order>
+                  </item>
+                  <item>
+                    <category></category>
+                    <question></question>
+                    <answer></answer>
+                    <sort_order></sort_order>
+                  </item>
+                </item>
+              </items>
+          </dataset>
+          <dataset name="breeder_q" name_friendly="Breeder Questions" parent_item="breeder-questions">
+            <fields>
+                <text name="category" name_friendly="Category" list="1" />
+                <wysiwyg_advanced name="question" name_friendly="Question" list="1" />
+                <wysiwyg_advanced name="answer" name_friendly="Answer" list="1" />
+                <sort name="sort_order" name_friendly="Sort Order" list="1" />
+            </fields>
+            <items>
               <item>
                 <item>
                   <category></category>
@@ -390,14 +411,7 @@
                   <sort_order></sort_order>
                 </item>
               </item>
-          </dataset>
-          <dataset name="breeder_q" name_friendly="Breeder Questions" parent_item="breeder-questions">
-            <fields>
-                <text name="category" name_friendly="Category" list="1" />
-                <wysiwyg_advanced name="question" name_friendly="Question" list="1" />
-                <wysiwyg_advanced name="answer" name_friendly="Answer" list="1" />
-                <sort name="sort_order" name_friendly="Sort Order" list="1" />
-            </fields>
+            </items>
           </dataset>
           <dataset name="external_links" name_friendly="External Links" parent_item="links">
             <fields>
@@ -406,6 +420,26 @@
                 <wysiwyg_advanced name="answer" name_friendly="Answer" list="1" />
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
+            <items>
+              <item>
+                <category></category>
+                <question></question>
+                <answer></answer>
+                <sort_order></sort_order>
+              </item>
+              <item>
+                <category></category>
+                <question></question>
+                <answer></answer>
+                <sort_order></sort_order>
+              </item>
+              <item>
+                <category></category>
+                <question></question>
+                <answer></answer>
+                <sort_order></sort_order>
+              </item>
+            </items>
           </dataset>
           <!-- RESOURCES END -->
 
@@ -706,28 +740,28 @@
                       <page_title>Our Photos</page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text><!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
-                      <!-- H2 -->
-                      &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
-                       <!-- paragraph -->
-                      &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
-                      <!-- unordered list -->
-                      &lt;ul&gt;
-                      &lt;li&gt;Its Korean,&lt;/li&gt;
-                      &lt;li&gt;Sauce Cuisine),&lt;/li&gt;
-                      &lt;li&gt;(such Cuisine),&lt;/li&gt;
-                      &lt;li&gt;Spicy As&lt;/li&gt;
-                      &lt;/ul&gt;
-                      <!-- paragraph -->
-                      &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt;
-                      <!-- blockquote -->
-                      &lt;blockquote&gt;Cayenne is used in
-                      cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based
-                      sauce&lt;/blockquote&gt;
-                      <!-- paragraph -->
-                      &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
-                      generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same
-                      name&lt;/p&gt;
-                    </body_text>
+                        <!-- H2 -->
+                        &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
+                         <!-- paragraph -->
+                        &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
+                        <!-- unordered list -->
+                        &lt;ul&gt;
+                        &lt;li&gt;Its Korean,&lt;/li&gt;
+                        &lt;li&gt;Sauce Cuisine),&lt;/li&gt;
+                        &lt;li&gt;(such Cuisine),&lt;/li&gt;
+                        &lt;li&gt;Spicy As&lt;/li&gt;
+                        &lt;/ul&gt;
+                        <!-- paragraph -->
+                        &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt;
+                        <!-- blockquote -->
+                        &lt;blockquote&gt;Cayenne is used in
+                        cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based
+                        sauce&lt;/blockquote&gt;
+                        <!-- paragraph -->
+                        &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
+                        generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same
+                        name&lt;/p&gt;
+                      </body_text>
                   </item>
               </items>
           </templateset>
