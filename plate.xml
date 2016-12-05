@@ -391,7 +391,14 @@
                 </item>
               </item>
           </dataset>
-          
+          <dataset name="breeder_q" name_friendly="Breeder Questions" parent_item="breeder-questions">
+            <fields>
+                <text name="category" name_friendly="Category" list="1" />
+                <wysiwyg_advanced name="question" name_friendly="Question" list="1" />
+                <wysiwyg_advanced name="answer" name_friendly="Answer" list="1" />
+                <sort name="sort_order" name_friendly="Sort Order" list="1" />
+            </fields>
+          </dataset>
           <!-- RESOURCES END -->
 
          <!-- 4. PROMOTIONS -->
