@@ -399,8 +399,6 @@
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
           </dataset>
-          
-          </dataset>
           <!-- RESOURCES END -->
 
          <!-- 4. PROMOTIONS -->
