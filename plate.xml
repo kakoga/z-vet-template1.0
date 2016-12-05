@@ -20,8 +20,7 @@
             <images name="logo" name_friendly="Site Logo" limit="1" />
             <text name="footer_text" name_friendly="Footer Text"><![CDATA[Zesty.io Brand Epicenter]]></text>
             <text name="global_hashtag" name_friendly="Global Hashtag (tied to all areas of the site)" required="1"><![CDATA[#brandepicenter]]></text>
-            <text name="product_nick_name" name_friendly="Product Nick Name (used in for short form product refernces)" required="1"><![CDATA[Product]]>
-</text>
+            <text name="product_nick_name" name_friendly="Product Nick Name (used in for short form product refernces)" required="1"><![CDATA[Product]]></text>
             <text name="featured_title" name_friendly="Feature title"><![CDATA[Join our Story, find our product in these stores.]]></text>
             <text name="form_title" name_friendly="Form Title" required="1"><![CDATA[Join our Mailing List]]></text>
             <textarea name="form_text" name_friendly="Form Sub Text" required="1"><![CDATA[Get emails weekly!]]></textarea>
@@ -290,24 +289,15 @@
                         &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
                          <!-- paragraph -->
                         &lt;p&gt;At Zesty Pet Clinic we are here to support you. Please see our list of resources below.
-                        If you think of something else that we may be able to help you with, please &lt;a&gt;href="#"&gt;contact us&lt;&lt;/a&gt; &lt;/p&gt;!
+                        If you think of something else that we may be able to help you with, please &lt;a href="#"&gt;contact us&lt;/a&gt;&lt;/p&gt;!
+                        &lt;p&gt;Please select from our options below:&lt;/p&gt;
                         <!-- unordered list -->
                         &lt;ul&gt;
-                        &lt;li&gt;Its Korean,&lt;/li&gt;
-                        &lt;li&gt;Sauce Cuisine),&lt;/li&gt;
-                        &lt;li&gt;(such Cuisine),&lt;/li&gt;
-                        &lt;li&gt;Spicy As&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;Breeder Questions&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;Links&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="#"&gt;Breeder Questions&lt;/a&gt;&lt;/li&gt;
                         &lt;/ul&gt;
-                        <!-- paragraph -->
-                        &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt;
-                        <!-- blockquote -->
-                        &lt;blockquote&gt;Cayenne is used in
-                        cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based
-                        sauce&lt;/blockquote&gt;
-                        <!-- paragraph -->
-                        &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
-                        generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same
-                        name&lt;/p&gt;
                       </body_text>
                   </item>
                   <item link_title="FAQ" path_part="faq" parent="resources">
