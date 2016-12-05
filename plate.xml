@@ -282,14 +282,15 @@
               </fields>
               <items>
                   <item link_title="Resources" path_part="resources">
-                      <page_title>It Scoville Scoville</page_title>
+                      <page_title>Resources</page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
                         <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
                         <!-- H2 -->
                         &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
                          <!-- paragraph -->
-                        &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
+                        &lt;p&gt;At Zesty Pet Clinic we are here to support you. Please see our list of resources below.
+                        If you think of something else that we may be able to help you with, please &lt;a&gt;href="#"&gt;contact us&lt;&lt;/a&gt; &lt;/p&gt;!
                         <!-- unordered list -->
                         &lt;ul&gt;
                         &lt;li&gt;Its Korean,&lt;/li&gt;
