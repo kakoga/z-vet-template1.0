@@ -352,8 +352,35 @@
                   </item>
               </items>
           </templateset>
+          <!-- Resources Categories -->
+          <!-- FAQ Categories -->
+          <dataset name="faq_categories" name_friendly="FAQ Categories" parent_item="faq">
+      			<fields>
+      				<text name="category_name" name_friendly="Category Name" required="1" list="1" />
+      				<textarea name="description" name_friendly="Description" />
+      				<sort name="sort" name_friendly="Sort Order" list="1" required="1" sort_table="1" />
+      			</fields>
+
+      			<items>
+      				<item link_title="General Information" path_part="general-information" parent="faq">
+      					<name><![CDATA[General Information]]></name>
+      					<description>Contact information, scheduling questions, etc.</description>
+      					<sort><![CDATA[1]]></sort>
+      				</item>
+      				<item link_title="Medical Services" path_part="medical-services" parent="faq">
+      					<name><![CDATA[Medical Services]]></name>
+      					<description>Flea medications, spay/neuter, general surgery, etc.</description>
+      					<sort><![CDATA[2]]></sort>
+      				</item>
+      				<item link_title="Health and Wellness" path_part="health-and-wellness" parent="faq">
+      					<name><![CDATA[Health and Wellness]]></name>
+      					<description>Diet, exercise, skin conditions, etc.</description>
+      					<sort><![CDATA[3]]></sort>
+      				</item>
+      			</items>
+		      </dataset>
           <!-- Resources Dataset -->
-          <dataset name="frequently_asked_questions" name_friendly="Frequently Asked Questions" parent_item="faq">
+          <dataset name="frequently_asked_questions" name_friendly="Frequently Asked Questions" parent_item="faq-categories">
               <fields>
                   <text name="category" name_friendly="Category" list="1" />
                   <wysiwyg_advanced name="question" name_friendly="Question" list="1" />
@@ -363,7 +390,7 @@
               <items>
                 <item>
                   <item>
-                    <category></category>
+                    <category><![CDATA[General Info]]></category>
                     <question></question>
                     <answer></answer>
                     <sort_order></sort_order>
