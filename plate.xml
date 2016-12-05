@@ -364,17 +364,17 @@
       			<items>
       				<item link_title="General Information" path_part="general-information" parent="faq">
       					<name><![CDATA[General Information]]></name>
-      					<description>Contact information, scheduling questions, etc.</description>
+      					<description><![CDATA[Contact information, scheduling questions, etc.]]></description>
       					<sort><![CDATA[1]]></sort>
       				</item>
       				<item link_title="Medical Services" path_part="medical-services" parent="faq">
       					<name><![CDATA[Medical Services]]></name>
-      					<description>Flea medications, spay/neuter, general surgery, etc.</description>
+      					<description><![CDATA[Flea medications, spay/neuter, general surgery, etc.]]></description>
       					<sort><![CDATA[2]]></sort>
       				</item>
       				<item link_title="Health and Wellness" path_part="health-and-wellness" parent="faq">
       					<name><![CDATA[Health and Wellness]]></name>
-      					<description>Diet, exercise, skin conditions, etc.</description>
+      					<description><![CDATA[Diet, exercise, skin conditions, etc.]]></description>
       					<sort><![CDATA[3]]></sort>
       				</item>
       			</items>
