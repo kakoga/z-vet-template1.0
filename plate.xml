@@ -399,12 +399,7 @@
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
           </dataset>
-          <dataset name="external_links" name_friendly="External Links" parent_item="links" />
-            <fields>
-              <text name="category" name_friendly="Category" list="1" />
-              <wysiwyg_advanced name="link_text_and_target" name_friendly="Link Text and Target" list="1" />
-              <sort name="sort_order" name_friendly="Sort Order" list="1" />
-            </fields>
+          
           </dataset>
           <!-- RESOURCES END -->
 
