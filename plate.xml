@@ -490,31 +490,14 @@
                       </body_text>
                   </item>
                   <item link_title="Payment Options" path_part="payment-options" parent="patient-resources">
-                      <page_title>Capsicum The The</page_title>
+                      <page_title>Payment Options</page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
                         <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
                         <!-- H2 -->
                         &lt;h2&gt;Payment Options&lt;/h2&gt;
                          <!-- paragraph -->
-                        &lt;p&gt;Please see a list of our available payment options below.&lt;/p&gt;
-                        <!-- unordered list -->
-                        &lt;ul&gt;
-                        &lt;li&gt;Its Korean,&lt;/li&gt;
-                        &lt;li&gt;Sauce Cuisine),&lt;/li&gt;
-                        &lt;li&gt;(such Cuisine),&lt;/li&gt;
-                        &lt;li&gt;Spicy As&lt;/li&gt;
-                        &lt;/ul&gt;
-                        <!-- paragraph -->
-                        &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt;
-                        <!-- blockquote -->
-                        &lt;blockquote&gt;Cayenne is used in
-                        cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based
-                        sauce&lt;/blockquote&gt;
-                        <!-- paragraph -->
-                        &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
-                        generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same
-                        name&lt;/p&gt;
+                        &lt;p&gt;We offer our clients a variety of payment options, including American Expess and Discover. Please see a full list of all available options below.&lt;/p&gt;
                       </body_text>
                   </item>
               </items>
@@ -527,12 +510,51 @@
                   <files name="form_pdf" name_friendly="Form PDF" list="1" />
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
+              <items>
+                <item>
+                  <form_title><![CDATA[New Patient Form]]></form_title>
+                  <form_pdf><![CDATA[]]></form_pdf>
+                  <sort_order><![CDATA[1]]></sort_order>
+                </item>
+                <item>
+                  <form_title><![CDATA[Anaesthesia Consent Form]]></form_title>
+                  <form_pdf><![CDATA[]]></form_pdf>
+                  <sort_order><![CDATA[2]]></sort_order>
+                </item>
+                <item>
+                  <form_title><![CDATA[Boarding Consent Form]]></form_title>
+                  <form_pdf><![CDATA[]]></form_pdf>
+                  <sort_order><![CDATA[3]]></sort_order>
+                </item>
+              </items>
           </dataset>
           <dataset name="payment_opts" name_friendly="Payment Opts" parent_item="payment-options">
               <fields>
                   <text name="payment_type" name_friendly="Payment Type" list="1" />
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
+              <items>
+                <item>
+                  <payment_type><![CDATA[Visa]]></payment_type>
+                  <sort_order><![CDATA[1]]></sort_order>
+                </item>
+                <item>
+                  <payment_type><![CDATA[Mastercard]]></payment_type>
+                  <sort_order><![CDATA[2]]></sort_order>
+                </item>
+                <item>
+                  <payment_type><![CDATA[American Express]]></payment_type>
+                  <sort_order><![CDATA[3]]></sort_order>
+                </item>
+                <item>
+                  <payment_type><![CDATA[Discover]]></payment_type>
+                  <sort_order><![CDATA[4]]></sort_order>
+                </item>
+                <item>
+                  <payment_type><![CDATA[Cash or Check]]></payment_type>
+                  <sort_order><![CDATA[5]]></sort_order>
+                </item>
+              </items>
           </dataset>
           <!-- PATIENT RESOURCES END -->
 
@@ -543,7 +565,7 @@
               </fields>
               <items>
                   <item link_title="Services" path_part="services">
-                      <page_title>Peppers Cultivar Cultivar</page_title>
+                      <page_title>Our Services</page_title>
                   </item>
               </items>
           </templateset>
@@ -558,6 +580,24 @@
               <items>
                 <items link_title="General Health" path_part="general_health" parent="services">
                   <page_title>General Health</page_title>
+                  <main_image></main_image>
+                  <body_text></body_text>
+                  <sort_order></sort_order>
+                </items>
+                <items link_title="Vaccines" path_part="" parent="services">
+                  <page_title>Vaccines</page_title>
+                  <main_image></main_image>
+                  <body_text></body_text>
+                  <sort_order></sort_order>
+                </items>
+                <items link_title="Care Packages" path_part="care_packages" parent="services">
+                  <page_title>Care Packages</page_title>
+                  <main_image></main_image>
+                  <body_text></body_text>
+                  <sort_order></sort_order>
+                </items>
+                <items link_title="Dental Care" path_part="dental_care" parent="services">
+                  <page_title>Dental Care</page_title>
                   <main_image></main_image>
                   <body_text></body_text>
                   <sort_order></sort_order>
