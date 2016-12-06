@@ -444,7 +444,7 @@
                       </body_text>
                   </item>
                   <item link_title="Payment Options" path_part="payment-options" parent="patient-resources">
-                      <page_title>Payment Options</page_title>
+                      <page_title><![CDATA[Payment Options]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
                         <![CDATA[<h2>Payment Options</h2>
@@ -529,8 +529,8 @@
                   <sort name="sort_order" name_friendly="Sort Order" required="1" list="1" />
               </fields>
               <items>
-                <items link_title="General Health" path_part="general_health" parent_set="vet_services">
-                  <page_title><![CDATA[General Health]]></page_title>
+                <items link_title="General Health" path_part="general_health" parent="services">
+                  <page_title><![CDATA[<h2>General Health</h2>]]></page_title>
                   <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                   <body_text><![CDATA[<h2>General Health</h2>
                   </br>
@@ -538,14 +538,14 @@
                 </body_text>
                   <sort_order><![CDATA[1]]></sort_order>
                 </items>
-                <items link_title="Vaccines" path_part="" parent_set="vet_services">
-                  <page_title><![CDATA[Vaccines]]></page_title>
+                <items link_title="Vaccines" path_part="" parent="services">
+                  <page_title><![CDATA[<h2>Vaccines</h2>]]></page_title>
                   <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                   <body_text><![CDATA[<p>Pet vaccines fall into two categories: core and  non-core. Core vaccines are vaccines that are recommended for every pet. Non-core vaccines are vaccines that may be recommened based on your pet's lifestyle. For example, if your pet is boarded a lot, or spends a lot of time outdoors, you may want to consider additional vaccines for your pet.</p>]]></body_text>
                   <sort_order><![CDATA[2]]></sort_order>
                 </items>
-                <items link_title="Care Packages" path_part="care_packages" parent_set="vet_services">
-                  <page_title><![CDATA[Care Packages]]></page_title>
+                <items link_title="Care Packages" path_part="care_packages" parent="services">
+                  <page_title><![CDATA[<h2>Care Packages</h2>]]></page_title>
                   <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                   <body_text><![CDATA[<p>Our pets, just like humans, will have changing medical and health needs as they age. Our care packages will help you get the most comprehensive care for your pet from baby to senior.
                     Each package covers comprehensive exams, possible vaccines or medication, nutritional consulation, heartworm test and more.</p></br>
@@ -554,10 +554,10 @@
                     <h3>Senior</h3></br><p>Our Senior Package includes:</br><ul><li>Comprehensive exam and history</li><li>Blood work (CBC and 30 tests)</li><li>Fecal test to check for common parasites</li><li>5 x-rays of chest and abdomen</li></ul>]]></body_text>
                   <sort_order><![CDATA[3]]></sort_order>
                 </items>
-                <items link_title="Dental Care" path_part="dental_care" parent_set="vet_services">
-                  <page_title><![CDATA[Dental Care]]></page_title>
+                <items link_title="Dental Care" path_part="dental_care" parent="services">
+                  <page_title><![CDATA[<h2>Dental Care</h2>]]></page_title>
                   <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
-                  <body_text></body_text>
+                  <body_text><![CDATA[<p>Dental care is an integral part of your pets health. Poor dental health can lead to other health problems, including heart problems. To help your pet be the best health possible, we offer professional cleanings, and training and tips to help your pet get used to daily tooth brushing.</p>]]></body_text>
                   <sort_order></sort_order>
                 </items>
               </items>
@@ -575,144 +575,55 @@
               <items>
                   <item link_title="About Us" path_part="about-us">
                       <page_title><![CDATA[About Us]]></page_title>
+                      <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
+                      <body_text>
+                        <![CDATA[<h2>About Us</h2>
+                        <p>At Zesty Pet Clinic we're here to support the health and wellness of your pet. We offer a wide variety of services including:</p>
+                        <ul>
+                          <li>Boarding</li>
+                          <li>Day Care</li>
+                          <li>Medical Services</li>
+                          <li>Dental Services</li>
+                          <li>General Care and Care Packages</li>
+                        </ul>
+                        <p>We're located conveniently close to public transportation in sunny downtown San Diego near the historical Gaslamp Quarter.</p>]]>
+                      </body_text>
                   </item>
                   <item link_title="Meet the Team" path_part="meet-the-team" parent="about-us">
                       <page_title><![CDATA[Meet the Team]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
-                      <!--  angle brackets:< > </ > -->
-                      <!-- H2 -->
-                      <h2>Zesty Pet Clinic</h2>
-                       <!-- paragraph -->
-                      <p>e&#xF1;At Zesty Pet Clinic we're here to support the health and wellness of your pet. We offer:</p>
-                      <!-- unordered list -->
-                      <ul>
-                      <li>Boarding</li>
-                      <li>Day Care</li>
-                      <li>Medical Services: spay/neuter, ultrasound,  </li>
-                      <li>General Care and Care Packages: vaccinations, annual checkups, flea medication, baby, adult, and senior care </li>
-                      </ul>
-                      <!-- paragraph -->
-                      <p>It is named for the city of Cayenne in French Guiana</p>
-                      <!-- blockquote -->
-                      <blockquote>Cayenne is used in
-                      cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based
-                      sauce</blockquote>
-                      <!-- paragraph -->
-                      <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
-                      generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same
-                      name</p>
+                        <![CDATA[<h2>Meet the Team</h2>
+                        <p>Our team is here to help you. Our goal is to meet your needs as it pertains to the health and well-being of their pet. Our clients' pets are members of their family, and expect the same quality healthcare as they would for any other member of their family.</br>
+                          When your pet comes to Zesty Pet Clinic they become a part of our family too.</p>]]>
                       </body_text>
                   </item>
                   <item link_title="Testimonials" path_part="testimonials" parent="about-us">
                       <page_title><![CDATA[Testimonials]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
-                      <!--  angle brackets:< > </ > -->
-                      <!-- H2 -->
-                      <h2>Zesty Pet Clinic</h2>
-                       <!-- paragraph -->
-                      <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others</p>
-                      <!-- unordered list -->
-                      <ul>
-                      <li>Its Korean,</li>
-                      <li>Sauce Cuisine),</li>
-                      <li>(such Cuisine),</li>
-                      <li>Spicy As</li>
-                      </ul>
-                      <!-- paragraph -->
-                      <p>It is named for the city of Cayenne in French Guiana</p>
-                      <!-- blockquote -->
-                      <blockquote>Cayenne is used in
-                      cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based
-                      sauce</blockquote>
-                      <!-- paragraph -->
-                      <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
-                      generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same
-                      name</p>
+                        <![CDATA[<h2>Testimonials</h2>]]>
                     </body_text>
                   </item>
                   <item link_title="Careers" path_part="careers" parent="about-us">
                       <page_title><![CDATA[Careers]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
-                      <!--  angle brackets:< > </ > -->
-                      <!-- H2 -->
-                      <h2>Zesty Pet Clinic</h2>
-                       <!-- paragraph -->
-                      <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others</p>
-                      <!-- unordered list -->
-                      <ul>
-                      <li>Its Korean,</li>
-                      <li>Sauce Cuisine),</li>
-                      <li>(such Cuisine),</li>
-                      <li>Spicy As</li>
-                      </ul>
-                      <!-- paragraph -->
-                      <p>It is named for the city of Cayenne in French Guiana</p>
-                      <!-- blockquote -->
-                      <blockquote>Cayenne is used in
-                      cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based
-                      sauce</blockquote>
-                      <!-- paragraph -->
-                      <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
-                      generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same
-                      name</p>
+                        <![CDATA[<h2>Careers</h2>]]>
                     </body_text>
                   </item>
                   <item link_title="Our Videos" path_part="our-videos" parent="about-us">
                       <page_title><![CDATA[Our Videos]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
-                      <!--  angle brackets:< > </ > -->
-                      <!-- H2 -->
-                      <h2>Zesty Pet Clinic</h2>
-                       <!-- paragraph -->
-                      <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others</p>
-                      <!-- unordered list -->
-                      <ul>
-                      <li>Its Korean,</li>
-                      <li>Sauce Cuisine),</li>
-                      <li>(such Cuisine),</li>
-                      <li>Spicy As</li>
-                      </ul>
-                      <!-- paragraph -->
-                      <p>It is named for the city of Cayenne in French Guiana</p>
-                      <!-- blockquote -->
-                      <blockquote>Cayenne is used in
-                      cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based
-                      sauce</blockquote>
-                      <!-- paragraph -->
-                      <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
-                      generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same
-                      name</p>
+                        <![CDATA[<h2>Please checkout our videos below.</h2>]]>
                     </body_text>
                   </item>
                   <item link_title="Our Photos" path_part="our-photos" parent="about-us">
                       <page_title><![CDATA[Our Photos]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
-                      <body_text><!--  angle brackets:< > </ > -->
-                        <!-- H2 -->
-                        <h2>Zesty Pet Clinic</h2>
-                         <!-- paragraph -->
-                        <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others</p>
-                        <!-- unordered list -->
-                        <ul>
-                        <li>Its Korean,</li>
-                        <li>Sauce Cuisine),</li>
-                        <li>(such Cuisine),</li>
-                        <li>Spicy As</li>
-                        </ul>
-                        <!-- paragraph -->
-                        <p>It is named for the city of Cayenne in French Guiana</p>
-                        <!-- blockquote -->
-                        <blockquote>Cayenne is used in
-                        cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based
-                        sauce</blockquote>
-                        <!-- paragraph -->
-                        <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
-                        generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same
-                        name</p>
+                      <body_text>
+                        <![CDATA[<h2>Meet our pets, clients, and patients!</h2>]]>
                       </body_text>
                   </item>
               </items>
@@ -727,6 +638,40 @@
                   <yes_no name="staff_team_member_toggle" name_friendly="Staff Team Member Toggle" list="1" />
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
+              <items>
+                <item>
+                  <employee_first_name><![CDATA[Dr. Bob]]></employee_first_name>
+                  <employee_last_name><![CDATA[Henson]]></employee_last_name>
+                  <employee_photo></employee_photo>
+                  <employee_bio><![CDATA[<p>Dr. Bob has been practicing veterianary medicine for over 30 years. He brings his expertise in dogs, cats, farm animals, and exotics and a degree from Muppet Veterinary University to our humble office.</p>]]></employee_bio>
+                  <staff_team_member_toggle></staff_team_member_toggle>
+                  <sort_order><![CDATA[1]]></sort_order>
+                </item>
+                <item>
+                  <employee_first_name><![CDATA[Nurse Piggy]]></employee_first_name>
+                  <employee_last_name><![CDATA[Oz]]></employee_last_name>
+                  <employee_photo></employee_photo>
+                  <employee_bio><![CDATA[<p>Nurse Piggy comes to us with over 25 years of experience working in many types of animals. Her comforting bedside manner will be sure to put your pets at ease.</p>]]></employee_bio>
+                  <staff_team_member_toggle></staff_team_member_toggle>
+                  <sort_order><![CDATA[2]]></sort_order>
+                </item>
+                <item>
+                  <employee_first_name><![CDATA[Nurse Janice]]></employee_first_name>
+                  <employee_last_name><![CDATA[Hunt]]></employee_last_name>
+                  <employee_photo></employee_photo>
+                  <employee_bio><![CDATA[<p>Nurse Janice comes to use with 5 years of experience. For many years she was a travelling musician, until she decided to turn towards her love of animals.</p>]]></employee_bio>
+                  <staff_team_member_toggle></staff_team_member_toggle>
+                  <sort_order><![CDATA[3]]></sort_order>
+                </item>
+                <item>
+                  <employee_first_name><![CDATA[Receptionist Sam]]></employee_first_name>
+                  <employee_last_name><![CDATA[Eagle]]></employee_last_name>
+                  <employee_photo></employee_photo>
+                  <employee_bio><![CDATA[<p>Receptionist Sam feels it's his duty to help others and to run a very organized office. He loves to keep our office running and our clients and their pets happy.</p>]]></employee_bio>
+                  <staff_team_member_toggle></staff_team_member_toggle>
+                  <sort_order><![CDATA[4]]></sort_order>
+                </item>
+              </items>
           </dataset>
           <dataset name="client_testimonials" name_friendly="Client Testimonials" parent_item="testimonials">
               <fields>
