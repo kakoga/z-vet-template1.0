@@ -403,22 +403,22 @@
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
               <items>
-                <items>
+                <item>
                   <promo_title><![CDATA[&#36;25 Off Your Visit!]]></promo_title>
                   <promo_description><![CDATA[Get &#36;25.00 off your first visit. New clients only]]></promo_description>
                   <promo_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></promo_image>
                   <promo_code><![CDATA[FIRSTVISIT25]]></promo_code>
                   <promo_print_coupon><![CDATA[]]></promo_print_coupon>
                   <sort_order><![CDATA[1]]></sort_order>
-                </items>
-                <items>
+                </item>
+                <item>
                   <promo_title><![CDATA[2 for 1 Flea Treatments]]></promo_title>
                   <promo_description><![CDATA[Purchase one topical flea treatment and one of equal or lesser value for free.]]></promo_description>
                   <promo_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></promo_image>
                   <promo_code><![CDATA[NOFLEAS]]></promo_code>
                   <promo_print_coupon><![CDATA[]]></promo_print_coupon>
                   <sort_order><![CDATA[2]]></sort_order>
-                </items>
+                </item>
               </items>
           </dataset>
           <!-- PROMOTIONS END -->
