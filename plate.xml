@@ -483,10 +483,10 @@
                       <body_text>
                         <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
                         <!-- H2 -->
-                        <![CDATA[&lt;h2&gt;Patient Resources&lt;/h2&gt;
+                        <![CDATA[Patient Resources
 
-                        &lt;p&gt;Please see a list of our most common forms below.&lt;/p&gt;
-                        &lt;p&gt;Once you find the form that you need, click on the form icon to download a PDF.&lt;/p&gt;]]>
+                        Please see a list of our most common forms below.
+                        Once you find the form that you need, click on the form icon to download a PDF.]]>
 
                       </body_text>
                   </item>
