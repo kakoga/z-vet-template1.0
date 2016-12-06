@@ -483,26 +483,10 @@
                       <body_text>
                         <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
                         <!-- H2 -->
-                        &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
+                        &lt;h2&gt;Patient Resources&lt;/h2&gt;
                          <!-- paragraph -->
-                        &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
-                        <!-- unordered list -->
-                        &lt;ul&gt;
-                        &lt;li&gt;Its Korean,&lt;/li&gt;
-                        &lt;li&gt;Sauce Cuisine),&lt;/li&gt;
-                        &lt;li&gt;(such Cuisine),&lt;/li&gt;
-                        &lt;li&gt;Spicy As&lt;/li&gt;
-                        &lt;/ul&gt;
-                        <!-- paragraph -->
-                        &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt;
-                        <!-- blockquote -->
-                        &lt;blockquote&gt;Cayenne is used in
-                        cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based
-                        sauce&lt;/blockquote&gt;
-                        <!-- paragraph -->
-                        &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
-                        generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same
-                        name&lt;/p&gt;
+                        &lt;p&gt;Please see a list of our most common forms below.&lt;/p&gt;
+                        &lt;p&gt;Once you find the form that you need, click on the form icon to download a PDF.&lt;/p&gt;
                       </body_text>
                   </item>
                   <item link_title="Payment Options" path_part="payment-options" parent="patient-resources">
@@ -511,9 +495,9 @@
                       <body_text>
                         <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
                         <!-- H2 -->
-                        &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
+                        &lt;h2&gt;Payment Options&lt;/h2&gt;
                          <!-- paragraph -->
-                        &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
+                        &lt;p&gt;Please see a list of our available payment options below.&lt;/p&gt;
                         <!-- unordered list -->
                         &lt;ul&gt;
                         &lt;li&gt;Its Korean,&lt;/li&gt;
