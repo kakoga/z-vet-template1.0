@@ -296,7 +296,6 @@
                         &lt;li&gt;&lt;a href="#"&gt;FAQ&lt;/a&gt;&lt;/li&gt;
                         &lt;li&gt;&lt;a href="#"&gt;Breeder Questions&lt;/a&gt;&lt;/li&gt;
                         &lt;li&gt;&lt;a href="#"&gt;Links&lt;/a&gt;&lt;/li&gt;
-                        &lt;li&gt;&lt;a href="#"&gt;Breeder Questions&lt;/a&gt;&lt;/li&gt;
                         &lt;/ul&gt;
                       </body_text>
                   </item>
@@ -308,15 +307,8 @@
                         <!-- H2 -->
                         &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
                          <!-- paragraph -->
-                        &lt;p&gt;Please see a list of frequently asked questions below. Select a category to get started, or scroll down to browse on your own/p&gt;!
+                        &lt;p&gt;Please see a list of frequently asked questions below.&lt;/p&gt;!
                         &lt;p&gt;Need more information? Please &lt;a href="#"&gt;contact us&lt;/a&gt;&lt;/p&gt;
-                        &lt;p&gt;Please select a category below:&lt;/p&gt;
-                        <!-- unordered list -->
-                        &lt;ul&gt;
-                        &lt;li&gt;&lt;a href="#"&gt;General Information&lt;/a&gt;&lt;/li&gt;
-                        &lt;li&gt;&lt;a href="#"&gt;Medical Services&lt;/a&gt;&lt;/li&gt;
-                        &lt;li&gt;&lt;a href="#"&gt;Health and Wellness&lt;/a&gt;&lt;/li&gt;
-                        &lt;/ul&gt;
                       </body_text>
                   </item>
                   <item link_title="Breeder Questions" path_part="breeder-questions" parent="resources">
@@ -406,11 +398,11 @@
             </fields>
             <items>
               <item>
-                <link_text><![CDATA[&lt;a href="http://www.akc.org/"&gt;American Kennel Club&lt;/a&gt;]]></link_text>
+                <link_text><![CDATA[<a href="http://www.akc.org/">American Kennel Club></a>]]></link_text>
                 <sort_order><![CDATA[1]]></sort_order>
               </item>
               <item>
-                <link_text><![CDATA[&lt;a href="http://cfa.org/"&gt;Cat Fanciers' Association&lt;/a&gt;]]></link_text>
+                <link_text><![CDATA[<a href="http://cfa.org/">Cat Fanciers' Association</a>]]></link_text>
                 <sort_order><![CDATA[2]]></sort_order>
               </item>
               <item>
@@ -431,13 +423,13 @@
               <items>
                   <item link_title="Promotions" path_part="promotions">
                       <page_title>Promotions</page_title>
-                      <main_image>![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]</main_image>
+                      <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
                         <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
                         <!-- H2 -->
                         &lt;h2&gt;Zesty Pet Clinic Promotions&lt;/h2&gt;
                          <!-- paragraph -->
-                        &lt;p&gt;check out our latest promotions to help you care for your loved one! &lt;/p&gt;
+                        &lt;p&gt;Check out our latest promotions to help you care for your loved one!&lt;/p&gt;
 
                       </body_text>
                   </item>
@@ -457,7 +449,7 @@
                 <items>
                   <promo_title><![CDATA[&#36;25 Off Your Visit!]]></promo_title>
                   <promo_description><![CDATA[Get &#36;25.00 off your first visit. New clients only]]></promo_description>
-                  <promo_image><![CDATA[]]></promo_image>
+                  <promo_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></promo_image>
                   <promo_code><![CDATA[FIRSTVISIT25]]></promo_code>
                   <promo_print_coupon><![CDATA[]]></promo_print_coupon>
                   <sort_order><![CDATA[1]]></sort_order>
@@ -465,8 +457,8 @@
                 <items>
                   <promo_title><![CDATA[2 for 1 Flea Treatments]]></promo_title>
                   <promo_description><![CDATA[Purchase one topical flea treatment and one of equal or lesser value for free.]]></promo_description>
-                  <promo_image><![CDATA[2FLEAS]]></promo_image>
-                  <promo_code><![CDATA[]]></promo_code>
+                  <promo_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></promo_image>
+                  <promo_code><![CDATA[NOFLEAS]]></promo_code>
                   <promo_print_coupon><![CDATA[]]></promo_print_coupon>
                   <sort_order><![CDATA[2]]></sort_order>
                 </items>
