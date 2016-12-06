@@ -259,7 +259,7 @@
                       <body_text>
                         <![CDATA[<h2>Zesty Pet Clinic</h2>
                         <p>At Zesty Pet Clinic we are here to support you. Please see our list of resources below.
-                        If you think of something else that we may be able to help you with, please <a href="#">contact us</a></p>!
+                        If you think of something else that we may be able to help you with, please <a href="#">contact us</a>.</p>
                         <p>Please select from our options below:</p>
                         <ul>
                         <li><a href="#">FAQ</a></li>
@@ -269,12 +269,12 @@
                       </body_text>
                   </item>
                   <item link_title="FAQ" path_part="faq" parent="resources">
-                      <page_title>FAQ</page_title>
+                      <page_title><![CDATA[FAQ]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
                         <![CDATA[
                         <h2>Zesty Pet Clinic</h2>
-                        <p>Please see a list of frequently asked questions below.</p>!
+                        <p>Please see a list of frequently asked questions below.</p>
                         <p>Need more information? Please <a href="#">contact us</a></p>]]>
                       </body_text>
                   </item>
@@ -306,7 +306,6 @@
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
               <items>
-                <item>
                   <item>
                     <question><![CDATA[Do you have a veterinarian on-call for after-hours emergencies?]]></question>
                     <answer><![CDATA[Yes, we do. If you have an after-hours emergency, please call us at: 1-800-555-5555.]]></answer>
@@ -323,7 +322,6 @@
                     <answer><![CDATA[It's important to start the habit when they are young and get them used to the feel of the toothbrush. Ideally, a daily brushing for dogs, and every other day for cats. Ask your veterinarian for tips on how to train your pet tp get used to this routine.]]></answer>
                     <sort_order><![CDATA[3]]></sort_order>
                   </item>
-                </item>
               </items>
           </dataset>
           <dataset name="breeder_q" name_friendly="Breeder Questions" parent_item="breeder-questions">
@@ -333,7 +331,6 @@
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
             <items>
-              <item>
                 <item>
                   <question><![CDATA[How long have you been breeding? What's your experience with this breed?]]></question>
                   <answer><![CDATA[It's important to know what how much experience your breeder has with breeding and their specific breed. They should be able to address their breed's strengths and weaknesses, as well as any diseases or genetic predisposition that might affect them. You may also want to ask your breeder if they're involved in any kind of clubs or organizations related to their breed.]]></answer>
@@ -349,7 +346,6 @@
                   <answer><![CDATA[Make sure that you have the contact information from the breeder. They are an invaluable source of information and will be able to answer many questions for you. The breeder should be willing to give you their contact information and encourage you to contact them should you have any questions or concerns. Be wary of a breeder that will not give out their contact information.]]></answer>
                   <sort_order></sort_order>
                 </item>
-              </item>
             </items>
           </dataset>
           <dataset name="external_links" name_friendly="External Links" parent_item="links">
