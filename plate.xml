@@ -483,10 +483,11 @@
                       <body_text>
                         <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
                         <!-- H2 -->
-                        &lt;h2&gt;Patient Resources&lt;/h2&gt;
-                         <!-- paragraph -->
+                        <![CDATA[&lt;h2&gt;Patient Resources&lt;/h2&gt;
+
                         &lt;p&gt;Please see a list of our most common forms below.&lt;/p&gt;
-                        &lt;p&gt;Once you find the form that you need, click on the form icon to download a PDF.&lt;/p&gt;
+                        &lt;p&gt;Once you find the form that you need, click on the form icon to download a PDF.&lt;/p&gt;]]>
+
                       </body_text>
                   </item>
                   <item link_title="Payment Options" path_part="payment-options" parent="patient-resources">
