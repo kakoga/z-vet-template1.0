@@ -344,7 +344,7 @@
                 <item>
                   <question><![CDATA[How can we contact you after picking up the puppy?]]></question>
                   <answer><![CDATA[Make sure that you have the contact information from the breeder. They are an invaluable source of information and will be able to answer many questions for you. The breeder should be willing to give you their contact information and encourage you to contact them should you have any questions or concerns. Be wary of a breeder that will not give out their contact information.]]></answer>
-                  <sort_order></sort_order>
+                  <sort_order><![CDATA[3]]></sort_order>
                 </item>
             </items>
           </dataset>
