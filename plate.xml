@@ -635,7 +635,6 @@
                   <text name="employee_last_name" name_friendly="Employee Last Name" list="1" />
                   <images name="employee_photo" name_friendly="Employee Photo" list="1" />
                   <wysiwyg_advanced name="employee_bio" name_friendly="Employee Bio" list="1" />
-                  <yes_no name="staff_team_member_toggle" name_friendly="Staff Team Member Toggle" list="1" />
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
               <items>
@@ -644,7 +643,6 @@
                   <employee_last_name><![CDATA[Henson]]></employee_last_name>
                   <employee_photo></employee_photo>
                   <employee_bio><![CDATA[<p>Dr. Bob has been practicing veterianary medicine for over 30 years. He brings his expertise in dogs, cats, farm animals, and exotics and a degree from Muppet Veterinary University to our humble office.</p>]]></employee_bio>
-                  <staff_team_member_toggle></staff_team_member_toggle>
                   <sort_order><![CDATA[1]]></sort_order>
                 </item>
               </items>
