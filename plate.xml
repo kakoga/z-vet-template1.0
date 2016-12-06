@@ -629,7 +629,7 @@
               </items>
           </templateset>
           <!-- About Us Datasets -->
-          <dataset name="Employees" name_friendly="Employees" parent_item="meet-the-team">
+          <dataset name="employees" name_friendly="Employees" parent_item="meet-the-team">
               <fields>
                   <text name="employee_first_name" name_friendly="Employee First Name" required="1" list="1" />
                   <text name="Employee_last_name" name_friendly="Employee Last Name" list="1" />
