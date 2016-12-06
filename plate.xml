@@ -631,7 +631,7 @@
           <!-- About Us Datasets -->
           <dataset name="Employees" name_friendly="Employees" parent_item="meet-the-team">
               <fields>
-                  <text name="employee_first_name" name_friendly="Employee First Name" list="1" />
+                  <text name="employee_first_name" name_friendly="Employee First Name" required="1" list="1" />
                   <text name="Employee_last_name" name_friendly="Employee Last Name" list="1" />
                   <images name="employee_photo" name_friendly="Employee Photo" list="1" />
                   <wysiwyg_advanced name="Employee_bio" name_friendly="Employee Bio" list="1" />
