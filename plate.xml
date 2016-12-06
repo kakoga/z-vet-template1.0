@@ -162,28 +162,7 @@
                 <page_title><![CDATA[Simple Page]]></page_title>
                 <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                 <body_text>
-                  <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
-                  <!-- H2 -->
-                  &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
-                   <!-- paragraph -->
-                  &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
-                  <!-- unordered list -->
-                  &lt;ul&gt;
-                  &lt;li&gt;Its Korean,&lt;/li&gt;
-                  &lt;li&gt;Sauce Cuisine),&lt;/li&gt;
-                  &lt;li&gt;(such Cuisine),&lt;/li&gt;
-                  &lt;li&gt;Spicy As&lt;/li&gt;
-                  &lt;/ul&gt;
-                  <!-- paragraph -->
-                  &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt;
-                  <!-- blockquote -->
-                  &lt;blockquote&gt;Cayenne is used in
-                  cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based
-                  sauce&lt;/blockquote&gt;
-                  <!-- paragraph -->
-                  &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
-                  generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same
-                  name&lt;/p&gt;
+                  <![CDATA[<h2>Zesty Pet Clinic</h2>]]>
                 </body_text>
               </item>
             </items>
@@ -207,7 +186,7 @@
         			</item>
         			<item link_title="Thank You" path_part="thank-you">
         			  <title><![CDATA[Thank You]]></title>
-        			  <content><![CDATA[We will be sending you awesome stories once a month.]]></content>
+        			  <content><![CDATA[Thank you for signing up!]]></content>
         			</item>
       		</items>
       	</templateset>
@@ -239,32 +218,26 @@
                   <item link_title="Contact Us" path_part="contact-us" parent_item="contact-us">
                       <page_title><![CDATA[Contact Us]]></page_title>
                       <body_text>
-                        <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
-                        <!-- H2 -->
-                        &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
-                         <!-- paragraph -->
-                        &lt;p&gt;Zesty Pet Clinic&lt;/p&gt;
-                        &lt;p&gt;1045 Sixth Avenue&lt;/p&gt;
-                        &lt;p&gt;San Diego, CA 92101&lt;/p&gt;
-                        &lt;/br&gt;
-                        &lt;p&gt;Our Hours&lt;/p&gt;
-                        <!-- unordered list -->
-                        &lt;ul&gt;
-                        &lt;li&gt;Sunday 10am - 3pm&lt;/li&gt;
-                        &lt;li&gt;Monday 9am - 7pm&lt;/li&gt;
-                        &lt;li&gt;Tuesday 9am - 6pm&lt;/li&gt;
-                        &lt;li&gt;Wednesday9am - 7pm&lt;/li&gt;
-                        &lt;li&gt;Thursday 9am - 6pm&lt;/li&gt;
-                        &lt;li&gt;Friday 9am - 7pm&lt;/li&gt;
-                        &lt;li&gt;Saturday 9am - 6pm&lt;/li&gt;
-                        &lt;/ul&gt;
-
-                        <!-- paragraph -->
-                        &lt;p&gt;For general information, questions, appointment requests, call us at:&lt;/p&gt;
-                        &lt;p&gt;Tel: 555-555-5555&lt;/p&gt;
-                        &lt;/br&gt;
-                        &lt;p&gt;For after-hour emergencies, call our on-call doctor at:&lt;/p&gt;
-                        &lt;p&gt;Tel: 1-800-555-5555&lt;/p&gt;
+                        <![CDATA[<h2>Zesty Pet Clinic</h2>
+                          <p>Zesty Pet Clinic</p>
+                          <p>1045 Sixth Avenue</p>
+                          <p>San Diego, CA 92101</p>
+                          </br>
+                          <p>Our Hours</p>
+                          <ul>
+                          <li>Sunday 10am - 3pm</li>
+                          <li>Monday 9am - 7pm</li>
+                          <li>Tuesday 9am - 6pm</li>
+                          <li>Wednesday9am - 7pm</li>
+                          <li>Thursday 9am - 6pm</li>
+                          <li>Friday 9am - 7pm</li>
+                          <li>Saturday 9am - 6pm</li>
+                          </ul>
+                          <p>For general information, questions, appointment requests, call us at:</p>
+                          <p>Tel: 555-555-5555</p>
+                          </br>
+                          <p>For after-hour emergencies, call our on-call doctor at:</p>
+                          <p>Tel: 1-800-555-5555</p>]]>
                       </body_text>
                       <google_map_embed><![CDATA[<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.860843071991!2d-117.16122958492363!3d32.7163252809904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d954a79ef0967f%3A0x74a5fd5ef322db6f!2sZesty.io!5e0!3m2!1sen!2sus!4v1480742044074" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>]]></google_map_embed>
                   </item>
@@ -284,55 +257,43 @@
                       <page_title><![CDATA[Resources]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
-                        <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
-                        <!-- H2 -->
-                        &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
-                         <!-- paragraph -->
-                        &lt;p&gt;At Zesty Pet Clinic we are here to support you. Please see our list of resources below.
-                        If you think of something else that we may be able to help you with, please &lt;a href="#"&gt;contact us&lt;/a&gt;&lt;/p&gt;!
-                        &lt;p&gt;Please select from our options below:&lt;/p&gt;
-                        <!-- unordered list -->
-                        &lt;ul&gt;
-                        &lt;li&gt;&lt;a href="#"&gt;FAQ&lt;/a&gt;&lt;/li&gt;
-                        &lt;li&gt;&lt;a href="#"&gt;Breeder Questions&lt;/a&gt;&lt;/li&gt;
-                        &lt;li&gt;&lt;a href="#"&gt;Links&lt;/a&gt;&lt;/li&gt;
-                        &lt;/ul&gt;
+                        <![CDATA[<h2>Zesty Pet Clinic</h2>
+                        <p>At Zesty Pet Clinic we are here to support you. Please see our list of resources below.
+                        If you think of something else that we may be able to help you with, please <a href="#">contact us</a></p>!
+                        <p>Please select from our options below:</p>
+                        <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Breeder Questions</a></li>
+                        <li><a href="#">Links</a></li>
+                        </ul>]]>
                       </body_text>
                   </item>
                   <item link_title="FAQ" path_part="faq" parent="resources">
                       <page_title>FAQ</page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
-                        <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
-                        <!-- H2 -->
-                        &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
-                         <!-- paragraph -->
-                        &lt;p&gt;Please see a list of frequently asked questions below.&lt;/p&gt;!
-                        &lt;p&gt;Need more information? Please &lt;a href="#"&gt;contact us&lt;/a&gt;&lt;/p&gt;
+                        <![CDATA[
+                        <h2>Zesty Pet Clinic</h2>
+                        <p>Please see a list of frequently asked questions below.</p>!
+                        <p>Need more information? Please <a href="#">contact us</a></p>]]>
                       </body_text>
                   </item>
                   <item link_title="Breeder Questions" path_part="breeder-questions" parent="resources">
                     <page_title>Breeder Questions</page_title>
                     <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                     <body_text>
-                      <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
-                      <!-- H2 -->
-                      &lt;h2&gt;Questions to Ask Your Potential Breeder&lt;/h2&gt;
-                       <!-- paragraph -->
-                      &lt;p&gt;When selecting a breeder it can be difficult to know what questions to ask. We've provided a list of common questions to ask your potential breeder.&lt;p&gt; &lt;/p&gt;
-                      &lt;p&gt; &lt;/p&gt;These have been adapted from the &lt;a href="http://www.akc.org/content/dog-care/articles/questions-to-ask-your-potential-breeder/"&gt;American Kennel Club's blog&lt;/a&gt;&lt;/p&gt;.
+                      <![CDATA[<h2>Questions to Ask Your Potential Breeder</h2>
+                      <p>When selecting a breeder it can be difficult to know what questions to ask. We've provided a list of common questions to ask your potential breeder.</p>
+                      <p>These have been adapted from the <a href="http://www.akc.org/content/dog-care/articles/questions-to-ask-your-potential-breeder/">American Kennel Club's blog</a></p>.]]>
                     </body_text>
                   </item>
                   <item link_title="Links" path_part="links" parent="resources">
                     <page_title>Links</page_title>
                     <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                     <body_text>
-                      <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
-                      <!-- H2 -->
-                      &lt;h2&gt;Helpful Links&lt;/h2&gt;
-                       <!-- paragraph -->
-                      &lt;p&gt;Here is a list of links to some of our favorite resources &lt;a href="#"&gt;contact us&lt;/a&gt;&lt;/p&gt;!
-                      &lt;p&gt;Please select from a category below or scroll down to browse the list:&lt;/p&gt;
+                      <![CDATA[<h2>Helpful Links</h2>
+                      <p>Here is a list of links to some of our favorite resources <a href="#">contact us</a></p>!
+                      <p>Please select from a category below or scroll down to browse the list:</p>]]>
                     </body_text>
                   </item>
               </items>
@@ -425,12 +386,8 @@
                       <page_title><![CDATA[Promotions]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
-                        <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
-                        <!-- H2 -->
-                        &lt;h2&gt;Zesty Pet Clinic Promotions&lt;/h2&gt;
-                         <!-- paragraph -->
-                        &lt;p&gt;Check out our latest promotions to help you care for your loved one!&lt;/p&gt;
-
+                        <![CDATA[<h2>Zesty Pet Clinic Promotions</h2>
+                          <p>Check out our latest promotions to help you care for your loved one!</p>]]>
                       </body_text>
                   </item>
               </items>
@@ -481,24 +438,17 @@
                       <page_title><![CDATA[Patient Forms]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
-                        <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
-                        <!-- H2 -->
                         <![CDATA[<h2>Patient Resources</h2>]]>
                         <![CDATA[<p>Please see a list of our most common forms below.
                         Once you find the form that you need, click on the form icon to download a PDF.</p>]]>
-
-
                       </body_text>
                   </item>
                   <item link_title="Payment Options" path_part="payment-options" parent="patient-resources">
                       <page_title>Payment Options</page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
-                        <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
-                        <!-- H2 -->
-                        &lt;h2&gt;Payment Options&lt;/h2&gt;
-                         <!-- paragraph -->
-                        &lt;p&gt;We offer our clients a variety of payment options, including American Express and Discover. Please see a full list of all available options below.&lt;/p&gt;
+                        <![CDATA[<h2>Payment Options</h2>
+                        <p>We offer our clients a variety of payment options, including American Express and Discover. Please see a full list of all available options below.</p>]]>
                       </body_text>
                   </item>
               </items>
@@ -581,25 +531,25 @@
               <items>
                 <items link_title="General Health" path_part="general_health" parent="services">
                   <page_title><![CDATA[General Health]]></page_title>
-                  <main_image></main_image>
-                  <body_text></body_text>
-                  <sort_order></sort_order>
+                  <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
+                  <body_text><![CDATA[]]></body_text>
+                  <sort_order><![CDATA[1]]></sort_order>
                 </items>
                 <items link_title="Vaccines" path_part="" parent="services">
                   <page_title><![CDATA[Vaccines]]></page_title>
-                  <main_image></main_image>
+                  <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                   <body_text></body_text>
                   <sort_order></sort_order>
                 </items>
                 <items link_title="Care Packages" path_part="care_packages" parent="services">
                   <page_title><![CDATA[Care Packages]]></page_title>
-                  <main_image></main_image>
+                  <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                   <body_text></body_text>
                   <sort_order></sort_order>
                 </items>
                 <items link_title="Dental Care" path_part="dental_care" parent="services">
                   <page_title><![CDATA[Dental Care]]></page_title>
-                  <main_image></main_image>
+                  <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                   <body_text></body_text>
                   <sort_order></sort_order>
                 </items>
@@ -623,139 +573,139 @@
                       <page_title><![CDATA[Meet the Team]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
-                      <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
+                      <!--  angle brackets:< > </ > -->
                       <!-- H2 -->
-                      &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
+                      <h2>Zesty Pet Clinic</h2>
                        <!-- paragraph -->
-                      &lt;p&gt;e&#xF1;At Zesty Pet Clinic we're here to support the health and wellness of your pet. We offer:&lt;/p&gt;
+                      <p>e&#xF1;At Zesty Pet Clinic we're here to support the health and wellness of your pet. We offer:</p>
                       <!-- unordered list -->
-                      &lt;ul&gt;
-                      &lt;li&gt;Boarding&lt;/li&gt;
-                      &lt;li&gt;Day Care&lt;/li&gt;
-                      &lt;li&gt;Medical Services: spay/neuter, ultrasound,  &lt;/li&gt;
-                      &lt;li&gt;General Care and Care Packages: vaccinations, annual checkups, flea medication, baby, adult, and senior care &lt;/li&gt;
-                      &lt;/ul&gt;
+                      <ul>
+                      <li>Boarding</li>
+                      <li>Day Care</li>
+                      <li>Medical Services: spay/neuter, ultrasound,  </li>
+                      <li>General Care and Care Packages: vaccinations, annual checkups, flea medication, baby, adult, and senior care </li>
+                      </ul>
                       <!-- paragraph -->
-                      &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt;
+                      <p>It is named for the city of Cayenne in French Guiana</p>
                       <!-- blockquote -->
-                      &lt;blockquote&gt;Cayenne is used in
+                      <blockquote>Cayenne is used in
                       cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based
-                      sauce&lt;/blockquote&gt;
+                      sauce</blockquote>
                       <!-- paragraph -->
-                      &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
+                      <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
                       generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same
-                      name&lt;/p&gt;
+                      name</p>
                       </body_text>
                   </item>
                   <item link_title="Testimonials" path_part="testimonials" parent="about-us">
                       <page_title><![CDATA[Testimonials]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
-                      <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
+                      <!--  angle brackets:< > </ > -->
                       <!-- H2 -->
-                      &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
+                      <h2>Zesty Pet Clinic</h2>
                        <!-- paragraph -->
-                      &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
+                      <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others</p>
                       <!-- unordered list -->
-                      &lt;ul&gt;
-                      &lt;li&gt;Its Korean,&lt;/li&gt;
-                      &lt;li&gt;Sauce Cuisine),&lt;/li&gt;
-                      &lt;li&gt;(such Cuisine),&lt;/li&gt;
-                      &lt;li&gt;Spicy As&lt;/li&gt;
-                      &lt;/ul&gt;
+                      <ul>
+                      <li>Its Korean,</li>
+                      <li>Sauce Cuisine),</li>
+                      <li>(such Cuisine),</li>
+                      <li>Spicy As</li>
+                      </ul>
                       <!-- paragraph -->
-                      &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt;
+                      <p>It is named for the city of Cayenne in French Guiana</p>
                       <!-- blockquote -->
-                      &lt;blockquote&gt;Cayenne is used in
+                      <blockquote>Cayenne is used in
                       cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based
-                      sauce&lt;/blockquote&gt;
+                      sauce</blockquote>
                       <!-- paragraph -->
-                      &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
+                      <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
                       generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same
-                      name&lt;/p&gt;
+                      name</p>
                     </body_text>
                   </item>
                   <item link_title="Careers" path_part="careers" parent="about-us">
                       <page_title><![CDATA[Careers]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
-                      <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
+                      <!--  angle brackets:< > </ > -->
                       <!-- H2 -->
-                      &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
+                      <h2>Zesty Pet Clinic</h2>
                        <!-- paragraph -->
-                      &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
+                      <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others</p>
                       <!-- unordered list -->
-                      &lt;ul&gt;
-                      &lt;li&gt;Its Korean,&lt;/li&gt;
-                      &lt;li&gt;Sauce Cuisine),&lt;/li&gt;
-                      &lt;li&gt;(such Cuisine),&lt;/li&gt;
-                      &lt;li&gt;Spicy As&lt;/li&gt;
-                      &lt;/ul&gt;
+                      <ul>
+                      <li>Its Korean,</li>
+                      <li>Sauce Cuisine),</li>
+                      <li>(such Cuisine),</li>
+                      <li>Spicy As</li>
+                      </ul>
                       <!-- paragraph -->
-                      &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt;
+                      <p>It is named for the city of Cayenne in French Guiana</p>
                       <!-- blockquote -->
-                      &lt;blockquote&gt;Cayenne is used in
+                      <blockquote>Cayenne is used in
                       cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based
-                      sauce&lt;/blockquote&gt;
+                      sauce</blockquote>
                       <!-- paragraph -->
-                      &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
+                      <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
                       generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same
-                      name&lt;/p&gt;
+                      name</p>
                     </body_text>
                   </item>
                   <item link_title="Our Videos" path_part="our-videos" parent="about-us">
                       <page_title><![CDATA[Our Videos]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
-                      <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
+                      <!--  angle brackets:< > </ > -->
                       <!-- H2 -->
-                      &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
+                      <h2>Zesty Pet Clinic</h2>
                        <!-- paragraph -->
-                      &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
+                      <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others</p>
                       <!-- unordered list -->
-                      &lt;ul&gt;
-                      &lt;li&gt;Its Korean,&lt;/li&gt;
-                      &lt;li&gt;Sauce Cuisine),&lt;/li&gt;
-                      &lt;li&gt;(such Cuisine),&lt;/li&gt;
-                      &lt;li&gt;Spicy As&lt;/li&gt;
-                      &lt;/ul&gt;
+                      <ul>
+                      <li>Its Korean,</li>
+                      <li>Sauce Cuisine),</li>
+                      <li>(such Cuisine),</li>
+                      <li>Spicy As</li>
+                      </ul>
                       <!-- paragraph -->
-                      &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt;
+                      <p>It is named for the city of Cayenne in French Guiana</p>
                       <!-- blockquote -->
-                      &lt;blockquote&gt;Cayenne is used in
+                      <blockquote>Cayenne is used in
                       cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based
-                      sauce&lt;/blockquote&gt;
+                      sauce</blockquote>
                       <!-- paragraph -->
-                      &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
+                      <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
                       generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same
-                      name&lt;/p&gt;
+                      name</p>
                     </body_text>
                   </item>
                   <item link_title="Our Photos" path_part="our-photos" parent="about-us">
                       <page_title><![CDATA[Our Photos]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
-                      <body_text><!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
+                      <body_text><!--  angle brackets:< > </ > -->
                         <!-- H2 -->
-                        &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
+                        <h2>Zesty Pet Clinic</h2>
                          <!-- paragraph -->
-                        &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
+                        <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others</p>
                         <!-- unordered list -->
-                        &lt;ul&gt;
-                        &lt;li&gt;Its Korean,&lt;/li&gt;
-                        &lt;li&gt;Sauce Cuisine),&lt;/li&gt;
-                        &lt;li&gt;(such Cuisine),&lt;/li&gt;
-                        &lt;li&gt;Spicy As&lt;/li&gt;
-                        &lt;/ul&gt;
+                        <ul>
+                        <li>Its Korean,</li>
+                        <li>Sauce Cuisine),</li>
+                        <li>(such Cuisine),</li>
+                        <li>Spicy As</li>
+                        </ul>
                         <!-- paragraph -->
-                        &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt;
+                        <p>It is named for the city of Cayenne in French Guiana</p>
                         <!-- blockquote -->
-                        &lt;blockquote&gt;Cayenne is used in
+                        <blockquote>Cayenne is used in
                         cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based
-                        sauce&lt;/blockquote&gt;
+                        sauce</blockquote>
                         <!-- paragraph -->
-                        &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
+                        <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
                         generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same
-                        name&lt;/p&gt;
+                        name</p>
                       </body_text>
                   </item>
               </items>
@@ -819,28 +769,28 @@
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <youtube_id><![CDATA[H2p1UZlgLjo]]></youtube_id>
                       <body_text>
-                        <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
+                        <!--  angle brackets:< > </ > -->
                         <!-- H2 -->
-                        &lt;h2&gt;Zesty Pet Clinic&lt;/h2&gt;
+                        <h2>Zesty Pet Clinic</h2>
                          <!-- paragraph -->
-                        &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others&lt;/p&gt;
+                        <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others</p>
                         <!-- unordered list -->
-                        &lt;ul&gt;
-                        &lt;li&gt;Its Korean,&lt;/li&gt;
-                        &lt;li&gt;Sauce Cuisine),&lt;/li&gt;
-                        &lt;li&gt;(such Cuisine),&lt;/li&gt;
-                        &lt;li&gt;Spicy As&lt;/li&gt;
-                        &lt;/ul&gt;
+                        <ul>
+                        <li>Its Korean,</li>
+                        <li>Sauce Cuisine),</li>
+                        <li>(such Cuisine),</li>
+                        <li>Spicy As</li>
+                        </ul>
                         <!-- paragraph -->
-                        &lt;p&gt;It is named for the city of Cayenne in French Guiana&lt;/p&gt;
+                        <p>It is named for the city of Cayenne in French Guiana</p>
                         <!-- blockquote -->
-                        &lt;blockquote&gt;Cayenne is used in
+                        <blockquote>Cayenne is used in
                         cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based
-                        sauce&lt;/blockquote&gt;
+                        sauce</blockquote>
                         <!-- paragraph -->
-                        &lt;p&gt;It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
+                        <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
                         generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same
-                        name&lt;/p&gt;
+                        name</p>
                       </body_text>
                   </item>
               </items>
