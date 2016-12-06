@@ -341,13 +341,6 @@
                        <!-- paragraph -->
                       &lt;p&gt;Here is a list of links to some of our favorite resources &lt;a href="#"&gt;contact us&lt;/a&gt;&lt;/p&gt;!
                       &lt;p&gt;Please select from a category below or scroll down to browse the list:&lt;/p&gt;
-                      <!-- unordered list -->
-                      &lt;ul&gt;
-                      &lt;li&gt;&lt;a href="#"&gt;Educational&lt;/a&gt;&lt;/li&gt;
-                      &lt;li&gt;&lt;a href="#"&gt;Local Partners&lt;/a&gt;&lt;/li&gt;
-                      &lt;li&gt;&lt;a href="#"&gt;Pet Supplies&lt;/a&gt;&lt;/li&gt;
-                      &lt;li&gt;&lt;a href="#"&gt;Entertainment&lt;/a&gt;&lt;/li&gt;
-                      &lt;/ul&gt;
                     </body_text>
                   </item>
               </items>
@@ -389,18 +382,18 @@
             <items>
               <item>
                 <item>
-                  <question></question>
-                  <answer></answer>
-                  <sort_order></sort_order>
+                  <question><![CDATA[How long have you been breeding? What's your experience with this breed?]]></question>
+                  <answer><![CDATA[It's important to know what how much experience your breeder has with breeding and their specific breed. They should be able to address their breed's strengths and weaknesses, as well as any diseases or genetic predisposition that might affect them. You may also want to ask your breeder if they're involved in any kind of clubs or organizations related to their breed.]]></answer>
+                  <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item>
-                  <question></question>
-                  <answer></answer>
-                  <sort_order></sort_order>
+                  <question><![CDATA[How do you socialize your puppies?]]></question>
+                  <answer><![CDATA[Socialized puppies will have experiences with other animals, children, and adults. This will help your dog to be a better adjusted adult, and much less likely for him/her to be fearful or anxious in situations inside and outside of the household. For example, a children's party at your house, or a day out at the beach; a well socialized dog will likely be much more comfortable in these surroundings if they're well socialized as puppies.]]></answer>
+                  <sort_order><![CDATA[2]]></sort_order>
                 </item>
                 <item>
-                  <question></question>
-                  <answer></answer>
+                  <question><![CDATA[How can we contact you after picking up the puppy?]]></question>
+                  <answer><![CDATA[Make sure that you have the contact information from the breeder. They are an invaluable source of information and will be able to answer many questions for you. The breeder should be willing to give you their contact information and encourage you to contact them should you have any questions or concerns. Be wary of a breeder that will not give out their contact information.]]></answer>
                   <sort_order></sort_order>
                 </item>
               </item>
@@ -408,25 +401,21 @@
           </dataset>
           <dataset name="external_links" name_friendly="External Links" parent_item="links">
             <fields>
-                <wysiwyg_advanced name="question" name_friendly="Question" list="1" />
-                <wysiwyg_advanced name="answer" name_friendly="Answer" list="1" />
+                <wysiwyg_advanced name="link_text" name_friendly="Link Text" list="1" />
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
             </fields>
             <items>
               <item>
-                <question></question>
-                <answer></answer>
-                <sort_order></sort_order>
+                <link_text><![CDATA[&lt;a href="http://www.akc.org/"&gt;American Kennel Club&lt;/a&gt;]]></link_text>
+                <sort_order><![CDATA[1]]></sort_order>
               </item>
               <item>
-                <question></question>
-                <answer></answer>
-                <sort_order></sort_order>
+                <link_text><![CDATA[&lt;a href="http://cfa.org/"&gt;Cat Fanciers' Association&lt;/a&gt;]]></link_text>
+                <sort_order><![CDATA[2]]></sort_order>
               </item>
               <item>
-                <question></question>
-                <answer></answer>
-                <sort_order></sort_order>
+                <link_text><![CDATA[&lt;a href="http://www.asih.org/"&gt;American Society of Ichthyologists and Heretologists&lt;/a&gt;]]></link_text>
+                <sort_order><![CDATA[3]]></sort_order>
               </item>
             </items>
           </dataset>
