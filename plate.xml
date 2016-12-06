@@ -464,16 +464,19 @@
               <items>
                 <item>
                   <form_title><![CDATA[New Patient Form]]></form_title>
+                  <form_description><![CDATA[<p>All new patients will need to fill out this form.</p>]]></form_description>
                   <form_pdf><![CDATA[]]></form_pdf>
                   <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item>
                   <form_title><![CDATA[Anaesthesia Consent Form]]></form_title>
+                  <form_description><![CDATA[<p>This for is required for any procedure that involves sedation.</p>]]></form_description>
                   <form_pdf><![CDATA[]]></form_pdf>
                   <sort_order><![CDATA[2]]></sort_order>
                 </item>
                 <item>
                   <form_title><![CDATA[Boarding Consent Form]]></form_title>
+                  <form_description><![CDATA[<p>This form is required every time you reserve a boarding space.</p>]]></form_description>
                   <form_pdf><![CDATA[]]></form_pdf>
                   <sort_order><![CDATA[3]]></sort_order>
                 </item>
