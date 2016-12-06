@@ -159,7 +159,7 @@
             </fields>
             <items>
               <item link_title="Simple Page" path_part="simple-page">
-                <page_title>Simple Page</page_title>
+                <page_title><![CDATA[Simple Page]]></page_title>
                 <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                 <body_text>
                   <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
@@ -237,7 +237,7 @@
               </fields>
               <items>
                   <item link_title="Contact Us" path_part="contact-us" parent_item="contact-us">
-                      <page_title>Contact Us</page_title>
+                      <page_title><![CDATA[Contact Us]]></page_title>
                       <body_text>
                         <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
                         <!-- H2 -->
@@ -281,7 +281,7 @@
               </fields>
               <items>
                   <item link_title="Resources" path_part="resources">
-                      <page_title>Resources</page_title>
+                      <page_title><![CDATA[Resources]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
                         <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
@@ -422,7 +422,7 @@
               </fields>
               <items>
                   <item link_title="Promotions" path_part="promotions">
-                      <page_title>Promotions</page_title>
+                      <page_title><![CDATA[Promotions]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
                         <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
@@ -475,10 +475,10 @@
               </fields>
               <items>
                   <item link_title="Patient Resources" path_part="patient-resources">
-                      <page_title>Patient Resources</page_title>
+                      <page_title><![CDATA[Patient Resources]]></page_title>
                   </item>
                   <item link_title="Patient Forms" path_part="patient-forms" parent="patient-resources">
-                      <page_title>Zesty Vet Clinic | Patient Forms</page_title>
+                      <page_title><![CDATA[Patient Forms]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
                         <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
@@ -497,7 +497,7 @@
                         <!-- H2 -->
                         &lt;h2&gt;Payment Options&lt;/h2&gt;
                          <!-- paragraph -->
-                        &lt;p&gt;We offer our clients a variety of payment options, including American Expess and Discover. Please see a full list of all available options below.&lt;/p&gt;
+                        &lt;p&gt;We offer our clients a variety of payment options, including American Express and Discover. Please see a full list of all available options below.&lt;/p&gt;
                       </body_text>
                   </item>
               </items>
@@ -565,7 +565,7 @@
               </fields>
               <items>
                   <item link_title="Services" path_part="services">
-                      <page_title>Our Services</page_title>
+                      <page_title><![CDATA[Our Services]]></page_title>
                   </item>
               </items>
           </templateset>
@@ -579,25 +579,25 @@
               </fields>
               <items>
                 <items link_title="General Health" path_part="general_health" parent="services">
-                  <page_title>General Health</page_title>
+                  <page_title><![CDATA[General Health]]></page_title>
                   <main_image></main_image>
                   <body_text></body_text>
                   <sort_order></sort_order>
                 </items>
                 <items link_title="Vaccines" path_part="" parent="services">
-                  <page_title>Vaccines</page_title>
+                  <page_title><![CDATA[Vaccines]]></page_title>
                   <main_image></main_image>
                   <body_text></body_text>
                   <sort_order></sort_order>
                 </items>
                 <items link_title="Care Packages" path_part="care_packages" parent="services">
-                  <page_title>Care Packages</page_title>
+                  <page_title><![CDATA[Care Packages]]></page_title>
                   <main_image></main_image>
                   <body_text></body_text>
                   <sort_order></sort_order>
                 </items>
                 <items link_title="Dental Care" path_part="dental_care" parent="services">
-                  <page_title>Dental Care</page_title>
+                  <page_title><![CDATA[Dental Care]]></page_title>
                   <main_image></main_image>
                   <body_text></body_text>
                   <sort_order></sort_order>
@@ -616,10 +616,10 @@
               </fields>
               <items>
                   <item link_title="About Us" path_part="about-us">
-                      <page_title>About Us</page_title>
+                      <page_title><![CDATA[About Us]]></page_title>
                   </item>
                   <item link_title="Meet the Team" path_part="meet-the-team" parent="about-us">
-                      <page_title>Meet the Team</page_title>
+                      <page_title><![CDATA[Meet the Team]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
                       <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
@@ -647,7 +647,7 @@
                       </body_text>
                   </item>
                   <item link_title="Testimonials" path_part="testimonials" parent="about-us">
-                      <page_title>Testimonials</page_title>
+                      <page_title><![CDATA[Testimonials]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
                       <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
@@ -675,7 +675,7 @@
                     </body_text>
                   </item>
                   <item link_title="Careers" path_part="careers" parent="about-us">
-                      <page_title>Careers</page_title>
+                      <page_title><![CDATA[Careers]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
                       <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
@@ -703,7 +703,7 @@
                     </body_text>
                   </item>
                   <item link_title="Our Videos" path_part="our-videos" parent="about-us">
-                      <page_title>Our Videos</page_title>
+                      <page_title><![CDATA[Our Videos]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
                       <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
@@ -731,7 +731,7 @@
                     </body_text>
                   </item>
                   <item link_title="Our Photos" path_part="our-photos" parent="about-us">
-                      <page_title>Our Photos</page_title>
+                      <page_title><![CDATA[Our Photos]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text><!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
                         <!-- H2 -->
@@ -814,9 +814,9 @@
               </fields>
               <items>
                   <item link_title="Office Tour" path_part="office-tour" parent="about-us">
-                      <page_title></page_title>
+                      <page_title><![CDATA[Office Tour]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
-                      <youtube_id>H2p1UZlgLjo</youtube_id>
+                      <youtube_id><![CDATA[H2p1UZlgLjo]]></youtube_id>
                       <body_text>
                         <!--  angle brackets:&lt; &gt; &lt;/ &gt; -->
                         <!-- H2 -->
