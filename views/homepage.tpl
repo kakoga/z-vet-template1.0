@@ -120,13 +120,13 @@
                                 <ul class="list-inline social-buttons">
                                     <li>
                                         <!-- <a class="hashtag-popopen" href="https://www.facebook.com/sharer/sharer.php?">
-                                            <i class="fa fa-facebook"></i> -->
-                                        </a>
+                                            <i class="fa fa-facebook"></i>
+                                        </a> -->
                                     </li>
                                     <li>
                                         <!-- <a class="hashtag-popopen" href="https://twitter.com/home?status=%23{{clippings.global_hashtag.substr(1,100)}} ">
-                                            <i class="fa fa-twitter"></i> -->
-                                        </a>
+                                            <i class="fa fa-twitter"></i>
+                                        </a> -->
                                     </li>
                                 </ul>
                             </div>

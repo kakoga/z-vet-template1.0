@@ -29,6 +29,7 @@
             <text name="form_button_text" name_friendly="Form Button Text" required="1"><![CDATA[Join]]></text>
         </clippings>
         <ingredients>
+          <!-- Homepage Timeline Dataset -->
           <dataset name="home_page_about_timeline" name_friendly="Homepage Timeline">
               <fields>
                   <text name="timeframe" name_friendly="Name of Feature Logo" required="1" />
@@ -120,7 +121,7 @@
                   </item>
               </items>
           </templateset>
-          <!-- Homepage dataset -->
+          <!-- Homepage slider dataset -->
           <dataset name="homepage_slides" name_friendly="Homepage Slides">
                 <fields>
                     <text name="title" name_friendly="Title" />
@@ -134,8 +135,8 @@
                 </fields>
                 <items>
                     <item link_title="Care and Wellness for Your Pet" path_part="">
-                        <title><![CDATA[Your product changes lives.]]></title>
-                        <second_line><![CDATA[Your product changes lives.]]></second_line>
+                        <title><![CDATA[Zesty Pet Clinic]]></title>
+                        <second_line><![CDATA[Your partner in whole pet care.]]></second_line>
                         <background_video><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></background_video>
                         <background_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></background_image>
                         <button_text><![CDATA[Learn More]]></button_text>
@@ -143,8 +144,8 @@
                         <sort_order><![CDATA[1]]></sort_order>
                     </item>
                     <item link_title="Special Offers" path_part="">
-                        <title><![CDATA[Your product changes lives.]]></title>
-                        <second_line><![CDATA[Your product changes lives.]]></second_line>
+                        <title><![CDATA[Emergency Services]]></title>
+                        <second_line><![CDATA[Call 1-800-555-5555 for after-hours emergencies.]]></second_line>
                         <background_video><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></background_video>
                         <background_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></background_image>
                         <button_text><![CDATA[Click]]></button_text>
