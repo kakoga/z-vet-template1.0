@@ -754,6 +754,7 @@
                 </item>
               </items>
           </dataset>
+          <!-- fix this dataset about us photos -->
           <dataset name="about_us_photos" name_friendly="About Us Photos" parent_item="our-photos">
               <fields>
                   <text name="photo_title" name_friendly="Photo Title" list="1" />
