@@ -16,13 +16,13 @@
             <googlefont family="Roboto Slab" />
         </head>
         <clippings>
-            <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[Brand Epicenter]]></text>
+            <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[Zesty Pet Clinic]]></text>
             <images name="logo" name_friendly="Site Logo" limit="1" />
             <text name="footer_text" name_friendly="Footer Text"><![CDATA[Zesty.io Brand Epicenter]]></text>
-            <text name="global_hashtag" name_friendly="Global Hashtag (tied to all areas of the site)" required="1"><![CDATA[#brandepicenter]]></text>
-            <text name="product_nick_name" name_friendly="Product Nick Name (used in for short form product refernces)" required="1"><![CDATA[Product]]></text>
-            <text name="featured_title" name_friendly="Feature title"><![CDATA[Join our Story, find our product in these stores.]]></text>
-            <text name="form_title" name_friendly="Form Title" required="1"><![CDATA[Join our Mailing List]]></text>
+            <text name="global_hashtag" name_friendly="Global Hashtag (tied to all areas of the site)" required="1"><![CDATA[#zestypetclinic]]></text>
+            <text name="product_nick_name" name_friendly="Product Nick Name (used in for short form product refernces)" required="1"><![CDATA[Services]]></text>
+            <text name="featured_title" name_friendly="Feature title"><![CDATA[Exceptional Care]]></text>
+            <text name="form_title" name_friendly="Form Title" required="1"><![CDATA[Newsletter]]></text>
             <textarea name="form_text" name_friendly="Form Sub Text" required="1"><![CDATA[Get emails weekly!]]></textarea>
             <text name="form_webhook" name_friendly="Form Webhook (optional)" />
             <text name="form_button_text" name_friendly="Form Button Text" required="1"><![CDATA[Join]]></text>
@@ -177,8 +177,9 @@
         			<text name="title" name_friendly="Page Title (h1)" required="1" />
         			<wysiwyg_advanced name="content" name_friendly="Page Content" />
         		</fields>
+            <!-- ** need to hide from top nav -->
       		  <items>
-        			<item link_title="Privacy Policy" path_part="privacy-policy" active="0">
+        			<item link_title="Privacy Policy" path_part="privacy-policy" active="-1">
         			  <title><![CDATA[Privacy Policy]]></title>
         			  <content><![CDATA[See an example boilerplate privacy policy here: <a href="https://www.bbb.org/dallas/for-businesses/bbb-sample-privacy-policy1/">https://www.bbb.org/dallas/for-businesses/bbb-sample-privacy-policy1/</a>]]></content>
         			</item>
