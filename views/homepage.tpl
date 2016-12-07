@@ -1,12 +1,12 @@
   <!-- Header -->
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 <div class="slick-slider-container" >
-    <div id="slick-hero"  > 
+    <div id="slick-hero"  >
         {{ each homepage_slides as slide sort by slide.sort_order }}
         {{ if {slide.background_video} }}
         <div class=""  >
-            
-            <header  data-vide-bg="mp4: {{ slide.background_video.getMediaURL() }}{{if {slide.background_image} }}, poster: {{slide.background_image.getMediaURL()}}{{ end-if }}" data-vide-options=" loop: true, muted: true, position: 50% 50%"> 
+
+            <header  data-vide-bg="mp4: {{ slide.background_video.getMediaURL() }}{{if {slide.background_image} }}, poster: {{slide.background_image.getMediaURL()}}{{ end-if }}" data-vide-options=" loop: true, muted: true, position: 50% 50%">
                 <div class="container">
                     <div class="intro-text">
                         <div class="intro-lead-in">{{slide.title}}</div>
@@ -18,8 +18,8 @@
         </div>
         {{ else }}
         <div class=""  >
-            
-            <header style="background-image:url('{{slide.background_image.getImage(2500)}}')"> 
+
+            <header style="background-image:url('{{slide.background_image.getImage(2500)}}')">
                 <div class="container">
                     <div class="intro-text">
                         <div class="intro-lead-in">{{slide.title}}</div>
@@ -67,11 +67,11 @@
             </div>
             <div class="row">
                 {{each social_feed as social limit 3 order by z.sort}}
-                
+
                 {{include social-loop}}
-                
+
                 {{end-each}}
-                
+
             </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -113,19 +113,19 @@
                             </div>
                         </li>
                         {{end-each}}
-                    
+
                         <li class="timeline-inverted">
                             <div class="timeline-image">
                                 <h4>{{page.button_text_3}}</h4>
                                 <ul class="list-inline social-buttons">
                                     <li>
-                                        <a class="hashtag-popopen" href="https://www.facebook.com/sharer/sharer.php?">
-                                            <i class="fa fa-facebook"></i>
+                                        <!-- <a class="hashtag-popopen" href="https://www.facebook.com/sharer/sharer.php?">
+                                            <i class="fa fa-facebook"></i> -->
                                         </a>
                                     </li>
-                                    <li>                                    
-                                        <a class="hashtag-popopen" href="https://twitter.com/home?status=%23{{clippings.global_hashtag.substr(1,100)}} ">
-                                            <i class="fa fa-twitter"></i>
+                                    <li>
+                                        <!-- <a class="hashtag-popopen" href="https://twitter.com/home?status=%23{{clippings.global_hashtag.substr(1,100)}} ">
+                                            <i class="fa fa-twitter"></i> -->
                                         </a>
                                     </li>
                                 </ul>
@@ -167,7 +167,7 @@
                     </div>
                 </div>
                 {{end-each}}
-            </div>            
+            </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <a href="{{influencers_page.first().getUrl()}}" class="page-scroll btn btn-xl">{{page.button_text_4}}</a>
@@ -175,6 +175,3 @@
             </div>
         </div>
     </section>
-
-   
-   
