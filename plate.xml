@@ -632,6 +632,7 @@
                   <text name="employee_last_name" name_friendly="Employee Last Name" list="1" />
                   <images name="employee_photo" name_friendly="Employee Photo" list="1" />
                   <wysiwyg_advanced name="employee_bio" name_friendly="Employee Bio" list="1" />
+                  <text name="role" name_friendly="Role" list="1" />
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
               <items>
@@ -673,6 +674,29 @@
                   <wysiwyg_advanced name="client_testimonial" name_friendly="Client Testimonial" list="1" />
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
+              <items>
+                <item>
+                  <client_first_name></client_first_name>
+                  <client_last_name></client_last_name>
+                  <client_location></client_location>
+                  <client_testimonial></client_testimonial>
+                  <sort_order></sort_order>
+                </item>
+                <item>
+                  <client_first_name></client_first_name>
+                  <client_last_name></client_last_name>
+                  <client_location></client_location>
+                  <client_testimonial></client_testimonial>
+                  <sort_order></sort_order>
+                </item>
+                <item>
+                  <client_first_name></client_first_name>
+                  <client_last_name></client_last_name>
+                  <client_location></client_location>
+                  <client_testimonial></client_testimonial>
+                  <sort_order></sort_order>
+                </item>
+              </items>
           </dataset>
           <dataset name="career_opportunities" name_friendly="Career Opportunities" parent_item="careers">
               <fields>
@@ -681,6 +705,26 @@
                   <wysiwyg_advanced name="job_description" name_friendly="Job Description" list="1" />
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
+              <items>
+                <item>
+                  <job_title></job_title>
+                  <job_location></job_location>
+                  <job_description></job_description>
+                  <sort_order></sort_order>
+                </item>
+                <item>
+                  <job_title></job_title>
+                  <job_location></job_location>
+                  <job_description></job_description>
+                  <sort_order></sort_order>
+                </item>
+                <item>
+                  <job_title></job_title>
+                  <job_location></job_location>
+                  <job_description></job_description>
+                  <sort_order></sort_order>
+                </item>
+              </items>
           </dataset>
           <dataset name="about_us_videos" name_friendly="About Us Videos" parent_item="our-videos">
               <fields>
@@ -689,6 +733,26 @@
                   <wysiwyg_advanced name="video_description" name_friendly="Video Description" list="1" />
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
+              <items>
+                <item>
+                  <video_title></video_title>
+                  <youtube_id></youtube_id>
+                  <video_description></video_description>
+                  <sort_order></sort_order>
+                </item>
+                <item>
+                  <video_title></video_title>
+                  <youtube_id></youtube_id>
+                  <video_description></video_description>
+                  <sort_order></sort_order>
+                </item>
+                <item>
+                  <video_title></video_title>
+                  <youtube_id></youtube_id>
+                  <video_description></video_description>
+                  <sort_order></sort_order>
+                </item>
+              </items>
           </dataset>
           <dataset name="about_us_photos" name_friendly="About Us Photos" parent_item="our-photos">
               <fields>
@@ -698,6 +762,29 @@
                   <wysiwyg_advanced name="photo_description" name_friendly="Photo Description" list="1" />
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
+              <items>
+                <item>
+                  <photo_title></photo_title>
+                  <photo_category></photo_category>
+                  <about_us_photo></about_us_photo>
+                  <photo_description></photo_description>
+                  <sort_order></sort_order>
+                </item>
+                <item>
+                  <photo_title></photo_title>
+                  <photo_category></photo_category>
+                  <about_us_photo></about_us_photo>
+                  <photo_description></photo_description>
+                  <sort_order></sort_order>
+                </item>
+                <item>
+                  <photo_title></photo_title>
+                  <photo_category></photo_category>
+                  <about_us_photo></about_us_photo>
+                  <photo_description></photo_description>
+                  <sort_order></sort_order>
+                </item>
+              </items>
           </dataset>
           <!-- About Us: office tour template set -->
           <templateset name="office_tour" name_friendly="Office Tour" view="office_tour" parent_item="about-us">
