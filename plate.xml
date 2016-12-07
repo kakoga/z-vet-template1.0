@@ -542,6 +542,16 @@
                   <body_text><![CDATA[<p>Pet vaccines fall into two categories: core and  non-core. Core vaccines are vaccines that are recommended for every pet. Non-core vaccines are vaccines that may be recommened based on your pet's lifestyle. For example, if your pet is boarded a lot, or spends a lot of time outdoors, you may want to consider additional vaccines for your pet.</p>]]></body_text>
                   <sort_order><![CDATA[2]]></sort_order>
                 </item>
+                <item link_title="Care Packages" path_part="care-packages" parent="services">
+                  <page_title><![CDATA[<h2>Care Packages</h2>]]></page_title>
+                  <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
+                  <body_text><![CDATA[<p>Our pets, just like humans, will have changing medical and health needs as they age. Our care packages will help you get the most comprehensive care for your pet from baby to senior.
+                    Each package covers comprehensive exams, possible vaccines or medication, nutritional consulation, heartworm test and more.</p></br>
+                    <h3>Baby</h3></br> <p>Our Baby Package includes:</br> <ul><li>Comprehensive physical exam</li><li>Recommended vaccines</li></ul></p></br>
+                    <h3>Adult</h3></br><p>Our Adult Package includes:</br><ul><li>Comprehensive exam and complete history</li><li>Blood work (CBC and 8 tests)</li><li>Fecal test to check for common parasites</li></ul></br>
+                    <h3>Senior</h3></br><p>Our Senior Package includes:</br><ul><li>Comprehensive exam and history</li><li>Blood work (CBC and 30 tests)</li><li>Fecal test to check for common parasites</li><li>5 x-rays of chest and abdomen</li></ul>]]></body_text>
+                  <sort_order><![CDATA[3]]></sort_order>
+                </item>
               </items>
           </pageset>
           <!-- SERVICES END -->
