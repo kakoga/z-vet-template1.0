@@ -801,28 +801,7 @@
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <youtube_id><![CDATA[H2p1UZlgLjo]]></youtube_id>
                       <body_text>
-                        <!--  angle brackets:< > </ > -->
-                        <!-- H2 -->
-                        <h2>Zesty Pet Clinic</h2>
-                         <!-- paragraph -->
-                        <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and others</p>
-                        <!-- unordered list -->
-                        <ul>
-                        <li>Its Korean,</li>
-                        <li>Sauce Cuisine),</li>
-                        <li>(such Cuisine),</li>
-                        <li>Spicy As</li>
-                        </ul>
-                        <!-- paragraph -->
-                        <p>It is named for the city of Cayenne in French Guiana</p>
-                        <!-- blockquote -->
-                        <blockquote>Cayenne is used in
-                        cooking spicy dishes, as a powder or in its whole form (such as in Korean, Sichuan and other Asian cuisine), or in a thin, vinegar-based
-                        sauce</blockquote>
-                        <!-- paragraph -->
-                        <p>It is a cultivar of Capsicum annuum related to bell peppers, jalape&#xF1;os, paprika and othersThe fruits are
-                        generally dried and ground, or pulped and baked into cakes, which are then ground and sifted to make the powdered spice of the same
-                        name</p>
+                        <![CDATA[<h2>Office Tour</h2></br><p>Welcome! Come take a tour of our state-of-the-art clinic!</p>]]>
                       </body_text>
                   </item>
               </items>
@@ -836,6 +815,29 @@
                   <wysiwyg_advanced name="photo_description" name_friendly="Photo Description" list="1" />
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
+              <items>
+                <item>
+                  <photo_title></photo_title>
+                  <photo_category></photo_category>
+                  <office_photo></office_photo>
+                  <photo_description></photo_description>
+                  <sort_order></sort_order>
+                </item>
+                <item>
+                  <photo_title></photo_title>
+                  <photo_category></photo_category>
+                  <office_photo></office_photo>
+                  <photo_description></photo_description>
+                  <sort_order></sort_order>
+                </item>
+                <item>
+                  <photo_title></photo_title>
+                  <photo_category></photo_category>
+                  <office_photo></office_photo>
+                  <photo_description></photo_description>
+                  <sort_order></sort_order>
+                </item>
+              </items>
           </dataset>
           <!-- ABOUT US END -->
         </ingredients>
