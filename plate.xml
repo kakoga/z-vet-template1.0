@@ -687,14 +687,14 @@
                   <client_last_name><![CDATA[Bear]]></client_last_name>
                   <client_location><![CDATA[Julian, CA]]></client_location>
                   <client_testimonial><![CDATA[<blockquote>Last year when I hit a fork in the road, I didn't know what to do. My Studebaker was ruined and I was injured. I made an emergency call Zesty Pet Clinic and their on-call doctor treated me right away. After I went home they followed up with me to make sure I was well on my way to healing. This year I've been able to return to my natural habitat - a Studebaker.</blockquote> ]]></client_testimonial>
-                  <sort_order></sort_order>
+                  <sort_order><![CDATA[2]]></sort_order>
                 </item>
                 <item>
-                  <client_first_name></client_first_name>
-                  <client_last_name></client_last_name>
-                  <client_location></client_location>
-                  <client_testimonial></client_testimonial>
-                  <sort_order></sort_order>
+                  <client_first_name> <![CDATA[Gonzo]]></client_first_name>
+                  <client_last_name><![CDATA[the Great]]></client_last_name>
+                  <client_location><![CDATA[Elfin Forest, CA]]></client_location>
+                  <client_testimonial><![CDATA[<blockquote>I was so grateful to find a vet that specializes in all kinds of exotics! They're my go-to office and I recommend them to everyone I know. Their team has been so kind and generous. Dr. Bob has an excellent bedside manner and the Nurses Janice and Piggy are always helpful. Camilla and I will never go to another veterinarian.</blockquote>]]></client_testimonial>
+                  <sort_order><![CDATA[3]]></sort_order>
                 </item>
               </items>
           </dataset>
