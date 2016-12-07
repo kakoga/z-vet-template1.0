@@ -676,17 +676,17 @@
               </fields>
               <items>
                 <item>
-                  <client_first_name></client_first_name>
-                  <client_last_name></client_last_name>
-                  <client_location></client_location>
-                  <client_testimonial></client_testimonial>
-                  <sort_order></sort_order>
+                  <client_first_name><![CDATA[Kermit]]></client_first_name>
+                  <client_last_name><![CDATA[Frog]]></client_last_name>
+                  <client_location><![CDATA[Lakeside, CA]]></client_location>
+                  <client_testimonial><![CDATA[<blockquote>I started coming to Zesty Pet Clinic in 2000 when I was having an issue with my flipper. They were able to work around my hectic schedule to get me in and treat my sprain. I was able to heal up quickly and get back to work. They have the best service and a kind, compassionate, and knowledgeable team. </blockquote>]]></client_testimonial>
+                  <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item>
-                  <client_first_name></client_first_name>
-                  <client_last_name></client_last_name>
-                  <client_location></client_location>
-                  <client_testimonial></client_testimonial>
+                  <client_first_name><![CDATA[Fozzie]]></client_first_name>
+                  <client_last_name><![CDATA[Bear]]></client_last_name>
+                  <client_location><![CDATA[Julian, CA]]></client_location>
+                  <client_testimonial><![CDATA[<blockquote>Last year when I hit a fork in the road, I didn't know what to do. My Studebaker was ruined and I was injured. I made an emergency call Zesty Pet Clinic and their on-call doctor treated me right away. After I went home they followed up with me to make sure I was well on my way to healing. This year I've been able to return to my natural habitat - a Studebaker.</blockquote> ]]></client_testimonial>
                   <sort_order></sort_order>
                 </item>
                 <item>
