@@ -28,97 +28,99 @@
             <text name="form_button_text" name_friendly="Form Button Text" required="1"><![CDATA[Join]]></text>
         </clippings>
         <ingredients>
-            <dataset name="home_page_about_timeline" name_friendly="Homepage Timeline">
-                <fields>
-                    <text name="timeframe" name_friendly="Name of Feature Logo" required="1" />
-                    <text name="title" name_friendly="Name of Feature Logo" required="1" />
-                    <images name="image" name_friendly="Logo" limit="1" />
-                    <textarea name="short_blurb" name_friendly="Short Blurb" />
-                </fields>
-                <items>
-                    <item link_title="" path_part="">
-                        <timeframe><![CDATA[2010]]></timeframe>
-                        <title><![CDATA[Where It All Began]]></title>
-                        <image><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/about_1.jpg?raw=true]]></image>
-                        <short_blurb><![CDATA[The best place to start is the beginning. Share how your idea came to be.]]></short_blurb>
-                    </item>
-                    <item link_title="" path_part="">
-                        <timeframe><![CDATA[2012-2015]]></timeframe>
-                        <title><![CDATA[The Process]]></title>
-                        <image><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/about_2.jpg?raw=true]]></image>
-                        <short_blurb><![CDATA[Make your product human. Were you funded through Kickstarter or Indiegogo? What changes were made to your product? When did you add new variations?]]></short_blurb>
-                    </item>
-                    <item link_title="" path_part="">
-                        <timeframe><![CDATA[2015-Present]]></timeframe>
-                        <title><![CDATA[Where You're At]]></title>
-                        <image><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/about_3.jpg?raw=true]]></image>
-                        <short_blurb><![CDATA[Where are you now, and where are you going?]]></short_blurb>
-                    </item>
-                </items>
-            </dataset>
-            <dataset name="social_links" name_friendly="Social Links">
-                <fields>
-                    <text name="name" name_friendly="Social Media Name" required="1" />
-                    <text name="font_awesome_icon" name_friendly="Font Awesome Icon Name" required="1" />
-                    <text name="url" name_friendly="Social Media Link" limit="1" />
-                </fields>
-                <items>
-                    <item link_title="" path_part="">
-                        <name><![CDATA[Facebook]]></name>
-                        <font_awesome_icon><![CDATA[facebook]]></font_awesome_icon>
-                        <url><![CDATA[https://www.facebook.com]]></url>
-                    </item>
-                    <item link_title="" path_part="">
-                        <name><![CDATA[Twitter]]></name>
-                        <font_awesome_icon><![CDATA[twitter]]></font_awesome_icon>
-                        <url><![CDATA[https://www.twitter.com]]></url>
-                    </item>
-                    <item link_title="" path_part="">
-                        <name><![CDATA[Instagram]]></name>
-                        <font_awesome_icon><![CDATA[instagram]]></font_awesome_icon>
-                        <url><![CDATA[https://www.pinterest.com]]></url>
-                    </item>
-                </items>
-            </dataset>
-            <templateset name="homepage" name_friendly="Homepage" view="homepage">
-                <fields>
-                    <text name="title1" name_friendly="Title (Section 1)" required="1" />
-                    <text name="subtitle1" name_friendly="Sub Title (Section 1)" required="1" />
-                    <text name="button_text_1" name_friendly="Button Text (Section 1)" required="1" />
-                    <images name="image1" name_friendly="Header Image (Default image if feature article has no image)" limit="1" />
+          <dataset name="home_page_about_timeline" name_friendly="Homepage Timeline">
+              <fields>
+                  <text name="timeframe" name_friendly="Name of Feature Logo" required="1" />
+                  <text name="title" name_friendly="Name of Feature Logo" required="1" />
+                  <images name="image" name_friendly="Logo" limit="1" />
+                  <textarea name="short_blurb" name_friendly="Short Blurb" />
+              </fields>
+              <items>
+                  <item link_title="" path_part="">
+                      <timeframe><![CDATA[2010]]></timeframe>
+                      <title><![CDATA[Where It All Began]]></title>
+                      <image><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/about_1.jpg?raw=true]]></image>
+                      <short_blurb><![CDATA[The best place to start is the beginning. Share how your idea came to be.]]></short_blurb>
+                  </item>
+                  <item link_title="" path_part="">
+                      <timeframe><![CDATA[2012-2015]]></timeframe>
+                      <title><![CDATA[The Process]]></title>
+                      <image><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/about_2.jpg?raw=true]]></image>
+                      <short_blurb><![CDATA[Make your product human. Were you funded through Kickstarter or Indiegogo? What changes were made to your product? When did you add new variations?]]></short_blurb>
+                  </item>
+                  <item link_title="" path_part="">
+                      <timeframe><![CDATA[2015-Present]]></timeframe>
+                      <title><![CDATA[Where You're At]]></title>
+                      <image><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/about_3.jpg?raw=true]]></image>
+                      <short_blurb><![CDATA[Where are you now, and where are you going?]]></short_blurb>
+                  </item>
+              </items>
+          </dataset>
+          <dataset name="social_links" name_friendly="Social Links">
+              <fields>
+                  <text name="name" name_friendly="Social Media Name" required="1" />
+                  <text name="font_awesome_icon" name_friendly="Font Awesome Icon Name" required="1" />
+                  <text name="url" name_friendly="Social Media Link" limit="1" />
+              </fields>
+              <items>
+                  <item link_title="" path_part="">
+                      <name><![CDATA[Facebook]]></name>
+                      <font_awesome_icon><![CDATA[facebook]]></font_awesome_icon>
+                      <url><![CDATA[https://www.facebook.com]]></url>
+                  </item>
+                  <item link_title="" path_part="">
+                      <name><![CDATA[Twitter]]></name>
+                      <font_awesome_icon><![CDATA[twitter]]></font_awesome_icon>
+                      <url><![CDATA[https://www.twitter.com]]></url>
+                  </item>
+                  <item link_title="" path_part="">
+                      <name><![CDATA[Instagram]]></name>
+                      <font_awesome_icon><![CDATA[instagram]]></font_awesome_icon>
+                      <url><![CDATA[https://www.pinterest.com]]></url>
+                  </item>
+              </items>
+          </dataset>
+          <!-- HOMEPAGE -->
+          <templateset name="homepage" name_friendly="Homepage" view="homepage">
+              <fields>
+                  <text name="title1" name_friendly="Title (Section 1)" required="1" />
+                  <text name="subtitle1" name_friendly="Sub Title (Section 1)" required="1" />
+                  <text name="button_text_1" name_friendly="Button Text (Section 1)" required="1" />
+                  <images name="image1" name_friendly="Header Image (Default image if feature article has no image)" limit="1" />
 
-                    <text name="title2" name_friendly="Title Section 2" required="1" />
-                    <text name="button_text_2" name_friendly="Button Text (Section 2)" required="1" />
+                  <text name="title2" name_friendly="Title Section 2" required="1" />
+                  <text name="button_text_2" name_friendly="Button Text (Section 2)" required="1" />
 
-                    <text name="title3" name_friendly="Sub Title (Section 3)" required="1" />
-                    <text name="sub_title3" name_friendly="Title (Section 3)" required="1" />
-                    <text name="button_text_3" name_friendly="Button Text (Section 3)" required="1" />
+                  <text name="title3" name_friendly="Sub Title (Section 3)" required="1" />
+                  <text name="sub_title3" name_friendly="Title (Section 3)" required="1" />
+                  <text name="button_text_3" name_friendly="Button Text (Section 3)" required="1" />
 
-                    <text name="title4" name_friendly="Title (Section 4)" required="1" />
-                    <text name="sub_title4" name_friendly="Sub Title (Section 4)" required="1" />
-                    <text name="button_text_4" name_friendly="Button Text (Section 4)" required="1" />
-                </fields>
-                <items>
-                    <item link_title="Home" path_part="zesty_home">
-                        <title1><![CDATA[Your product changes lives.]]></title1>
-                        <subtitle1><![CDATA[Let your customers tell others how.]]></subtitle1>
-                        <button_text_1><![CDATA[Share your Story]]></button_text_1>
-                        <image1><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/header-bg.jpg?raw=true]]></image1>
+                  <text name="title4" name_friendly="Title (Section 4)" required="1" />
+                  <text name="sub_title4" name_friendly="Sub Title (Section 4)" required="1" />
+                  <text name="button_text_4" name_friendly="Button Text (Section 4)" required="1" />
+              </fields>
+              <items>
+                  <item link_title="Home" path_part="zesty_home">
+                      <title1><![CDATA[Your product changes lives.]]></title1>
+                      <subtitle1><![CDATA[Let your customers tell others how.]]></subtitle1>
+                      <button_text_1><![CDATA[Share your Story]]></button_text_1>
+                      <image1><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/header-bg.jpg?raw=true]]></image1>
 
-                        <title2><![CDATA[People talk, amplify it]]></title2>
-                        <button_text_2><![CDATA[Open the Spotlight]]></button_text_2>
+                      <title2><![CDATA[People talk, amplify it]]></title2>
+                      <button_text_2><![CDATA[Open the Spotlight]]></button_text_2>
 
-                        <title3><![CDATA[YOUR STORY]]></title3>
-                        <sub_title3><![CDATA[You're more than a product; tell your story]]></sub_title3>
-                        <button_text_3><![CDATA[Share your story]]></button_text_3>
+                      <title3><![CDATA[YOUR STORY]]></title3>
+                      <sub_title3><![CDATA[You're more than a product; tell your story]]></sub_title3>
+                      <button_text_3><![CDATA[Share your story]]></button_text_3>
 
-                        <title4><![CDATA[YOU BUILD PRODUCTS THAT CHANGE LIVES.]]></title4>
-                        <sub_title4><![CDATA[Let your customers tell others how]]></sub_title4>
-                        <button_text_4><![CDATA[Read influencer stories]]></button_text_4>
-                    </item>
-                </items>
-            </templateset>
-            <dataset name="homepage_slides" name_friendly="Homepage Slides">
+                      <title4><![CDATA[YOU BUILD PRODUCTS THAT CHANGE LIVES.]]></title4>
+                      <sub_title4><![CDATA[Let your customers tell others how]]></sub_title4>
+                      <button_text_4><![CDATA[Read influencer stories]]></button_text_4>
+                  </item>
+              </items>
+          </templateset>
+          <!-- Homepage dataset -->
+          <dataset name="homepage_slides" name_friendly="Homepage Slides">
                 <fields>
                     <text name="title" name_friendly="Title" />
                     <text name="second_line" name_friendly="Second Line" />
@@ -754,7 +756,6 @@
                 </item>
               </items>
           </dataset>
-          <!-- fix this dataset about us photos -->
           <dataset name="about_us_photos" name_friendly="About Us Photos" parent_item="our-photos">
               <fields>
                   <text name="photo_title" name_friendly="Photo Title" list="1" />
