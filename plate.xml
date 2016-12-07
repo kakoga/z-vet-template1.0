@@ -15,6 +15,7 @@
             <googlefont family="Droid Serif" />
             <googlefont family="Roboto Slab" />
         </head>
+        <!-- CLIPPINGS -->
         <clippings>
             <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[Zesty Pet Clinic]]></text>
             <images name="logo" name_friendly="Site Logo" limit="1" />
@@ -37,22 +38,22 @@
               </fields>
               <items>
                   <item link_title="" path_part="">
-                      <timeframe><![CDATA[2010]]></timeframe>
-                      <title><![CDATA[Where It All Began]]></title>
+                      <timeframe><![CDATA[Baby]]></timeframe>
+                      <title><![CDATA[Small Beginnings]]></title>
                       <image><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/about_1.jpg?raw=true]]></image>
-                      <short_blurb><![CDATA[The best place to start is the beginning. Share how your idea came to be.]]></short_blurb>
+                      <short_blurb><![CDATA[Give your baby animal the best with our Baby Health and Wellness Package, which includes vaccines, a wellness check, and grooming.]]></short_blurb>
                   </item>
                   <item link_title="" path_part="">
-                      <timeframe><![CDATA[2012-2015]]></timeframe>
-                      <title><![CDATA[The Process]]></title>
+                      <timeframe><![CDATA[Adult]]></timeframe>
+                      <title><![CDATA[Prime-of-life]]></title>
                       <image><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/about_2.jpg?raw=true]]></image>
-                      <short_blurb><![CDATA[Make your product human. Were you funded through Kickstarter or Indiegogo? What changes were made to your product? When did you add new variations?]]></short_blurb>
+                      <short_blurb><![CDATA[Make sure your adult stays healthy our Adult Health and Wellness Package which includes a wellness exam, vaccine boosters, a heartworm check, and more.]]></short_blurb>
                   </item>
                   <item link_title="" path_part="">
-                      <timeframe><![CDATA[2015-Present]]></timeframe>
-                      <title><![CDATA[Where You're At]]></title>
+                      <timeframe><![CDATA[Senior]]></timeframe>
+                      <title><![CDATA[Healthy & Active]]></title>
                       <image><![CDATA[https://github.com/ardeay/blueprint-Brand-Epicenter-v1.0/blob/master/media/about_3.jpg?raw=true]]></image>
-                      <short_blurb><![CDATA[Where are you now, and where are you going?]]></short_blurb>
+                      <short_blurb><![CDATA[Make sure that senior has the best quality of life with our Senior Care Package. We'll help you keep your pet healthy with a comprehensive exam, blood work, x-rays and more to ensure your pets health well into old age.]]></short_blurb>
                   </item>
               </items>
           </dataset>
