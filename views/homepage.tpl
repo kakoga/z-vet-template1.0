@@ -58,9 +58,9 @@
                 <div class="col-lg-4">
                   image goes here
                 </div>
-                <div class="col-lg-8 pull-left">
-                    <h2 class="section-heading">{{page.title2}}</h2>
-                    <p>{{ page.body_text_2 }}</p>
+                <div class="col-lg-8">
+                    <h2 class="section-heading pull-left">{{page.title2}}</h2>
+                    <p class="pull-left">{{ page.body_text_2 }}</p>
                 </div>
             </div>
             <div class="row">
