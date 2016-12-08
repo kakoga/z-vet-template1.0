@@ -55,7 +55,7 @@
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-8 pull-left">
                     <h2 class="section-heading">{{page.title2}}</h2>
                     <h4>
                         <a class="hashtag-popopen" href="https://twitter.com/home?status=%23{{clippings.global_hashtag.substr(1,100)}} ">
@@ -65,6 +65,9 @@
 
                     </h4>
                     <p>{{ page.body_text_2 }}</p>
+                </div>
+                <div class="col-lg-4">
+                  image goes here
                 </div>
             </div>
             <div class="row">
