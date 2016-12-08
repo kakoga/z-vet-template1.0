@@ -641,7 +641,7 @@
             </fields>
             <items>
               <item>
-                <employee_category></employee_category>
+                <employee_category><![CDATA[admin]]></employee_category>
               </item>
               <item>
               </item>
