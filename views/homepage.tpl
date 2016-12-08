@@ -63,13 +63,6 @@
                     <p class="pull-left">{{ page.body_text_2 }}</p>
                 </div>
             </div>
-            <div class="row">
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-
-                </div>
-            </div>
         </div>
     </section>
 
