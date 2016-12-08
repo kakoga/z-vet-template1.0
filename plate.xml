@@ -639,14 +639,14 @@
             <fields>
               <text name="employee_category" name_friendly="Employee Category" list="1" />
             </fields>
-            <!-- <items>
+            <items>
               <item>
                 <employee_category><![CDATA[admin]]></employee_category>
               </item>
               <item>
                 <employee_category><<![CDATA[professional]]></employee_category>
               </item>
-            </items> -->
+            </items>
           </dataset>
           <dataset name="employees" name_friendly="Employees" parent_item="meet-the-team">
               <fields>
