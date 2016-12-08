@@ -60,8 +60,9 @@
                     <h4>
                         <a class="hashtag-popopen" href="https://twitter.com/home?status=%23{{clippings.global_hashtag.substr(1,100)}} ">
                             {{clippings.global_hashtag}}
-                            {{ page.body_text_2 }}
+
                         </a>
+                        {{ page.body_text_2 }}
                     </h4>
                     <br>
                 </div>
