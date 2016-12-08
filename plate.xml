@@ -85,36 +85,40 @@
           <!-- HOMEPAGE -->
           <templateset name="homepage" name_friendly="Homepage" view="homepage">
               <fields>
+                  <!-- section 1: slider content fields -->
                   <text name="title1" name_friendly="Title (Section 1)" required="1" />
                   <text name="subtitle1" name_friendly="Sub Title (Section 1)" required="1" />
                   <text name="button_text_1" name_friendly="Button Text (Section 1)" required="1" />
                   <images name="image1" name_friendly="Header Image (Default image if feature article has no image)" limit="1" />
-
+                  <!-- section 2: pet image and text fields-->
                   <text name="title2" name_friendly="Title Section 2" required="1" />
+                  <images name="image2" name_friendly="Image Section 2" limit="1" />
+                  <wysiwyg_advanced name="body_text2" name_friendly="Body Text Section 2" />
                   <text name="button_text_2" name_friendly="Button Text (Section 2)" required="1" />
-
+                  <!-- section 3: timeline text fields -->
                   <text name="title3" name_friendly="Sub Title (Section 3)" required="1" />
                   <text name="sub_title3" name_friendly="Title (Section 3)" required="1" />
                   <text name="button_text_3" name_friendly="Button Text (Section 3)" required="1" />
-
+                  <!-- section 4: squares fields -->
                   <text name="title4" name_friendly="Title (Section 4)" required="1" />
                   <text name="sub_title4" name_friendly="Sub Title (Section 4)" required="1" />
                   <text name="button_text_4" name_friendly="Button Text (Section 4)" required="1" />
               </fields>
               <items>
                   <item link_title="Home" path_part="zesty_home">
+                      <!-- section 1: default slider content -->
                       <title1><![CDATA[]]></title1>
                       <subtitle1><![CDATA[]]></subtitle1>
                       <button_text_1><![CDATA[]]></button_text_1>
                       <image1><![CDATA[]]></image1>
-
+                      <!-- section 2: pet image and text -->
                       <title2><![CDATA[People talk, amplify it]]></title2>
                       <button_text_2><![CDATA[Open the Spotlight]]></button_text_2>
-
+                      <!-- section 3: timeline text -->
                       <title3><![CDATA[Pet Care for Every Age]]></title3>
                       <sub_title3><![CDATA[We offer the best care for pets of all ages]]></sub_title3>
                       <button_text_3><![CDATA[Discover our services]]></button_text_3>
-
+                      <!-- section 4: squares -->
                       <title4><![CDATA[YOU BUILD PRODUCTS THAT CHANGE LIVES.]]></title4>
                       <sub_title4><![CDATA[Let your customers tell others how]]></sub_title4>
                       <button_text_4><![CDATA[Read influencer stories]]></button_text_4>
