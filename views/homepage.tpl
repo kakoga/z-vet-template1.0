@@ -62,7 +62,7 @@
                             {{clippings.global_hashtag}}
 
                         </a>
-                        {{ page.body_text_2 }}
+                        {{ page.body_text2 }}
                     </h4>
                     <br>
                 </div>
