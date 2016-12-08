@@ -66,22 +66,18 @@
                 </div>
             </div>
             <div class="row">
-                {{each social_feed as social limit 3 order by z.sort}}
-
-                {{include social-loop}}
-
-                {{end-each}}
+                
 
             </div>
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <a href="{{truepath(501)}}" class="page-scroll btn btn-xl">{{page.button_text_2}}</a>
+                <div class="col-lg-12">
+
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- Timeline Section -->
     <section id="about">
         <div class="container">
             <div class="row">
