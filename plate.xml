@@ -654,7 +654,7 @@
                   <text name="employee_last_name" name_friendly="Employee Last Name" list="1" />
                   <images name="employee_photo" name_friendly="Employee Photo" list="1" />
                   <wysiwyg_advanced name="employee_bio" name_friendly="Employee Bio" list="1" />
-                  <one_to_one name="category" name_friendly="Category" relationship="employee_category" relationship_field="Classification" list="1" />
+                  <!-- <one_to_one name="category" name_friendly="Category" relationship="employee_category" relationship_field="Classification" list="1" /> -->
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
               <items>
@@ -663,7 +663,7 @@
                   <employee_last_name><![CDATA[Henson]]></employee_last_name>
                   <employee_photo></employee_photo>
                   <employee_bio><![CDATA[<p>Dr. Bob has been practicing veterianary medicine for over 30 years. He brings his expertise in dogs, cats, farm animals, and exotics and a degree from Muppet Veterinary University to our humble office.</p>]]></employee_bio>
-                  <category relate="1"><![CDATA[professional]]></category>
+                  <!-- <category relate="1"><![CDATA[professional]]></category> -->
                   <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item>
@@ -671,7 +671,7 @@
                   <employee_last_name><![CDATA[Oz]]></employee_last_name>
                   <employee_photo></employee_photo>
                   <employee_bio><![CDATA[<p>Nurse Piggy comes to us with over 25 years of experience working in many types of animals. Her comforting bedside manner will be sure to put your pets at ease.</p>]]></employee_bio>
-                  <category relate="1"><![CDATA[professional]]></category>
+                  <!-- <category relate="1"><![CDATA[professional]]></category> -->
                   <sort_order><![CDATA[2]]></sort_order>
                 </item>
                 <item>
@@ -679,7 +679,7 @@
                   <employee_last_name><![CDATA[Hunt]]></employee_last_name>
                   <employee_photo></employee_photo>
                   <employee_bio><![CDATA[<p>Nurse Janice comes to use with 5 years of experience. For many years she was a travelling musician, until she decided to turn towards her love of animals.</p>]]></employee_bio>
-                  <category relate="1"><![CDATA[professional]]></category>
+                  <!-- <category relate="1"><![CDATA[professional]]></category> -->
                   <sort_order><![CDATA[3]]></sort_order>
                 </item>
                 <item>
@@ -687,7 +687,7 @@
                   <employee_last_name><![CDATA[Eagle]]></employee_last_name>
                   <employee_photo></employee_photo>
                   <employee_bio><![CDATA[<p>Receptionist Sam feels it's his duty to help others and to run a very organized office. He loves to keep our office running and our clients and their pets happy.</p>]]></employee_bio>
-                  <category relate="1"><![CDATA[admin]]></category>
+                  <!-- <category relate="1"><![CDATA[admin]]></category> -->
                   <sort_order><![CDATA[4]]></sort_order>
                 </item>
               </items>
