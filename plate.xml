@@ -686,6 +686,7 @@
                   <sort_order><![CDATA[3]]></sort_order>
                 </item>
                 <item>
+                  <!-- test test -->
                   <employee_first_name><![CDATA[Receptionist Sam]]></employee_first_name>
                   <employee_last_name><![CDATA[Eagle]]></employee_last_name>
                   <employee_photo></employee_photo>
