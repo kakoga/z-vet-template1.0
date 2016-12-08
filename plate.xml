@@ -654,7 +654,7 @@
                   <text name="employee_last_name" name_friendly="Employee Last Name" list="1" />
                   <images name="employee_photo" name_friendly="Employee Photo" list="1" />
                   <wysiwyg_advanced name="employee_bio" name_friendly="Employee Bio" list="1" />
-                  <one_to_one name="" name_friendly="" relationship="employee_category" list="1" />
+                  <one_to_one name="" name_friendly="" relationship="employee_category" relationship_field="name" list="1" />
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
               <items>
