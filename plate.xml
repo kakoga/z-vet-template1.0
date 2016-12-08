@@ -144,8 +144,8 @@
                         <sort_order><![CDATA[1]]></sort_order>
                     </item>
                     <item link_title="Special Offers" path_part="">
-                        <title><![CDATA[Emergency Services]]></title>
-                        <second_line><![CDATA[Call 1-800-555-5555 for after-hours emergencies.]]></second_line>
+                        <title><![CDATA[After-Hours Emergencies?]]></title>
+                        <second_line><![CDATA[Call 1-800-555-5555]]></second_line>
                         <background_video></background_video>
                         <background_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></background_image>
                         <button_text><![CDATA[Contact Us]]></button_text>
