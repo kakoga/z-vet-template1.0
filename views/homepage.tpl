@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="row">
-                
+                  {{ body_text_2 }}
 
             </div>
             <div class="row">
