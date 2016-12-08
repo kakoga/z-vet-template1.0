@@ -641,10 +641,9 @@
             </fields>
             <items>
               <item>
-                <!-- <employee_category><![CDATA[admin]]></employee_category> -->
+                <employee_category></employee_category>
               </item>
               <item>
-                <!-- <employee_category><<![CDATA[professional]]></employee_category> -->
               </item>
             </items>
           </dataset>
