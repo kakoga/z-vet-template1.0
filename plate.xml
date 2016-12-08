@@ -93,7 +93,7 @@
                   <!-- section 2: pet image and text fields-->
                   <text name="title2" name_friendly="Title Section 2" required="1" />
                   <images name="image2" name_friendly="Image Section 2" limit="1" />
-                  <wysiwyg_advanced name="body_text2" name_friendly="Body Text Section 2" />
+                  <wysiwyg_advanced name="body_text_2" name_friendly="Body Text Section 2" />
                   <text name="button_text_2" name_friendly="Button Text (Section 2)" required="1" />
                   <!-- section 3: timeline text fields -->
                   <text name="title3" name_friendly="Sub Title (Section 3)" required="1" />
@@ -113,7 +113,7 @@
                       <image1><![CDATA[]]></image1>
                       <!-- section 2: pet image and text -->
                       <title2><![CDATA[Zesty Pet Clinic]]></title2>
-                      <body_text2><![CDATA[Open the Spotlight]]></body_text2>
+                      <body_text_2><![CDATA[Open the Spotlight]]></body_text2>
                       <!-- section 3: timeline text -->
                       <title3><![CDATA[Pet Care for Every Age]]></title3>
                       <sub_title3><![CDATA[We offer the best care for pets of all ages]]></sub_title3>
