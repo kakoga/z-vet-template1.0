@@ -55,16 +55,16 @@
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-12">
                     <h2 class="section-heading">{{page.title2}}</h2>
                     <h4>
                         <a class="hashtag-popopen" href="https://twitter.com/home?status=%23{{clippings.global_hashtag.substr(1,100)}} ">
                             {{clippings.global_hashtag}}
 
                         </a>
-                        {{ page.body_text_2 }}
+
                     </h4>
-                    <br>
+                    <p>{{ page.body_text_2 }}</p>
                 </div>
             </div>
             <div class="row">
