@@ -60,11 +60,6 @@
                 </div>
                 <div class="col-lg-8 pull-right">
                     <h2 class="section-heading">{{page.title2}}</h2>
-                    <h4>
-                        <a class="hashtag-popopen" href="https://twitter.com/home?status=%23{{clippings.global_hashtag.substr(1,100)}} ">
-                            {{clippings.global_hashtag}}
-                        </a>
-                    </h4>
                     <p>{{ page.body_text_2 }}</p>
                 </div>
             </div>
