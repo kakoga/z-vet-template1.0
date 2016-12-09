@@ -122,7 +122,7 @@
                       <!-- section 4: squares -->
                       <title4><![CDATA[YOU BUILD PRODUCTS THAT CHANGE LIVES.]]></title4>
                       <sub_title4><![CDATA[Let your customers tell others how]]></sub_title4>
-                      
+
                   </item>
               </items>
           </templateset>
@@ -158,6 +158,24 @@
                         <sort_order><![CDATA[1]]></sort_order>
                     </item>
                 </items>
+            </dataset>
+            <dataset>
+              <fields>
+                <text name="title" name_friendly="Title" />
+                <images name="image_boxes" name_friendly="Image Boxes" limit="1" />
+                <sort_order name="sort_order" name_friendly="Sort Order" />
+              </fields>
+              <items>
+                <item name="homepage_squares" name_friendly="Homepage Squares" path_part="">
+                  <title></title>
+                  <image_boxes></image_boxes>
+                  <sort_order></sort_order>
+                </item>
+                <item>
+                </item>
+                <item>
+                </item>
+              </items>
             </dataset>
           <!-- 1. SIMPLE PAGE -->
           <templateset name="simple_page" name_friendly="Simple Page" view="simple_page">
