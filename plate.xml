@@ -159,18 +159,18 @@
                     </item>
                 </items>
             </dataset>
-            <dataset>
+            <dataset name="homepage_squares" name_friendly="Homepage Squares" parent_item="">
               <fields>
                 <text name="title" name_friendly="Title" />
                 <images name="image_boxes" name_friendly="Image Boxes" limit="1" />
                 <sort_order name="sort_order" name_friendly="Sort Order" />
               </fields>
               <items>
-                <item name="homepage_squares" name_friendly="Homepage Squares" path_part="">
+                <item>
                 </item>
-                <item name="homepage_squares" name_friendly="Homepage Squares" path_part="">
+                <item>
                 </item>
-                <item name="homepage_squares" name_friendly="Homepage Squares" path_part="">
+                <item>
                 </item>
               </items>
             </dataset>
