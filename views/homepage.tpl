@@ -56,7 +56,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                  image goes here
+                  {{ page.image2 }}
                 </div>
                 <div class="col-lg-8">
                   <div class="row">
@@ -64,7 +64,7 @@
                   </div>
                   <div class="row">
                     <p class="pull-left">{{ page.body_text_2 }}</p>
-                  </div>  
+                  </div>
                 </div>
             </div>
         </div>
