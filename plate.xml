@@ -102,7 +102,7 @@
                   <!-- section 4: squares fields -->
                   <text name="title4" name_friendly="Title (Section 4)" required="1" />
                   <text name="sub_title4" name_friendly="Sub Title (Section 4)" required="1" />
-                  <text name="button_text_4" name_friendly="Button Text (Section 4)" required="1" />
+
               </fields>
               <items>
                   <item link_title="Home" path_part="zesty_home">
@@ -122,7 +122,7 @@
                       <!-- section 4: squares -->
                       <title4><![CDATA[YOU BUILD PRODUCTS THAT CHANGE LIVES.]]></title4>
                       <sub_title4><![CDATA[Let your customers tell others how]]></sub_title4>
-                      <button_text_4><![CDATA[Read influencer stories]]></button_text_4>
+                      
                   </item>
               </items>
           </templateset>
