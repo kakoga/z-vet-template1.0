@@ -133,7 +133,7 @@
             {{ each homepage_squares as square sort by square.sort_order }}
 			      <div class="col-md-4">
 				      {{ square.image_title }}
-				      <img src="{{ square.image.getImage(300) }}">
+				      <img src="{{ square.image.getImage() }}">
 			    </div>
 			      {{ end-each }}
           </div>

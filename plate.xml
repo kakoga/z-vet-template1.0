@@ -22,7 +22,7 @@
             <text name="footer_text" name_friendly="Footer Text"><![CDATA[Zesty.io Brand Epicenter]]></text>
             <text name="global_hashtag" name_friendly="Global Hashtag (tied to all areas of the site)" required="1"><![CDATA[#zestypetclinic]]></text>
             <text name="product_nick_name" name_friendly="Product Nick Name (used in for short form product refernces)" required="1"><![CDATA[Services]]></text>
-            <text name="featured_title" name_friendly="Feature title"><![CDATA[Exceptional Care]]></text>
+            
             <text name="form_title" name_friendly="Form Title" required="1"><![CDATA[Newsletter]]></text>
             <textarea name="form_text" name_friendly="Form Sub Text" required="1"><![CDATA[Get emails weekly!]]></textarea>
             <text name="form_webhook" name_friendly="Form Webhook (optional)" />
@@ -163,22 +163,26 @@
               <fields>
                 <text name="image_title" name_friendly="Image Title" list="1" />
                 <images name="image" name_friendly="Image" list="1" />
+                <wysiwyg_advanced name="image_caption" name_friendly="Image Caption" />
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
               <items>
                 <item>
                   <image_title><![CDATA[Care Packages]]></image_title>
                   <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-1.jpg]]></image>
+                  <image_caption><![CDATA[<p>We offer care packages for each stage of life.</p>]]></image_caption>
                   <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item>
                   <image_title><![CDATA[Day Care]]></image_title>
                   <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-2.jpeg]]></image>
+                  <image_caption></image_caption>
                   <sort_order><![CDATA[2]]></sort_order>
                 </item>
                 <item>
                   <image_title><![CDATA[Services]]></image_title>
                   <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-3.jpg]]></image>
+                  <image_caption></image_caption>
                   <sort_order><![CDATA[3]]></sort_order>
                 </item>
               </items>
