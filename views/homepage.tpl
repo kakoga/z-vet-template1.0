@@ -56,7 +56,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                  {{ page.image2 }}
+                  {{ page.image2.getImage() }}
                 </div>
                 <div class="col-lg-8">
                   <div class="row">
