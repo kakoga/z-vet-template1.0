@@ -165,14 +165,15 @@
                 <images name="image" name_friendly="Image" list="1" />
                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
+              <items>
+                <item>
+                  <image_title><![CDATA[df]]></image_title>
+                  <image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></image>
+                  <sort_order><![CDATA[1]]></sort_order>
+                </item>
+              </items>
             </dataset>
-            <items>
-              <item>
-                <image_title><![CDATA[df]]></image_title>
-                <image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></image>
-                <sort_order><![CDATA[1]]></sort_order>
-              </item>
-            </items>
+
           <!-- 1. SIMPLE PAGE -->
           <templateset name="simple_page" name_friendly="Simple Page" view="simple_page">
             <fields>
