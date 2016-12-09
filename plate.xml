@@ -159,8 +159,8 @@
                     </item>
                 </items>
             </dataset>
-            <dataset name="homepage_squares" name_friendly="Homepage Squares">
-              <!-- <fields>
+            <!-- <dataset name="homepage_squares" name_friendly="Homepage Squares">
+              <fields>
                 <text name="title" name_friendly="Title" />
                 <images name="image_boxes" name_friendly="Image Boxes" limit="1" />
                 <sort_order name="sort_order" name_friendly="Sort Order" />
@@ -172,8 +172,8 @@
                 </item>
                 <item>
                 </item>
-              </items> -->
-            </dataset>
+              </items>
+            </dataset> -->
           <!-- 1. SIMPLE PAGE -->
           <templateset name="simple_page" name_friendly="Simple Page" view="simple_page">
             <fields>
