@@ -167,7 +167,11 @@
               </fields>
             </dataset>
             <items>
-              <item></item>
+              <item>
+                <image_title></image_title>
+                <image></image>
+                <sort_order></sort_order>
+              </item>
               <item></item>
               <item></item>
             </items>
