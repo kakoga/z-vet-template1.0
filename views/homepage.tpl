@@ -129,8 +129,16 @@
     <!-- Team Section (section 4) -->
     <section id="team" class="bg-light-gray">
         <div class="container">
-
-               
-
+          <div class="row">
+            <div class="col-lg-4">
+              box1
+            </div>
+            <div class="col-lg-4">
+              box2
+            </div>
+            <div class="col-lg-4">
+              box3
+            </div>
+          </div>
         </div>
     </section>
