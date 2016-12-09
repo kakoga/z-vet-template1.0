@@ -124,9 +124,9 @@
                       <!-- section 4: squares -->
                       <title4><![CDATA[YOU BUILD PRODUCTS THAT CHANGE LIVES.]]></title4>
                       <sub_title4><![CDATA[Let your customers tell others how]]></sub_title4>
-                      <boximage2><![CDATA[]]></boximage2>
-                      <boximage3><![CDATA[]]></boximage3>
-                      <boximage4><![CDATA[]]></boximage4>
+                      <boximage2></boximage2>
+                      <boximage3></boximage3>
+                      <boximage4></boximage4>
                   </item>
               </items>
           </templateset>
