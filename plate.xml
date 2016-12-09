@@ -167,9 +167,6 @@
               </fields>
               <items>
                 <item name="homepage_squares" name_friendly="Homepage Squares" path_part="">
-                  <title></title>
-                  <image_boxes></image_boxes>
-                  <sort_order></sort_order>
                 </item>
                 <item>
                 </item>
