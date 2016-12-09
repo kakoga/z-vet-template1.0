@@ -51,7 +51,7 @@
         });
     </script>
 {{ include script-bg-vid }}
-    <!-- Portfolio Grid Section -->
+    <!-- Portfolio Grid Section (section 2) -->
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -70,7 +70,7 @@
         </div>
     </section>
 
-    <!-- Timeline Section -->
+    <!-- Timeline Section (section 3) -->
     <section id="about">
         <div class="container">
             <div class="row">
@@ -126,41 +126,28 @@
         </div>
     </section>
 
-    <!-- Team Section -->
+    <!-- Team Section (section 4) -->
     <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{page.title4}}</h2>
-                    <h3 class="section-subheading text-muted">{{page.sub_title4}}</h3>
-                </div>
-            </div>
-               <div class="row">
-                {{each people as person limit 3}}
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <a href="{{person.getUrl()}}">
-                        <img src="{{person.image.getImage(500,500,crop)}}" class="img-responsive img-circle" alt="{{person.name}} image">
-                        </a>
-                        <h4><a href="{{person.getUrl()}}">{{person.name}}</a></h4>
-                        <p class="text-muted">{{person.title}}</p>
-                        (**<ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                        **)
-                    </div>
-                </div>
-                {{end-each}}
-            </div>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <a href="{{influencers_page.first().getUrl()}}" class="page-scroll btn btn-xl">{{page.button_text_4}}</a>
-                </div>
-            </div>
-        </div>
+	    <div class="container">
+		    <div class="row">
+		      <div class="col-lg-4">
+			      box 1
+		      </div>
+		      <div class="col-lg-4">
+			      box 2
+		      </div>
+		      <div class="col-lg-4">
+			     box 3
+		      </div>
+			<!-- <ul class="list-inline social-buttons">
+          <li><a href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li><a href="#"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a>
+          </li>
+        </ul> -->
+
+		    </div>
+	    </div>
     </section>
