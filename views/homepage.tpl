@@ -55,15 +55,15 @@
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 pull-left">
                   <img src="{{ page.image2.getImage(346,216,crop) }}">
                 </div>
                 <div class="col-lg-8">
                   <div class="row">
-                    <h2 class="section-heading pull-left">{{page.title2}}</h2>
+                    <h2 class="section-heading pull-left home-section-two">{{page.title2}}</h2>
                   </div>
                   <div class="row">
-                    <p class="pull-left">{{ page.body_text_2 }}</p>
+                    <p class="pull-left home-section-two">{{ page.body_text_2 }}</p>
                   </div>
                 </div>
             </div>
