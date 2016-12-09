@@ -55,7 +55,7 @@
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 pull-left">
+                <div class="col-lg-4 pull-left home-section-two-img">
                   <img src="{{ page.image2.getImage(346,216,crop) }}">
                 </div>
                 <div class="col-lg-8">
