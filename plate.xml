@@ -160,6 +160,9 @@
                 </items>
             </dataset>
             <dataset name="homepage_squares" name_friendly="Homepage Squares">
+              <fields>
+                <text name="image_title" name_friendly="Image Title">
+              </fields>
             </dataset>
             <!-- <dataset name="homepage_squares" name_friendly="Homepage Squares">
               <fields>
