@@ -168,6 +168,9 @@
             </dataset>
             <items>
               <item>
+                <image_title><![CDATA[]]></image_title>
+                <image><![CDATA[]]></image>
+                <sort_order><![CDATA[1]]></sort_order>
               </item>
             </items>
           <!-- 1. SIMPLE PAGE -->
