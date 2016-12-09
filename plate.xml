@@ -168,9 +168,9 @@
               <items>
                 <item name="homepage_squares" name_friendly="Homepage Squares" path_part="">
                 </item>
-                <item>
+                <item name="homepage_squares" name_friendly="Homepage Squares" path_part="">
                 </item>
-                <item>
+                <item name="homepage_squares" name_friendly="Homepage Squares" path_part="">
                 </item>
               </items>
             </dataset>
