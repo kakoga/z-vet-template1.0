@@ -130,15 +130,12 @@
     <section id="team" class="bg-light-gray">
         <div class="container">
           <div class="row">
-            <div class="col-md-4">
-              box1
-            </div>
-            <div class="col-md-4">
-              box2
-            </div>
-            <div class="col-md-4">
-              box3
-            </div>
+            {{ each homepage_squares as square sort by square.sort_order }}
+			      <div class="col-md-4">
+				      {{ square.image_title }}
+				      <img src="{{ square.image.getImage(300) }}">
+			    </div>
+			      {{ end-each }}
           </div>
         </div>
     </section>

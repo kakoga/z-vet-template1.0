@@ -167,9 +167,19 @@
               </fields>
               <items>
                 <item>
-                  <image_title><![CDATA[df]]></image_title>
-                  <image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></image>
+                  <image_title><![CDATA[Care Packages]]></image_title>
+                  <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-1.jpg]]></image>
                   <sort_order><![CDATA[1]]></sort_order>
+                </item>
+                <item>
+                  <image_title><![CDATA[Services]]></image_title>
+                  <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-2.jpeg]]></image>
+                  <sort_order><![CDATA[2]]></sort_order>
+                </item>
+                <item>
+                  <image_title><![CDATA[]]></image_title>
+                  <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-3.jpg]]></image>
+                  <sort_order><![CDATA[3]]></sort_order>
                 </item>
               </items>
             </dataset>
