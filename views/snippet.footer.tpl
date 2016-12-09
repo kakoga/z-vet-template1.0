@@ -6,13 +6,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{clippings.form_title}}</h2>
-                    <h3 class="section-subheading text-muted">{{clippings.form_text}}</h3>
+                    <h2 class="section-heading">{{clippings.site.name}}</h2>
+                    
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    
+
                 </div>
             </div>
         </div>

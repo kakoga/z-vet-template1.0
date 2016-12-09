@@ -22,9 +22,9 @@
             <text name="footer_text" name_friendly="Footer Text"><![CDATA[Zesty.io Brand Epicenter]]></text>
             <text name="global_hashtag" name_friendly="Global Hashtag (tied to all areas of the site)" required="1"><![CDATA[#zestypetclinic]]></text>
             <text name="product_nick_name" name_friendly="Product Nick Name (used in for short form product refernces)" required="1"><![CDATA[Services]]></text>
+
+
             
-            <text name="form_title" name_friendly="Form Title" required="1"><![CDATA[Newsletter]]></text>
-            <textarea name="form_text" name_friendly="Form Sub Text" required="1"><![CDATA[Get emails weekly!]]></textarea>
             <text name="form_webhook" name_friendly="Form Webhook (optional)" />
             <text name="form_button_text" name_friendly="Form Button Text" required="1"><![CDATA[Join]]></text>
         </clippings>
