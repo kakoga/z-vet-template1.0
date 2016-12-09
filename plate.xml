@@ -159,6 +159,8 @@
                     </item>
                 </items>
             </dataset>
+            <dataset name="" name_friendly="">
+            </dataset>
             <!-- <dataset name="homepage_squares" name_friendly="Homepage Squares">
               <fields>
                 <text name="title" name_friendly="Title" />
