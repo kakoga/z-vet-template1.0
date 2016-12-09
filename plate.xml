@@ -159,7 +159,7 @@
                     </item>
                 </items>
             </dataset>
-            <dataset name="homepage_squares" name_friendly="Homepage Squares" parent_item="">
+            <dataset name="homepage_squares" name_friendly="Homepage Squares">
               <fields>
                 <text name="title" name_friendly="Title" />
                 <images name="image_boxes" name_friendly="Image Boxes" limit="1" />
