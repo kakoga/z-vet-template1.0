@@ -172,8 +172,6 @@
                 <image></image>
                 <sort_order></sort_order>
               </item>
-              <item></item>
-              <item></item>
             </items>
           <!-- 1. SIMPLE PAGE -->
           <templateset name="simple_page" name_friendly="Simple Page" view="simple_page">
