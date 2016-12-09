@@ -159,7 +159,7 @@
                     </item>
                 </items>
             </dataset>
-            <dataset name="" name_friendly="">
+            <dataset name="homepage_squares" name_friendly="Homepage Squares">
             </dataset>
             <!-- <dataset name="homepage_squares" name_friendly="Homepage Squares">
               <fields>
