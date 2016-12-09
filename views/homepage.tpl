@@ -129,34 +129,8 @@
     <!-- Team Section (section 4) -->
     <section id="team" class="bg-light-gray">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{page.title4}}</h2>
-                    <h3 class="section-subheading text-muted">{{page.sub_title4}}</h3>
-                </div>
-            </div>
-               <div class="row">
-                {{each people as person limit 3}}
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <a href="{{person.getUrl()}}">
-                        <img src="{{person.image.getImage(500,500,crop)}}" class="img-responsive img-circle" alt="{{person.name}} image">
-                        </a>
-                        <h4><a href="{{person.getUrl()}}">{{person.name}}</a></h4>
-                        <p class="text-muted">{{person.title}}</p>
-                        (**<ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                        **)
-                    </div>
-                </div>
-                {{end-each}}
-            </div>
+
+               
 
         </div>
     </section>
