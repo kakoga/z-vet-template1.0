@@ -161,7 +161,7 @@
             </dataset>
             <dataset name="homepage_squares" name_friendly="Homepage Squares">
               <fields>
-                <text name="photo_title" name_friendly="Photo Title" list="1" />
+                <text name="image_title" name_friendly="Image Title" list="1" />
                 <text name="photo_category" name_friendly="Photo Category" list="1" />
                 <images name="about_us_photo" name_friendly="About Us Photo" list="1" />
                 <wysiwyg_advanced name="photo_description" name_friendly="Photo Description" list="1" />
