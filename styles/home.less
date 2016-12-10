@@ -1,0 +1,49 @@
+.square-wrap {
+	position:relative;
+	overflow:hidden;
+	transition:all ease 250ms;
+	img {
+		display:block;
+			position:relative;
+		top:0;
+		transition:all ease 250ms;
+	}
+	h3 {
+		background:rgba(255,255,255,0.3);
+		padding:20px;
+		text-align:center;
+		color:@accent-color;
+		position:absolute;
+		bottom:0;
+		width:100%;
+		margin:0;
+		color:@brand-primary;
+		transition:all ease 250ms;
+	}
+	a.btn {
+		display:block;
+		position:absolute;
+		width:100%;
+		text-align:center;
+		height:50px;
+		line-height:50px;
+		bottom:-50px;
+		transition:all ease 250ms;
+		border-radius:0;
+		padding:0;
+	}
+	&:hover {
+		img {
+			position:relative;
+			top:-25px;
+		}
+
+		h3 {
+			background:rgba(255,255,255,0.9);
+			bottom:50px;
+		}
+		a.btn {
+			bottom:0px;
+		}
+	}
+}
