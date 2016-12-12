@@ -24,7 +24,7 @@
             <text name="product_nick_name" name_friendly="Product Nick Name (used in for short form product refernces)" required="1"><![CDATA[Services]]></text>
 
 
-            
+
             <text name="form_webhook" name_friendly="Form Webhook (optional)" />
             <text name="form_button_text" name_friendly="Form Button Text" required="1"><![CDATA[Join]]></text>
         </clippings>
@@ -258,7 +258,6 @@
                       <page_title><![CDATA[Contact Us]]></page_title>
                       <body_text>
                         <![CDATA[<h2>Zesty Pet Clinic</h2>
-                          <p>Zesty Pet Clinic</p>
                           <p>1045 Sixth Avenue</p>
                           <p>San Diego, CA 92101</p>
                           </br>
