@@ -4,10 +4,6 @@
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{clippings.site_name}}</h2>
-                </div>
                 <div class="row">
 					        <div class="col-md-6 basic">
 						        {{ contact_us.first().body_text }}
@@ -16,11 +12,6 @@
 						        {{ contact_us.first().google_map_embed }}
 					        </div>
 				        </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-
-                </div>
             </div>
         </div>
     </section>
