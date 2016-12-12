@@ -223,10 +223,6 @@
         			  <title><![CDATA[Terms of Use]]></title>
         			  <content><![CDATA[See an example boilerplate terms of use here: <a href="https://termsfeed.com/blog/sample-terms-of-use-template/">https://termsfeed.com/blog/sample-terms-of-use-template/</a>]]></content>
         			</item>
-        			<item link_title="Thank You" path_part="thank-you" active="-1">
-        			  <title><![CDATA[Thank You]]></title>
-        			  <content><![CDATA[Thank you for signing up!]]></content>
-        			</item>
       		</items>
       	</templateset>
         <!-- GENERIC PAGE END  -->
