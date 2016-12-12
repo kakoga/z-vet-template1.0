@@ -127,15 +127,18 @@
     </section>
 
     <!-- Team Section (section 4) -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-          <div class="row">
-            {{ each homepage_squares as square sort by square.sort_order }}
-			      <div class="col-md-4">
-				      {{ square.image_title }}
-				      <img src="{{ square.image.getImage() }}">
+  <section id="team" class="bg-light-gray">
+    <div class="container">
+	    <div class="row">
+		    {{ each homepage_squares as square sort by square.sort_order }}
+		    <div class="col-md-4">
+			    <div class="square-wrap">
+				     <img src="{{ square.image.getImage() }}">
+				     <h3>{{ square.image_title }}</h3>
+				     <a class="btn btn-lg btn-primary" href="#">click here</a>
 			    </div>
-			      {{ end-each }}
-          </div>
-        </div>
-    </section>
+		    </div>
+		   {{ end-each }}
+	    </div>
+  </div>
+</section>
