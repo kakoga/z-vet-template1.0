@@ -227,21 +227,6 @@
       	</templateset>
         <!-- GENERIC PAGE END  -->
 
-        <!-- SOCIAL SPOTLIGHT -->
-        <templateset name="social-spotlight" name_friendly="Social Spotlight Page" view="social-spotlight-page">
-      		<fields>
-      			<text name="title" name_friendly="Page Title (h1)" required="1" />
-      			<wysiwyg_advanced name="content" name_friendly="Page Content" />
-      		</fields>
-      		<items>
-      			<item link_title="Spotlight" path_part="social-spotlight">
-      			  <title><![CDATA[Brand Spotlight]]></title>
-      			  <content><![CDATA[We highlight everyday people using out product, and we love it! Send out a public tweet or instagram post and we will look for you to be spotlighted as well.]]></content>
-      			</item>
-      		</items>
-	      </templateset>
-        <!-- SOCIAL SPOTLIGHT END -->
-
           <!-- 2. CONTACT US -->
           <templateset name="contact_us" name_friendly="Contact Us" view="contact_us">
               <fields>
