@@ -710,7 +710,7 @@
                   <text name="client_first_name" name_friendly="Client First Name" list="1" />
                   <text name="client_last_name" name_friendly="Client Last Name" list="1" />
                   <text name="client_location" name_friendly="Client Location" list="1" />
-                  <wysiwyg_advanced name="client_testimonial" name_friendly="Client Testimonial" list="1" />
+                  <textarea name="client_testimonial" name_friendly="Client Testimonial" list="1" />
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
               </fields>
               <items>
