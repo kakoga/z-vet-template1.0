@@ -1,4 +1,4 @@
-<div id="office-tour">
+<div id="patient-resources">
 	<div class="row main-image">
 	<img src="{{ page.main_image.getImage() }}">
 	</div>
