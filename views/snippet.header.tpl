@@ -18,11 +18,14 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            
-            {{bootstrap.navigation(nav navbar-nav navbar-right,1)}}
-            
+
+            {{bootstrap.navigation(nav navbar-nav navbar-right,2)}}
+
         </div>
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container-fluid -->
 </nav>
+<script>
+	//$('.dropdown-toggle').attr('data-toggle','dropdown');
+</script>
