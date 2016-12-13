@@ -438,7 +438,7 @@
           <!-- PROMOTIONS END -->
 
           <!-- 5. PATIENT RESOURCES -->
-          <templateset name="patient_resources" name_friendly="Patient Resources" view="new_patients">
+          <templateset name="patient_resources" name_friendly="Patient Resources" view="patient-resources">
               <fields>
                   <text name="page_title" name_friendly="Page Title" required="1" />
                   <images name="main_image" name_friendly="Main Image" limit="1" />
