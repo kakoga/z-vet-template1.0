@@ -683,41 +683,7 @@
           </pageset>
           <!-- SERVICES END -->
 
-          <!-- 7. ABOUT US -->
-          <templateset name="about_us" name_friendly="About Us" view="about_us">
-              <fields>
-                  <text name="page_title" name_friendly="Page Title" required="1"/>
-                  <images name="main_image" name_friendly="Main Image" limit="1" />
-                  <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
-              </fields>
-              <items>
-                  <item link_title="About Us" path_part="about-us">
-                      <page_title><![CDATA[About Us]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-main.jpg]]></main_image>
-                      <body_text>
-                        <![CDATA[
-                        <p>At Zesty Pet Clinic we're here to support the health and wellness of your pet. We offer a wide variety of services including:</p>
-                        <ul>
-                          <li>Boarding</li>
-                          <li>Day Care</li>
-                          <li>Medical Services</li>
-                          <li>Dental Services</li>
-                          <li>General Care and Care Packages</li>
-                        </ul>
-                        <p>We're located conveniently close to public transportation in sunny downtown San Diego near the historical Gaslamp Quarter.</p>
-                        <p>Our hospital was first established as Pet Hospital of North Park in 2004 by Dr. Bob. Dr. Bob graduated from University of Animal Medicine in 1980, and from University of Muppetology in 1985. He is a third generaiton veterinarian, and the Scottie Dog icon was originally used at his grandfather's practice in 1934 in swamps of Lousiana. Nurse Piggy and Nurse Janice joined the practice in 2010 after studying at a local college.</p>
-
-                        <blockquote>Zesty Pet Clinic's mission is to provide sound medicine and quality customer service at a reasonable price.</blockquote>
-
-                        <p>Our philosophy for care is that, as a team, we can only be as strong as our weakest link, therefore it's our goal that every member of our staff can make the best recommendations for a pet's health, wellness, nutrition, and behavior.</p>
-
-                        <blockquote>We strive for all team members to provide the highest level of general medicine care to every pet that comes in the door. Our prices aim to allow for all owners to affordably maintain basic wellness routines.</blockquote>
-
-                        <p>We look forward to meeting you and getting to know you and your pet.</p>]]>
-                      </body_text>
-                  </item>
-              </items>
-          </templateset>
+          
           <!-- About Us Datasets -->
           <dataset name="employee_category" name_friendly="Employee Category" parent_item="meet-the-team">
             <fields>
