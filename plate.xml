@@ -338,7 +338,6 @@
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
                         <![CDATA[
-                        <h2>Zesty Pet Clinic</h2>
                         <p>Please see a list of frequently asked questions below.</p>
                         <p>Need more information? Please <a href="#">contact us</a></p>]]>
                       </body_text>
@@ -468,7 +467,7 @@
                   <promo_description><![CDATA[Get &#36;25.00 off your first visit. New clients only]]></promo_description>
                   <promo_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/promotions-first-appt.jpg]]></promo_image>
                   <promo_code><![CDATA[FIRSTVISIT25]]></promo_code>
-                  <promo_print_coupon><![CDATA[]]></promo_print_coupon>
+                  <promo_print_coupon><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/FREEFirstExamCoupon.pdf]]></promo_print_coupon>
                   <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item>
@@ -476,7 +475,7 @@
                   <promo_description><![CDATA[Purchase one topical flea treatment and one of equal or lesser value for free.]]></promo_description>
                   <promo_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/promotions-no-fleas.png]]></promo_image>
                   <promo_code><![CDATA[NOFLEAS]]></promo_code>
-                  <promo_print_coupon><![CDATA[]]></promo_print_coupon>
+                  <promo_print_coupon><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/2016AppCoupon.PDF]]></promo_print_coupon>
                   <sort_order><![CDATA[2]]></sort_order>
                 </item>
               </items>
@@ -649,20 +648,31 @@
                   <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                   <body_text><![CDATA[<p>Dental care is an integral part of your pets health. Poor dental health can lead to other health problems, including heart problems. To help your pet be the best health possible, we offer professional cleanings, and training and tips to help your pet get used to daily tooth brushing.</p>
 
-                  <p>Veterinary dentistry includes the cleaning, adjustment, filing, extraction, or repair of your pets' teeth and all other aspects of oral health care. These procedures should be performed by a veterinarian or a board-certified veterinary dentist. Subject to state or provincial regulation, veterinary technicians are allowed to perform certain dental procedures under the supervision of a veterinarian. </p>
+                    <p>Veterinary dentistry includes the cleaning, adjustment, filing, extraction, or repair of your pets' teeth and all other aspects of oral health care. These procedures should be performed by a veterinarian or a board-certified veterinary dentist. Subject to state or provincial regulation, veterinary technicians are allowed to perform certain dental procedures under the supervision of a veterinarian. </p>
 
-                  <p>The process begins with an oral exam of your pet’s mouth by a veterinarian. Radiographs (x-rays) may be needed to evaluate the health of the jaw and the tooth roots below the gumline. Because most dental disease occurs below the gumline, where you can’t see it, a thorough dental cleaning and evaluation are performed under anesthesia. Dental cleaning includes scaling (to remove dental plaque and tartar) and polishing, similar to the process used on your own teeth during your regular dental cleanings.</p>
-                  <ul>
-                    <li>bad breath</li>
-                    <li>broken or loose teeth</li>
-                    <li>extra teeth or retained baby teeth</li>
-                    <li>teeth that are discolored or covered in tartar</li>
-                    <li>abnormal chewing, drooling, or dropping food from the mouth</li>
-                    <li>reduced appetite or refusal to eat </li>
-                    <li>pain in or around the mouth</li>
-                    <li>bleeding from the mouth</li>
-                    <li>swelling in the areas surrounding the mouth</li>
-                  </ul>]]></body_text>
+                    <p>The process begins with an oral exam of your pet’s mouth by a veterinarian. Radiographs (x-rays) may be needed to evaluate the health of the jaw and the tooth roots below the gumline. Because most dental disease occurs below the gumline, where you can’t see it, a thorough dental cleaning and evaluation are performed under anesthesia. Dental cleaning includes scaling (to remove dental plaque and tartar) and polishing, similar to the process used on your own teeth during your regular dental cleanings.</p>
+                    <ul>
+                      <li>bad breath</li>
+                      <li>broken or loose teeth</li>
+                      <li>extra teeth or retained baby teeth</li>
+                      <li>teeth that are discolored or covered in tartar</li>
+                      <li>abnormal chewing, drooling, or dropping food from the mouth</li>
+                      <li>reduced appetite or refusal to eat </li>
+                      <li>pain in or around the mouth</li>
+                      <li>bleeding from the mouth</li>
+                      <li>swelling in the areas surrounding the mouth</li>
+                    </ul>
+                    <p>Periodontal disease is the most common dental condition in dogs and cats – by the time your pet is 3 years old, he or she will very likely have some early evidence of periodontal disease, which will worsen as your pet grows older if effective preventive measures aren’t taken. Early detection and treatment are critical, because advanced periodontal disease can cause severe problems and pain for your pet. Periodontal disease doesn’t just affect your pet’s mouth. Other health problems found in association with periodontal disease include kidney, liver, and heart muscle changes.</p>
+                    <p>It starts with plaque that hardens into tartar. Tartar above the gumline can often easily be seen and removed, but plaque and tartar below the gumline is damaging and sets the stage for infection and damage to the jawbone and the tissues that connect the tooth to the jaw bone. Periodontal disease is graded on a scale of 0 (normal) to 4 (severe).</p>
+                    <p>The treatment of periodontal disease involves a thorough dental cleaning and x-rays may be needed to determine the severity of the disease. Your veterinarian or a board-certified veterinary dentist will make recommendations based on your pet’s overall health and the health of your pet’s teeth, and provide you with options to consider.</p>
+                    <h3>Why does dentistry require anesthesia?</h3>
+                    <p>When you go to the dentist, you know that what’s being done is meant to help you and keep your mouth healthy. Your dentist uses techniques to minimize pain and discomfort and can ask you how you are feeling, so you accept the procedures and do your best to keep still. Your pet does not understand the benefit of dental procedures, and he or she reacts by moving, trying to escape, or even biting.</p>
+                    <p>Anesthesia makes it possible to perform the dental procedures with less stress and pain for your pet. In addition, anesthesia allows for a better cleaning because your pet is not moving around and risking injury from the dental equipment. If radiographs (x-rays) are needed, your pet needs to be very still in order to get good images, and this is unlikely without heavy sedation or anesthesia.</p>
+                    <p>Although anesthesia will always have risks, it’s safer now than ever and continues to improve so that the risks are very low and are far outweighed by the benefits. Most pets can go home the same day of the procedure, although they might seem a little groggy for the rest of the day.</p>
+                    <h3>What can I do at home for my pet’s oral health?</h3>
+                    <p>The American Veterinary Dental College does not recommend dental cleanings without anesthesia because they do not allow cleaning or inspection below the gumline, where most dental disease occurs, and can result in injury to the pet or the person performing the procedure.</p>
+                    <p>Prevention of the most common oral disease in pets consists of frequent removal of the dental plaque and tartar that forms on teeth that are not kept clean. Regularly brushing your pet’s teeth is the single most effective thing you can do to keep their teeth healthy between dental cleanings, and may reduce the frequency or even eliminate the need for periodic dental cleaning by your veterinarian. Daily brushing is best, but it’s not always possible and brushing several times a week can be effective. Most dogs accept brushing, but cats can be a bit more resistant – patience and training are important. </p>]]>
+                </body_text>
                   <sort_order><![CDATA[4]]></sort_order>
                 </item>
               </items>
@@ -706,7 +716,7 @@
                       <page_title><![CDATA[Meet the Team]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
-                        <![CDATA[<h2>Meet the Team</h2>
+                        <![CDATA[
                         <p>Our team is here to help you. Our goal is to meet your needs as it pertains to the health and well-being of their pet. Our clients' pets are members of their family, and expect the same quality healthcare as they would for any other member of their family.</br>
                           When your pet comes to Zesty Pet Clinic they become a part of our family too.</p>]]>
                       </body_text>
@@ -715,28 +725,28 @@
                       <page_title><![CDATA[Testimonials]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
-                        <![CDATA[<h2>Testimonials</h2>]]>
+                        <![CDATA[]]>
                     </body_text>
                   </item>
                   <item link_title="Careers" path_part="careers" parent="about-us">
                       <page_title><![CDATA[Careers]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
-                        <![CDATA[<h2>Careers</h2>]]>
+                        <![CDATA[<h4>Join our team!</h4>]]>
                     </body_text>
                   </item>
                   <item link_title="Our Videos" path_part="our-videos" parent="about-us">
                       <page_title><![CDATA[Our Videos]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
-                        <![CDATA[<h2>Please checkout our videos below.</h2>]]>
+                        <![CDATA[<h4>Please checkout our videos below.</h4>]]>
                     </body_text>
                   </item>
                   <item link_title="Our Photos" path_part="our-photos" parent="about-us">
                       <page_title><![CDATA[Our Photos]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
-                        <![CDATA[<h2>Meet our pets, clients, and patients!</h2>]]>
+                        <![CDATA[<h4>Meet our pets, clients, and patients!</h4>]]>
                       </body_text>
                   </item>
               </items>
@@ -815,21 +825,21 @@
                   <client_first_name><![CDATA[Kermit]]></client_first_name>
                   <client_last_name><![CDATA[Frog]]></client_last_name>
                   <client_location><![CDATA[Lakeside, CA]]></client_location>
-                  <client_testimonial><![CDATA[<blockquote>I started coming to Zesty Pet Clinic in 2000 when I was having an issue with my flipper. They were able to work around my hectic schedule to get me in and treat my sprain. I was able to heal up quickly and get back to work. They have the best service and a kind, compassionate, and knowledgeable team. </blockquote>]]></client_testimonial>
+                  <client_testimonial><![CDATA[I started coming to Zesty Pet Clinic in 2000 when I was having an issue with my flipper. They were able to work around my hectic schedule to get me in and treat my sprain. I was able to heal up quickly and get back to work. They have the best service and a kind, compassionate, and knowledgeable team.]]></client_testimonial>
                   <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item>
                   <client_first_name><![CDATA[Fozzie]]></client_first_name>
                   <client_last_name><![CDATA[Bear]]></client_last_name>
                   <client_location><![CDATA[Julian, CA]]></client_location>
-                  <client_testimonial><![CDATA[<blockquote>Last year when I hit a fork in the road, I didn't know what to do. My Studebaker was ruined and I was injured. I made an emergency call Zesty Pet Clinic and their on-call doctor treated me right away. After I went home they followed up with me to make sure I was well on my way to healing. This year I've been able to return to my natural habitat - a Studebaker.</blockquote> ]]></client_testimonial>
+                  <client_testimonial><![CDATA[Last year when I hit a fork in the road, I didn't know what to do. My Studebaker was ruined and I was injured. I made an emergency call Zesty Pet Clinic and their on-call doctor treated me right away. After I went home they followed up with me to make sure I was well on my way to healing. This year I've been able to return to my natural habitat - a Studebaker.]]></client_testimonial>
                   <sort_order><![CDATA[2]]></sort_order>
                 </item>
                 <item>
                   <client_first_name> <![CDATA[Gonzo]]></client_first_name>
                   <client_last_name><![CDATA[the Great]]></client_last_name>
                   <client_location><![CDATA[Elfin Forest, CA]]></client_location>
-                  <client_testimonial><![CDATA[<blockquote>I was so grateful to find a vet that specializes in all kinds of exotics! They're my go-to office and I recommend them to everyone I know. Their team has been so kind and generous. Dr. Bob has an excellent bedside manner and the Nurses Janice and Piggy are always helpful. Camilla and I will never go to another veterinarian.</blockquote>]]></client_testimonial>
+                  <client_testimonial><![CDATA[I was so grateful to find a vet that specializes in all kinds of exotics! They're my go-to office and I recommend them to everyone I know. Their team has been so kind and generous. Dr. Bob has an excellent bedside manner and the Nurses Janice and Piggy are always helpful. Camilla and I will never go to another veterinarian.]]></client_testimonial>
                   <sort_order><![CDATA[3]]></sort_order>
                 </item>
               </items>
