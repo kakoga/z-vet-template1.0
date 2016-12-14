@@ -232,7 +232,9 @@
               <fields>
                   <text name="page_title" name_friendly="Page Title" required="1"/>
                   <images name="main_image" name_friendly="Main Image" limit="1" />
-                  <textarea name="address" name_friendly="Address" />
+                  <text name="address_one" name_friendly="Address 1" />
+                  <text name="address_two" name_friendly="Address 2" />
+                  <text name="address_three" name_friendly="Address 3" />
                   <textarea name="general_info_one" name_friendly="General Info 1" />
                   <textarea name="phone_number_one" name_friendly="Phone Number 1" />
                   <textarea name="general_info_two" name_friendly="General Info 2" />
@@ -242,12 +244,11 @@
               <items>
                   <item link_title="Contact Us" path_part="contact-us" parent_item="contact-us">
                       <page_title><![CDATA[Contact Us]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/kitten.Bk5E4z5Ge.1fc97b3c326478bf6afcb60e52679656.jpeg]]></main_image>
-                      <address>
-                        <![CDATA[<h2>Zesty Pet Clinic</h2>
-                          <p>1045 Sixth Avenue</p>
-                          <p>San Diego, CA 92101</p>]]>
-                        </address>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/kitten.1fc97b3c326478bf6afcb60e52679656.jpeg]]></main_image>
+                      <address_one><![CDATA[Zesty Pet Clinic]]></address_one>
+                      <address_two><![CDATA[1045 Sixth Avenue]]></address_two>
+                      <address_three><![CDATA[an Diego, CA 92101]]></address_three>
+                        
                         <!-- make this a data set -->
 
                             <!-- <![CDATA[p>Our Hours:</p>
