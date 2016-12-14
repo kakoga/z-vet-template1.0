@@ -80,7 +80,7 @@ h6 {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .img-centered {
@@ -119,8 +119,19 @@ img {
     }
 }
 #mainNav {
-    .btn {
+    #request {
         margin: 8px;
+        @media (max-width: 768px) {
+            position:fixed;
+            bottom:0;
+            left:0;
+            width:100%;
+            margin:0;
+            padding:20px 0;
+            font-size:20px;
+            transition:all ease 250ms;
+        }
+        
     }
 }
 
@@ -192,12 +203,36 @@ img {
         background-color: @theme-primary;
     }
     .navbar-nav>.active>a:hover,
-    .navbar-nav>.active>a:focus {
+        .navbar-nav>.active>a:focus {
         color: white;
         background-color: darken(@theme-primary, 10%);
     }
     &.always-dark{
         background-color: @gray-darker !important;
+    }
+    @media(min-width:768px) {
+        &:not(.always-dark) { 
+            .brand-image{
+                padding: 15px 20px !important;
+                margin-top: 0px;
+                background:fade(@gray-darker,75%);
+                border-radius:6px;
+                
+                img {
+                    max-height: 30px;
+                    max-width: 190px;
+                    margin-top: -10px;
+                    width:auto;
+                    display:inline-block;
+                    @media(max-width:768px) {
+                        max-height: 35px;
+                        max-width: 190px;
+                        margin-top: 13px;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -219,11 +254,13 @@ img {
             -webkit-transition: all 0.3s;
             -moz-transition: all 0.3s;
             transition: all 0.3s;
+            width:auto;
         }
         .navbar-nav>.active>a {
             border-radius: 3px;
         }
     }
+    
 }
 
 // Navbar Change on Scroll

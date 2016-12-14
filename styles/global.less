@@ -7,6 +7,13 @@
 	&.no-image {
 		padding:10vh 0;
 	}
+	
+	@media (max-width: 768px) { 
+		padding:5vh 0;
+		background-size:cover;
+		background-attachment:inherit;
+		hr {display:none;}
+	}
 	h2 {
 		color:#fff;
 		text-shadow:1px 1px 2px rgba(0,0,0,0.5);
@@ -136,6 +143,10 @@ a:hover {text-decoration:none;}
 }
 .dropdown-menu {
 	background-color: @gray;
+	
+@media(max-width:768px) {
+		width:100%;
+	}
 }
 .dropdown-menu li:hover .sub-menu {
     visibility: visible;
@@ -193,6 +204,6 @@ a:hover {text-decoration:none;}
 #contact {
 	iframe {
 		height: 275px;
-		width: 375px;
+		width: 100%;
 	}
 }

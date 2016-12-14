@@ -85,16 +85,12 @@
           <!-- HOMEPAGE -->
           <templateset name="homepage" name_friendly="Homepage" view="homepage">
               <fields>
-                  <!-- section 1: slider content fields -->
-                  <text name="title1" name_friendly="Title (Section 1)" />
-                  <text name="subtitle1" name_friendly="Sub Title (Section 1)" />
-                  <text name="button_text_1" name_friendly="Button Text (Section 1)" />
-                  <images name="image1" name_friendly="Header Image (Default image if feature article has no image)" limit="1" />
                   <!-- section 2: pet image and text fields-->
-                  <text name="title2" name_friendly="Title Section 2" />
-                  <images name="image2" name_friendly="Image Section 2" limit="1" />
-                  <wysiwyg_advanced name="body_text_2" name_friendly="Body Text Section 2" />
-                  <text name="button_text_2" name_friendly="Button Text (Section 2)" />
+                  <text name="title2" name_friendly="Title for Intro Section" />
+                  <images name="image2" name_friendly="Intro Section Image" limit="1" />
+                  <wysiwyg_advanced name="body_text_2" name_friendly="Intro Section Copy" />
+                  <text name="button_text_2" name_friendly="Button Text for Intro" />
+                  <internal_link name="into_links_to" name_friendly="Intro Button Links To" />
                   <!-- section 3: timeline text fields -->
                   <text name="title3" name_friendly="Sub Title (Section 3)" />
                   <text name="sub_title3" name_friendly="Title (Section 3)" />
@@ -106,15 +102,12 @@
               </fields>
               <items>
                   <item link_title="Home" path_part="zesty_home">
-                      <!-- section 1: default slider content -->
-                      <title1><![CDATA[]]></title1>
-                      <subtitle1><![CDATA[]]></subtitle1>
-                      <button_text_1><![CDATA[]]></button_text_1>
-                      <image1><![CDATA[]]></image1>
                       <!-- section 2: pet image and text -->
                       <title2><![CDATA[Zesty Pet Clinic]]></title2>
-                      <image2><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-section-2.jpg]]></image2>
+                      <image2><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/cat-trans-bg.png]]></image2>
                       <body_text_2><![CDATA[<p>From pre-appointment to post-appointment we take care of you every step of the way. We ensure that your pet is well cared for and that you can be comfortable with the decisions that you're making because you're well-informed of all your options. We'll treat your companion with compassionate care.</p>]]></body_text_2>
+                      <button_text_2><![CDATA[Learn More]]></button_text_2>
+                        <into_links_to><![CDATA[501]]></into_links_to>
                       <!-- section 3: timeline text -->
                       <title3><![CDATA[Pet Care for Every Age]]></title3>
                       <sub_title3><![CDATA[We offer the best care for pets of all ages]]></sub_title3>
