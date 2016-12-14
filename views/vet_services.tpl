@@ -4,7 +4,8 @@
 		<div class="body-content">
 			<div class="row">
 				<div class="col-md-9">
-				{{ page.body_text }}
+					{{ page.page_title }}
+					{{ page.body_text }}
 				</div>
 				<div class="col-md-3" >
 					{{ include inner-page-sidebar }}
