@@ -20,20 +20,20 @@
             <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[Zesty Pet Clinic]]></text>
             <images name="logo" name_friendly="Site Logo" limit="1" />
             <text name="footer_text" name_friendly="Footer Text"><![CDATA[Zesty.io Brand Epicenter]]></text>
-            <text name="global_hashtag" name_friendly="Global Hashtag (tied to all areas of the site)" required="1"><![CDATA[#zestypetclinic]]></text>
-            <text name="product_nick_name" name_friendly="Product Nick Name (used in for short form product refernces)" required="1"><![CDATA[Services]]></text>
+            <text name="global_hashtag" name_friendly="Global Hashtag (tied to all areas of the site)"><![CDATA[#zestypetclinic]]></text>
+            <text name="product_nick_name" name_friendly="Product Nick Name (used in for short form product references)"><![CDATA[Services]]></text>
 
 
             <text name="petdesk_ref_code" name_friendly="Petdesk Reference Code" required="1" />
             <text name="form_webhook" name_friendly="Form Webhook (optional)" />
-            <text name="form_button_text" name_friendly="Form Button Text" required="1"><![CDATA[Join]]></text>
+            <text name="form_button_text" name_friendly="Form Button Text"><![CDATA[Join]]></text>
         </clippings>
         <ingredients>
           <!-- Homepage Timeline Dataset -->
           <dataset name="home_page_about_timeline" name_friendly="Homepage Timeline">
               <fields>
-                  <text name="timeframe" name_friendly="Name of Feature Logo" required="1" />
-                  <text name="title" name_friendly="Name of Feature Logo" required="1" />
+                  <text name="timeframe" name_friendly="Name of Feature Logo"/>
+                  <text name="title" name_friendly="Name of Feature Logo"/>
                   <images name="image" name_friendly="Logo" limit="1" />
                   <textarea name="short_blurb" name_friendly="Short Blurb" />
               </fields>
@@ -60,8 +60,8 @@
           </dataset>
           <dataset name="social_links" name_friendly="Social Links">
               <fields>
-                  <text name="name" name_friendly="Social Media Name" required="1" />
-                  <text name="font_awesome_icon" name_friendly="Font Awesome Icon Name" required="1" />
+                  <text name="name" name_friendly="Social Media Name" />
+                  <text name="font_awesome_icon" name_friendly="Font Awesome Icon Name" />
                   <text name="url" name_friendly="Social Media Link" limit="1" />
               </fields>
               <items>
@@ -86,22 +86,22 @@
           <templateset name="homepage" name_friendly="Homepage" view="homepage">
               <fields>
                   <!-- section 1: slider content fields -->
-                  <text name="title1" name_friendly="Title (Section 1)" required="1" />
-                  <text name="subtitle1" name_friendly="Sub Title (Section 1)" required="1" />
-                  <text name="button_text_1" name_friendly="Button Text (Section 1)" required="1" />
+                  <text name="title1" name_friendly="Title (Section 1)" />
+                  <text name="subtitle1" name_friendly="Sub Title (Section 1)" />
+                  <text name="button_text_1" name_friendly="Button Text (Section 1)" />
                   <images name="image1" name_friendly="Header Image (Default image if feature article has no image)" limit="1" />
                   <!-- section 2: pet image and text fields-->
-                  <text name="title2" name_friendly="Title Section 2" required="1" />
+                  <text name="title2" name_friendly="Title Section 2" />
                   <images name="image2" name_friendly="Image Section 2" limit="1" />
                   <wysiwyg_advanced name="body_text_2" name_friendly="Body Text Section 2" />
-                  <text name="button_text_2" name_friendly="Button Text (Section 2)" required="1" />
+                  <text name="button_text_2" name_friendly="Button Text (Section 2)" />
                   <!-- section 3: timeline text fields -->
-                  <text name="title3" name_friendly="Sub Title (Section 3)" required="1" />
-                  <text name="sub_title3" name_friendly="Title (Section 3)" required="1" />
-                  <text name="button_text_3" name_friendly="Button Text (Section 3)" required="1" />
+                  <text name="title3" name_friendly="Sub Title (Section 3)" />
+                  <text name="sub_title3" name_friendly="Title (Section 3)" />
+                  <text name="button_text_3" name_friendly="Button Text (Section 3)" />
                   <!-- section 4: squares fields -->
-                  <text name="title4" name_friendly="Title (Section 4)" required="1" />
-                  <text name="sub_title4" name_friendly="Sub Title (Section 4)" required="1" />
+                  <text name="title4" name_friendly="Title (Section 4)" />
+                  <text name="sub_title4" name_friendly="Sub Title (Section 4)" />
 
               </fields>
               <items>
