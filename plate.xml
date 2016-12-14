@@ -279,10 +279,46 @@
              </fields>
              <items>
                <item>
-                 <day_of_week></day_of_week>
-                 <open></open>
-                 <close></close>
-                 <sort_order></sort_order>
+                 <day_of_week><![CDATA[Sunday]]></day_of_week>
+                 <open><![CDATA[9:00]]></open>
+                 <close><![CDATA[3:00]]></close>
+                 <sort_order><![CDATA[1]]></sort_order>
+               </item>
+               <item>
+                 <day_of_week><![CDATA[Monday]]></day_of_week>
+                 <open><![CDATA[8:00]]></open>
+                 <close><![CDATA[7:00]]></close>
+                 <sort_order><![CDATA[2]]></sort_order>
+               </item>
+               <item>
+                 <day_of_week><![CDATA[Tuesday]]></day_of_week>
+                 <open><![CDATA[8:00]]></open>
+                 <close><![CDATA[7:00]]></close>
+                 <sort_order><![CDATA[3]]></sort_order>
+               </item>
+               <item>
+                 <day_of_week><![CDATA[Wednesday]]></day_of_week>
+                 <open><![CDATA[9:00]]></open>
+                 <close><![CDATA[5:00]]></close>
+                 <sort_order><![CDATA[4]]></sort_order>
+               </item>
+               <item>
+                 <day_of_week><![CDATA[Thursday]]></day_of_week>
+                 <open><![CDATA[8:00]]></open>
+                 <close><![CDATA[7:00]]></close>
+                 <sort_order><![CDATA[5]]></sort_order>
+               </item>
+               <item>
+                 <day_of_week><![CDATA[Friday]]></day_of_week>
+                 <open><![CDATA[8:00]]></open>
+                 <close><![CDATA[7:00]]></close>
+                 <sort_order><![CDATA[6]]></sort_order>
+               </item>
+               <item>
+                 <day_of_week><![CDATA[Saturday]]></day_of_week>
+                 <open><![CDATA[9:00]]></open>
+                 <close><![CDATA[3:00]]></close>
+                 <sort_order><![CDATA[7]]></sort_order>
                </item>
              </items>
            </dataset>
