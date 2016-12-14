@@ -716,6 +716,17 @@
                         <p>We look forward to meeting you and getting to know you and your pet.</p>]]>
                       </body_text>
                   </item>
+              </items>
+          </templateset>
+
+          <!-- 7.1. Team -->
+          <templateset name="team" name_friendly="Team" view="meet_the_team" parent_item="about-us">
+              <fields>
+                  <text name="page_title" name_friendly="Page Title" required="1"/>
+                  <images name="main_image" name_friendly="Main Image" limit="1" />
+                  <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
+              </fields>
+              <items>
                   <item link_title="Meet the Team" path_part="meet-the-team" parent="about-us">
                       <page_title><![CDATA[Meet the Team]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
@@ -725,6 +736,17 @@
                           When your pet comes to Zesty Pet Clinic they become a part of our family too.</p>]]>
                       </body_text>
                   </item>
+              </items>
+          </templateset>
+
+          <!-- 7.2. Testimonials -->
+          <templateset name="testimonials" name_friendly="Testimonials" view="testimonials" parent_item="about-us">
+              <fields>
+                  <text name="page_title" name_friendly="Page Title" required="1"/>
+                  <images name="main_image" name_friendly="Main Image" limit="1" />
+                  <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
+              </fields>
+              <items>
                   <item link_title="Testimonials" path_part="testimonials" parent="about-us">
                       <page_title><![CDATA[Testimonials]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
@@ -732,6 +754,17 @@
                         <![CDATA[]]>
                     </body_text>
                   </item>
+              </items>
+          </templateset>
+
+          <!-- 7.3. Careers -->
+          <templateset name="careers" name_friendly="Careers" view="careers" parent_item="about-us">
+              <fields>
+                  <text name="page_title" name_friendly="Page Title" required="1"/>
+                  <images name="main_image" name_friendly="Main Image" limit="1" />
+                  <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
+              </fields>
+              <items>
                   <item link_title="Careers" path_part="careers" parent="about-us">
                       <page_title><![CDATA[Careers]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
@@ -739,6 +772,17 @@
                         <![CDATA[<h4>Join our team!</h4>]]>
                     </body_text>
                   </item>
+              </items>
+          </templateset>
+
+          <!-- 7.4. Our Videos -->
+          <templateset name="our_videos" name_friendly="Our Videos" view="our_videos" parent_item="about-us">
+              <fields>
+                  <text name="page_title" name_friendly="Page Title" required="1"/>
+                  <images name="main_image" name_friendly="Main Image" limit="1" />
+                  <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
+              </fields>
+              <items>
                   <item link_title="Our Videos" path_part="our-videos" parent="about-us">
                       <page_title><![CDATA[Our Videos]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
@@ -746,6 +790,17 @@
                         <![CDATA[<h4>Please checkout our videos below.</h4>]]>
                     </body_text>
                   </item>
+              </items>
+          </templateset>
+
+          <!-- 7.5. Our Photos -->
+          <templateset name="our_photos" name_friendly="Our Photos" view="our_photos" parent_item="about-us">
+              <fields>
+                  <text name="page_title" name_friendly="Page Title" required="1"/>
+                  <images name="main_image" name_friendly="Main Image" limit="1" />
+                  <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
+              </fields>
+              <items>
                   <item link_title="Our Photos" path_part="our-photos" parent="about-us">
                       <page_title><![CDATA[Our Photos]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
@@ -785,7 +840,7 @@
                 <item>
                   <employee_first_name><![CDATA[Dr. Bob]]></employee_first_name>
                   <employee_last_name><![CDATA[Henson]]></employee_last_name>
-                  <employee_photo><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></employee_photo>
+                  <employee_photo></employee_photo>
                   <employee_bio><![CDATA[<p>Dr. Bob has been practicing veterianary medicine for over 30 years. He brings his expertise in dogs, cats, farm animals, and exotics and a degree from Muppet Veterinary University to our humble office.</p>]]></employee_bio>
                   <employee_category><![CDATA[575]]></employee_category>
                   <sort_order><![CDATA[1]]></sort_order>
@@ -793,7 +848,7 @@
                 <item>
                   <employee_first_name><![CDATA[Nurse Piggy]]></employee_first_name>
                   <employee_last_name><![CDATA[Oz]]></employee_last_name>
-                  <employee_photo><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></employee_photo>
+                  <employee_photo></employee_photo>
                   <employee_bio><![CDATA[<p>Nurse Piggy comes to us with over 25 years of experience working in many types of animals. Her comforting bedside manner will be sure to put your pets at ease.</p>]]></employee_bio>
                   <employee_category><![CDATA[575]]></employee_category>
                   <sort_order><![CDATA[2]]></sort_order>
@@ -801,7 +856,7 @@
                 <item>
                   <employee_first_name><![CDATA[Nurse Janice]]></employee_first_name>
                   <employee_last_name><![CDATA[Hunt]]></employee_last_name>
-                  <employee_photo><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></employee_photo>
+                  <employee_photo></employee_photo>
                   <employee_bio><![CDATA[<p>Nurse Janice comes to use with 5 years of experience. For many years she was a travelling musician, until she decided to turn towards her love of animals.</p>]]></employee_bio>
                   <employee_category><![CDATA[575]]></employee_category>
                   <sort_order><![CDATA[3]]></sort_order>
@@ -809,7 +864,7 @@
                 <item>
                   <employee_first_name><![CDATA[Receptionist Sam]]></employee_first_name>
                   <employee_last_name><![CDATA[Eagle]]></employee_last_name>
-                  <employee_photo><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></employee_photo>
+                  <employee_photo></employee_photo>
                   <employee_bio><![CDATA[<p>Receptionist Sam feels it's his duty to help others and to run a very organized office. He loves to keep our office running and our clients and their pets happy.</p>]]></employee_bio>
                   <employee_category><![CDATA[574]]></employee_category>
                   <sort_order><![CDATA[4]]></sort_order>
