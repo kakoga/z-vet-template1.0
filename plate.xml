@@ -755,7 +755,7 @@
                   <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
               </fields>
               <items>
-                  <item link_title="Meet the Team" path_part="meet-the-team" parent="about-us">
+                  <item link_title="Meet the Team" path_part="meet-the-team" parent_item="about-us">
                       <page_title><![CDATA[Our Services]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                   </item>
