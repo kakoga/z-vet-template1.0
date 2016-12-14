@@ -576,6 +576,8 @@
           <templateset name="services" name_friendly="Services" view="services">
               <fields>
                   <text name="page_title" name_friendly="Page Title" required="1" />
+                  <images name="main_image" name_friendly="Main Image" list="1" />
+                  <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
               </fields>
               <items>
                   <item link_title="Services" path_part="services">

@@ -1,7 +1,5 @@
 <div id="promotions">
-	<div class="row main-image">
-		<img src="{{ page.main_image.getImage() }}" alt="kitten pic">
-	</div>
+	{{ include inner-page-hero }}
 	<div class="container">
 		<div class="row body-content">
 			{{ page.body_text }}
