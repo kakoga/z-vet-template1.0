@@ -6,7 +6,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 basic">
-				{{ contact_us.first().body_text }}
+				
 			</div>
 			<div class="col-md-6">
 				{{ contact_us.first().google_map_embed }}

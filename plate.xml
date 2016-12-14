@@ -231,33 +231,40 @@
           <templateset name="contact_us" name_friendly="Contact Us" view="contact_us">
               <fields>
                   <text name="page_title" name_friendly="Page Title" required="1"/>
-                  <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
+                  <images name="main_image" name_friendly="Main Image" limit="1" />
+                  <textarea name="address" name_friendly="Address" />
+                  <textarea name="general_info_one" name_friendly="General Info 1" />
+                  <textarea name="phone_number_one" name_friendly="Phone Number 1" />
+                  <textarea name="general_info_two" name_friendly="General Info 2" />
+                  <textarea name="phone_number_two" name_friendly="Phone Number 2" />
                   <textarea name="google_map_embed" name_friendly="Google Map Embed" />
               </fields>
               <items>
                   <item link_title="Contact Us" path_part="contact-us" parent_item="contact-us">
                       <page_title><![CDATA[Contact Us]]></page_title>
-                      <body_text>
+                      <images><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/kitten.Bk5E4z5Ge.1fc97b3c326478bf6afcb60e52679656.jpeg]]></images>
+                      <address>
                         <![CDATA[<h2>Zesty Pet Clinic</h2>
                           <p>1045 Sixth Avenue</p>
-                          <p>San Diego, CA 92101</p>
-                          </br>
-                          <p>Our Hours:</p>
-                          <ul>
-                          <li>Sunday 10am - 3pm</li>
-                          <li>Monday 9am - 7pm</li>
-                          <li>Tuesday 9am - 6pm</li>
-                          <li>Wednesday 9am - 7pm</li>
-                          <li>Thursday 9am - 6pm</li>
-                          <li>Friday 9am - 7pm</li>
-                          <li>Saturday 9am - 6pm</li>
-                          </ul>
-                          <p>For general information, questions, appointment requests, call us at:</p>
-                          <p>Tel: 555-555-5555</p>
-                          </br>
-                          <p>For after-hour emergencies, call our on-call doctor at:</p>
-                          <p>Tel: 1-800-555-5555</p>]]>
-                      </body_text>
+                          <p>San Diego, CA 92101</p>]]>
+                        </address>
+                        <!-- make this a data set -->
+
+                            <!-- <![CDATA[p>Our Hours:</p>
+                            <ul>
+                            <li>Sunday 10am - 3pm</li>
+                            <li>Monday 9am - 7pm</li>
+                            <li>Tuesday 9am - 6pm</li>
+                            <li>Wednesday 9am - 7pm</li>
+                            <li>Thursday 9am - 6pm</li>
+                            <li>Friday 9am - 7pm</li>
+                            <li>Saturday 9am - 6pm</li>
+                            </ul>]]> -->
+
+                          <general_info_one><![CDATA[For general information, questions, appointment requests, call us at:]]></general_info_one>
+                          <phone_number_one><![CDATA[555-555-5555]]></phone_number_one>
+                          <general_info_two><![CDATA[For after-hour emergencies, call our on-call doctor at:]]></general_info_two>
+                          <phone_number_two><![CDATA[1-800-555-5555]]></phone_number_two>
                       <google_map_embed><![CDATA[<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.860843071991!2d-117.16122958492363!3d32.7163252809904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d954a79ef0967f%3A0x74a5fd5ef322db6f!2sZesty.io!5e0!3m2!1sen!2sus!4v1480742044074" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>]]></google_map_embed>
                   </item>
               </items>
