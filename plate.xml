@@ -819,11 +819,11 @@
             <items>
               <item>
                 <employee_category><![CDATA[admin]]></employee_category>
-                <sort_order><![CDATA[1]]></sort_order>
+                <sort_order><![CDATA[2]]></sort_order>
               </item>
               <item>
                 <employee_category><![CDATA[professional]]></employee_category>
-                <sort_order><![CDATA[2]]></sort_order>
+                <sort_order><![CDATA[1]]></sort_order>
               </item>
             </items>
           </dataset>

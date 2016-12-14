@@ -1,8 +1,12 @@
 .hero-container {
 	background-size:100%;
 	background-attachment:fixed;
-	background-position:center 140%;
+	background-position:center top;
 	padding:25vh 0;
+	background-color:@gray;
+	&.no-image {
+		padding:10vh 0;
+	}
 	h2 {
 		color:#fff;
 		text-shadow:1px 1px 2px rgba(0,0,0,0.5);
@@ -18,29 +22,65 @@
 
 }
 
+a:hover {text-decoration:none;}
+
 .body-content {
 	padding: 50px 0 50px 0;
 	h2 {
 		font-size: 35px;
 		margin-top: 0
 	}
-	ul li {
-		list-style:none;
-		position:relative;
-		margin:5px 0;
-		padding-left:20px;
-		&:before {
-			font-family: fontawesome ;
-			content: "\f046";
-			position:absolute;
-			left:0;
-			top:-2px;
+	.body-text {
+		ul li {
+			list-style:none;
+			position:relative;
+			margin:5px 0;
+			padding-left:20px;
+			&:before {
+				font-family: fontawesome ;
+				content: "\f046";
+				position:absolute;
+				left:0;
+				top:-2px;
+			}
+		}
+		
+		a:hover {text-decoration:underline;}
+	}
+	.sectionlinks-container {
+		background:@theme-primary;
+		color:#fff;
+		margin-bottom:20px;
+		h3 a{
+			padding:10px 20px;
+			color:#fff;
+			display:block;
+		}
+		ul {
+			margin:0;
+			padding:0;
+			li {
+			margin:0;
+			padding:0;
+				list-style:none;
+				a {
+					display:block;
+					padding:9px 20px;
+					border-bottom:1px solid darken(@theme-primary,5%);
+					color:#fff;
+					line-height:1.4em;
+					&:hover, &.at {
+						background:lighten(@theme-primary,8%);
+					}
+					&:first-child {border-top:1px solid darken(@theme-primary,5%);}
+				}
+			}
 		}
 	}
 	.sidebar {
-		border-left:2px solid lighten(@theme-primary,30%);
+		border-left:2px solid lighten(@theme-primary,20%);
 		padding:20px;
-		background-color:@gray-lighter;
+		background-color:lighten(@gray-lighter,15%);
 		overflow:hidden;
 		.testimonial {
 			h4 {
@@ -49,7 +89,6 @@
 			}
 			p {
 				position:relative;
-				z-index:2;
 				&:before {
 					font-family: fontawesome;
 					content: "\f10d";
@@ -57,8 +96,7 @@
 					top:105px;
 					left:-45px;
 					font-size:296px;
-					color:lighten(@gray-light,42%);
-					z-index:1;
+					color:lighten(@gray-lighter,10%);
 					-ms-transform: rotate(-11deg); /* IE 9 */
 					-webkit-transform: rotate(-11deg); /* Chrome, Safari, Opera */
 					transform: rotate(-11deg);
@@ -70,9 +108,11 @@
 				}
 			}
 			h5 {
+					position:relative;
 				font-size:18px;
 			}
 			h6 {
+					position:relative;
 				font-size:15px;
 				color:@gray;
 			}

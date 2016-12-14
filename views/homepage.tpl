@@ -52,11 +52,11 @@
     </script>
 {{ include script-bg-vid }}
     <!-- Portfolio Grid Section (section 2) -->
-    <section id="portfolio" class="bg-light-gray">
+<section id="portfolio" class="bg-light-gray" style="background-image:url('{{ page.image2.getImage() }}');background-size:contain;backgound-position:left bottom;background-repeat:no-repeat;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 pull-left home-section-two-img">
-                  <img src="{{ page.image2.getImage(346,216,crop) }}">
+                  &nbsp;
                 </div>
                 <div class="col-lg-8">
                   <div class="row">
@@ -105,7 +105,7 @@
 
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <h4>{{page.button_text_3}}</h4>
+								<h4><a href="{{ truepath({page.button_links_to}) }}" >{{page.button_text_3}}</a></h4>
                                 <ul class="list-inline social-buttons">
                                     <li>
                                         <!-- <a class="hashtag-popopen" href="https://www.facebook.com/sharer/sharer.php?">

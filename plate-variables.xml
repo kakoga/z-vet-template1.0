@@ -521,7 +521,7 @@
                 <sort>5</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#fed136</value>
+                <value>#4864b1</value>
             </color>
             <color name="theme-danger-color" name_friendly="Theme Danger Color">
                 <category>1</category>
@@ -537,7 +537,7 @@
                 <sort>5</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#000</value>
+                <value>#181718</value>
             </color>
             <color name="body-bg-color" name_friendly="Body Background Color">
                 <category>1</category>
