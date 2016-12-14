@@ -716,28 +716,28 @@
                         <p>We look forward to meeting you and getting to know you and your pet.</p>]]>
                       </body_text>
                   </item>
-                  <item link_title="Testimonials" path_part="testimonials1" parent="about-us">
+                  <item link_title="Testimonials" path_part="testimonials" parent="about-us">
                       <page_title><![CDATA[Testimonials]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
                         <![CDATA[]]>
                     </body_text>
                   </item>
-                  <item link_title="Careers" path_part="careers1" parent="about-us">
+                  <item link_title="Careers" path_part="careers" parent="about-us">
                       <page_title><![CDATA[Careers]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
                         <![CDATA[<h4>Join our team!</h4>]]>
                     </body_text>
                   </item>
-                  <item link_title="Our Videos" path_part="our-videos1" parent="about-us">
+                  <item link_title="Our Videos" path_part="our-videos" parent="about-us">
                       <page_title><![CDATA[Our Videos]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
                         <![CDATA[<h4>Please checkout our videos below.</h4>]]>
                     </body_text>
                   </item>
-                  <item link_title="Our Photos" path_part="our-photos1" parent="about-us">
+                  <item link_title="Our Photos" path_part="our-photos" parent="about-us">
                       <page_title><![CDATA[Our Photos]]></page_title>
                       <main_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></main_image>
                       <body_text>
