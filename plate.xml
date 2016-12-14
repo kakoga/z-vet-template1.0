@@ -279,6 +279,10 @@
              </fields>
              <items>
                <item>
+                 <day_of_week></day_of_week>
+                 <open></open>
+                 <close></close>
+                 <sort_order></sort_order>
                </item>
              </items>
            </dataset>
