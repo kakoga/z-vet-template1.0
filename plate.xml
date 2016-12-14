@@ -248,24 +248,10 @@
                       <address_one><![CDATA[Zesty Pet Clinic]]></address_one>
                       <address_two><![CDATA[1045 Sixth Avenue]]></address_two>
                       <address_three><![CDATA[an Diego, CA 92101]]></address_three>
-
-                        <!-- make this a data set -->
-
-                            <!-- <![CDATA[p>Our Hours:</p>
-                            <ul>
-                            <li>Sunday 10am - 3pm</li>
-                            <li>Monday 9am - 7pm</li>
-                            <li>Tuesday 9am - 6pm</li>
-                            <li>Wednesday 9am - 7pm</li>
-                            <li>Thursday 9am - 6pm</li>
-                            <li>Friday 9am - 7pm</li>
-                            <li>Saturday 9am - 6pm</li>
-                            </ul>]]> -->
-
-                          <general_info_one><![CDATA[For general information, questions, appointment requests, call us at:]]></general_info_one>
-                          <phone_number_one><![CDATA[555-555-5555]]></phone_number_one>
-                          <general_info_two><![CDATA[For after-hour emergencies, call our on-call doctor at:]]></general_info_two>
-                          <phone_number_two><![CDATA[1-800-555-5555]]></phone_number_two>
+                      <general_info_one><![CDATA[For general information, questions, appointment requests, call us at:]]></general_info_one>
+                      <phone_number_one><![CDATA[555-555-5555]]></phone_number_one>
+                      <general_info_two><![CDATA[For after-hour emergencies, call our on-call doctor at:]]></general_info_two>
+                      <phone_number_two><![CDATA[1-800-555-5555]]></phone_number_two>
                       <google_map_embed><![CDATA[<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.860843071991!2d-117.16122958492363!3d32.7163252809904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d954a79ef0967f%3A0x74a5fd5ef322db6f!2sZesty.io!5e0!3m2!1sen!2sus!4v1480742044074" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>]]></google_map_embed>
                   </item>
               </items>
@@ -662,7 +648,16 @@
                           <li>Dental Services</li>
                           <li>General Care and Care Packages</li>
                         </ul>
-                        <p>We're located conveniently close to public transportation in sunny downtown San Diego near the historical Gaslamp Quarter.</p>]]>
+                        <p>We're located conveniently close to public transportation in sunny downtown San Diego near the historical Gaslamp Quarter.</p>
+                        <p>Our hospital was first established as Pet Hospital of North Park in 2004 by Dr. Bob. Dr. Bob graduated from University of Animal Medicine in 1980, and from University of Muppetology in 1985. He is a third generaiton veterinarian, and the Scottie Dog icon was originally used at his grandfather's practice in 1934 in swamps of Lousiana. Nurse Piggy and Nurse Janice joined the practice in 2010 after studying at a local college.</p>
+
+                        <blockquote>Zesty Pet Clinic's mission is to provide sound medicine and quality customer service at a reasonable price.</blockquote>
+
+                        <p>Our philosophy for care is that, as a team, we can only be as strong as our weakest link, therefore it's our goal that every member of our staff can make the best recommendations for a pet's health, wellness, nutrition, and behavior.</p>
+
+                        <blockquote>We strive for all team members to provide the highest level of general medicine care to every pet that comes in the door. Our prices aim to allow for all owners to affordably maintain basic wellness routines.</blockquote>
+
+                        <p>We look forward to meeting you and getting to know you and your pet.</p>]]>
                       </body_text>
                   </item>
                   <item link_title="Meet the Team" path_part="meet-the-team" parent="about-us">
