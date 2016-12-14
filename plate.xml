@@ -746,7 +746,6 @@
                   </item>
               </items>
           </templateset>
-          <!-- 7.1 Meet The Team -->
           <templateset name="about_us2" name_friendly="About Us 2" view="about_us2">
               <fields>
                   <text name="page_title" name_friendly="Page Title" required="1"/>
