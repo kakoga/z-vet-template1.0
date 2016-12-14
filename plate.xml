@@ -720,7 +720,7 @@
           </templateset>
 
           <!-- 7.1. Team -->
-          <templateset name="team" name_friendly="Team" view="meet_the_team" parent_item="about-us">
+          <templateset name="team" name_friendly="Team" view="team" parent_item="about-us">
               <fields>
                   <text name="page_title" name_friendly="Page Title" required="1"/>
                   <images name="main_image" name_friendly="Main Image" limit="1" />
@@ -842,7 +842,7 @@
                   <employee_last_name><![CDATA[Henson]]></employee_last_name>
                   <employee_photo><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></employee_photo>
                   <employee_bio><![CDATA[<p>Dr. Bob has been practicing veterianary medicine for over 30 years. He brings his expertise in dogs, cats, farm animals, and exotics and a degree from Muppet Veterinary University to our humble office.</p>]]></employee_bio>
-                  <employee_category><![CDATA[575]]></employee_category>
+                  <employee_category><![CDATA[589]]></employee_category>
                   <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item>
@@ -850,7 +850,7 @@
                   <employee_last_name><![CDATA[Oz]]></employee_last_name>
                   <employee_photo><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></employee_photo>
                   <employee_bio><![CDATA[<p>Nurse Piggy comes to us with over 25 years of experience working in many types of animals. Her comforting bedside manner will be sure to put your pets at ease.</p>]]></employee_bio>
-                  <employee_category><![CDATA[575]]></employee_category>
+                  <employee_category><![CDATA[589]]></employee_category>
                   <sort_order><![CDATA[2]]></sort_order>
                 </item>
                 <item>
@@ -858,7 +858,7 @@
                   <employee_last_name><![CDATA[Hunt]]></employee_last_name>
                   <employee_photo><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></employee_photo>
                   <employee_bio><![CDATA[<p>Nurse Janice comes to use with 5 years of experience. For many years she was a travelling musician, until she decided to turn towards her love of animals.</p>]]></employee_bio>
-                  <employee_category><![CDATA[575]]></employee_category>
+                  <employee_category><![CDATA[589]]></employee_category>
                   <sort_order><![CDATA[3]]></sort_order>
                 </item>
                 <item>
@@ -866,7 +866,7 @@
                   <employee_last_name><![CDATA[Eagle]]></employee_last_name>
                   <employee_photo><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></employee_photo>
                   <employee_bio><![CDATA[<p>Receptionist Sam feels it's his duty to help others and to run a very organized office. He loves to keep our office running and our clients and their pets happy.</p>]]></employee_bio>
-                  <employee_category><![CDATA[574]]></employee_category>
+                  <employee_category><![CDATA[588]]></employee_category>
                   <sort_order><![CDATA[4]]></sort_order>
                 </item>
               </items>
