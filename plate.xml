@@ -248,7 +248,7 @@
                       <address_one><![CDATA[Zesty Pet Clinic]]></address_one>
                       <address_two><![CDATA[1045 Sixth Avenue]]></address_two>
                       <address_three><![CDATA[an Diego, CA 92101]]></address_three>
-                        
+
                         <!-- make this a data set -->
 
                             <!-- <![CDATA[p>Our Hours:</p>
@@ -270,6 +270,18 @@
                   </item>
               </items>
           </templateset>
+           <dataset name="hours_of_operation" name_friendly="Hours of Operation" parent_item="contact-us">
+             <fields>
+                 <text name="day_of_week" name_friendly="Day of Week" list="1" />
+                 <text name="open" name_friendly="Open" list="1" />
+                 <text name="close" name_friendly="Close" list="1" />
+                 <sort name="sort_order" name_friendly="Sort Order" list="1" />
+             </fields>
+             <items>
+               <item>
+               </item>
+             </items>
+           </dataset>
           <!-- CONTACT US END -->
 
           <!-- 3. RESOURCES -->
