@@ -8,6 +8,7 @@
 					{{ page.body_text }}
 				</div>
 				<div class="col-md-3" >
+					{{ include sectionlinks }}
 					{{ include inner-page-sidebar }}
 				</div>
 			</div>

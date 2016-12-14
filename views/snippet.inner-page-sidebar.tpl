@@ -10,7 +10,7 @@
 	{{ end-each }}
 	<hr/>
 	<a class="btn btn-primary" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode=1359" target="_blank">Request Appointment</a>
-	{{ if {page.body_text.substr(1000,1001)} != '' }}
+	{{ if {page.body_text.substr(4500,4501)} != '' }}
 	{{ each promo as pro sort by pro.sort_order limit 1 }}
 	<div class="promo" >
 		<h4>{{ pro.promo_title }}</h4>
