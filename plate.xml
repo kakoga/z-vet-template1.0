@@ -24,7 +24,7 @@
             <text name="product_nick_name" name_friendly="Product Nick Name (used in for short form product refernces)" required="1"><![CDATA[Services]]></text>
 
 
-
+            <text name="petdesk_ref_code" name_friendly="Petdesk Reference Code" required="1" />
             <text name="form_webhook" name_friendly="Form Webhook (optional)" />
             <text name="form_button_text" name_friendly="Form Button Text" required="1"><![CDATA[Join]]></text>
         </clippings>
