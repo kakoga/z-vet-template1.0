@@ -93,7 +93,7 @@
                   <internal_link name="into_links_to" name_friendly="Intro Button Links To" />
                   <!-- section 3: timeline text fields -->
                   <text name="title3" name_friendly="Timeline Title" />
-                  <text name="sub_title3" name_friendly="Title Subtitle" />
+                  <text name="sub_title3" name_friendly="Timeline Subtitle" />
                   <text name="button_text_3" name_friendly="Timeline Button Text" />
                   <!-- section 4: squares fields -->
                   <text name="title4" name_friendly="Homepage Squares Title" />
