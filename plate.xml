@@ -29,35 +29,7 @@
             <text name="form_button_text" name_friendly="Form Button Text"><![CDATA[Join]]></text>
         </clippings>
         <ingredients>
-          <!-- Homepage Timeline Dataset -->
-          <dataset name="home_page_about_timeline" name_friendly="Homepage Timeline" parent_item="zesty_home">
-              <fields>
-                  <text name="timeframe" name_friendly="Name of Feature Logo"/>
-                  <text name="title" name_friendly="Name of Feature Logo"/>
-                  <images name="image" name_friendly="Logo" limit="1" />
-                  <textarea name="short_blurb" name_friendly="Short Blurb" />
-              </fields>
-              <items>
-                  <item link_title="" path_part="">
-                      <timeframe><![CDATA[Baby]]></timeframe>
-                      <title><![CDATA[Small Beginnings]]></title>
-                      <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/timeline-kitten.jpeg]]></image>
-                      <short_blurb><![CDATA[Give your baby animal the best with our Baby Health and Wellness Package, which includes vaccines, a wellness check, and grooming.]]></short_blurb>
-                  </item>
-                  <item link_title="" path_part="">
-                      <timeframe><![CDATA[Adult]]></timeframe>
-                      <title><![CDATA[Prime-of-life]]></title>
-                      <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/timeline-adult.jpg]]></image>
-                      <short_blurb><![CDATA[Make sure your adult stays healthy our Adult Health and Wellness Package which includes a wellness exam, vaccine boosters, a heartworm check, and more.]]></short_blurb>
-                  </item>
-                  <item link_title="" path_part="">
-                      <timeframe><![CDATA[Senior]]></timeframe>
-                      <title><![CDATA[Healthy & Active in Old Age]]></title>
-                      <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/timeline-senior.jpg]]></image>
-                      <short_blurb><![CDATA[Make sure your senior has the best quality of life with our Senior Care Package. We'll help you keep your pet healthy with a comprehensive exam, blood work, x-rays and more to ensure your pets health well into old age.]]></short_blurb>
-                  </item>
-              </items>
-          </dataset>
+
           <dataset name="social_links" name_friendly="Social Links">
               <fields>
                   <text name="name" name_friendly="Social Media Name" />
@@ -180,6 +152,35 @@
                   <sort_order><![CDATA[3]]></sort_order>
                 </item>
               </items>
+            </dataset>
+            <!-- Homepage Timeline Dataset -->
+            <dataset name="home_page_about_timeline" name_friendly="Homepage Timeline" parent_item="zesty_home">
+                <fields>
+                    <text name="timeframe" name_friendly="Name of Feature Logo"/>
+                    <text name="title" name_friendly="Name of Feature Logo"/>
+                    <images name="image" name_friendly="Logo" limit="1" />
+                    <textarea name="short_blurb" name_friendly="Short Blurb" />
+                </fields>
+                <items>
+                    <item link_title="" path_part="">
+                        <timeframe><![CDATA[Baby]]></timeframe>
+                        <title><![CDATA[Small Beginnings]]></title>
+                        <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/timeline-kitten.jpeg]]></image>
+                        <short_blurb><![CDATA[Give your baby animal the best with our Baby Health and Wellness Package, which includes vaccines, a wellness check, and grooming.]]></short_blurb>
+                    </item>
+                    <item link_title="" path_part="">
+                        <timeframe><![CDATA[Adult]]></timeframe>
+                        <title><![CDATA[Prime-of-life]]></title>
+                        <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/timeline-adult.jpg]]></image>
+                        <short_blurb><![CDATA[Make sure your adult stays healthy our Adult Health and Wellness Package which includes a wellness exam, vaccine boosters, a heartworm check, and more.]]></short_blurb>
+                    </item>
+                    <item link_title="" path_part="">
+                        <timeframe><![CDATA[Senior]]></timeframe>
+                        <title><![CDATA[Healthy & Active in Old Age]]></title>
+                        <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/timeline-senior.jpg]]></image>
+                        <short_blurb><![CDATA[Make sure your senior has the best quality of life with our Senior Care Package. We'll help you keep your pet healthy with a comprehensive exam, blood work, x-rays and more to ensure your pets health well into old age.]]></short_blurb>
+                    </item>
+                </items>
             </dataset>
 
           <!-- 1. SIMPLE PAGE -->
