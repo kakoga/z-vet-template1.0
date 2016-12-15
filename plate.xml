@@ -30,7 +30,7 @@
         </clippings>
         <ingredients>
           <!-- Homepage Timeline Dataset -->
-          <dataset name="home_page_about_timeline" name_friendly="Homepage Timeline">
+          <dataset name="home_page_about_timeline" name_friendly="Homepage Timeline" parent_item="zesty_home">
               <fields>
                   <text name="timeframe" name_friendly="Name of Feature Logo"/>
                   <text name="title" name_friendly="Name of Feature Logo"/>
@@ -152,7 +152,8 @@
                     </item>
                 </items>
             </dataset>
-          <dataset name="homepage_squares" name_friendly="Homepage Squares">
+            <!-- Homepage squares dataset -->
+          <dataset name="homepage_squares" name_friendly="Homepage Squares" parent_item="zesty_home">
               <fields>
                 <text name="image_title" name_friendly="Image Title" list="1" />
                 <images name="image" name_friendly="Image" list="1" />
