@@ -92,12 +92,12 @@
                   <text name="button_text_2" name_friendly="Button Text for Intro" />
                   <internal_link name="into_links_to" name_friendly="Intro Button Links To" />
                   <!-- section 3: timeline text fields -->
-                  <text name="title3" name_friendly="Sub Title (Section 3)" />
-                  <text name="sub_title3" name_friendly="Title (Section 3)" />
-                  <text name="button_text_3" name_friendly="Button Text (Section 3)" />
+                  <text name="title3" name_friendly="Timeline Title" />
+                  <text name="sub_title3" name_friendly="Title Subtitle" />
+                  <text name="button_text_3" name_friendly="Timeline Button Text" />
                   <!-- section 4: squares fields -->
-                  <text name="title4" name_friendly="Title (Section 4)" />
-                  <text name="sub_title4" name_friendly="Sub Title (Section 4)" />
+                  <text name="title4" name_friendly="Homepage Squares Title" />
+                  <text name="sub_title4" name_friendly="Homepage Squares Subtitle" />
 
               </fields>
               <items>
