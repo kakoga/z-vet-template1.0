@@ -22,8 +22,6 @@
             <text name="footer_text" name_friendly="Footer Text"><![CDATA[Zesty.io Brand Epicenter]]></text>
             <text name="global_hashtag" name_friendly="Global Hashtag (tied to all areas of the site)"><![CDATA[#zestypetclinic]]></text>
             <text name="product_nick_name" name_friendly="Product Nick Name (used in for short form product references)"><![CDATA[Services]]></text>
-
-
             <text name="petdesk_ref_code" name_friendly="Petdesk Reference Code" required="1" />
             <text name="form_webhook" name_friendly="Form Webhook (optional)" />
             <text name="form_button_text" name_friendly="Form Button Text"><![CDATA[Join]]></text>
