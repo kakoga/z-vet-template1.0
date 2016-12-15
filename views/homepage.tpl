@@ -5,7 +5,7 @@
         {{ each homepage_slides as slide sort by slide.sort_order }}
         {{ if {slide.background_video} }}
         <div class=""  >
-            
+
             <header  data-vide-bg="mp4: {{ slide.background_video.getMediaURL() }}{{if {slide.background_image} }}, poster: {{slide.background_image.getMediaURL()}}{{ end-if }}" data-vide-options=" loop: true, muted: true, position: 50% 50%">
                 <div class="container">
                     <div class="intro-text">
@@ -18,7 +18,7 @@
         </div>
         {{ else }}
         <div class=""  >
-            
+
             <header style="background-image:url('{{slide.background_image.getImage(2500)}}')">
                 <div class="container">
                     <div class="intro-text">
@@ -75,8 +75,8 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">{{page.title3}}</h2>
-                <h3 class="section-subheading text-muted">{{page.sub_title3}}</h3>
+                <h2 class="section-heading">{{page.timeline_title}}</h2>
+                <h3 class="section-subheading text-muted">{{page.timeline_subtitle}</h3>
             </div>
         </div>
         <div class="row">
@@ -102,10 +102,10 @@
                             </div>
                     </li>
                     {{end-each}}
-                    
+
                     <li class="timeline-inverted">
                         <div class="timeline-image">
-                            <h4><a href="{{ truepath({page.button_links_to}) }}" >{{page.button_text_3}}</a></h4>
+                            <h4><a href="{{ truepath({page.button_links_to}) }}" >{{page.timeline_button_text}}</a></h4>
                             <ul class="list-inline social-buttons">
                                 <li>
                                     <!-- <a class="hashtag-popopen" href="https://www.facebook.com/sharer/sharer.php?">
@@ -127,7 +127,7 @@
 </section>
 
 <!-- Portfolio Grid Section (section 2) -->
-<section id="portfolio" class="bg-light-gray" style="background-image:url('{{ page.image2.getImage() }}');background-size:contain;backgound-position:left bottom;background-repeat:no-repeat;">
+<section id="portfolio" class="bg-light-gray" style="background-image:url('{{ page.image_intro_section.getImage() }}');background-size:contain;backgound-position:left bottom;background-repeat:no-repeat;">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 pull-left home-section-two-img">
@@ -135,12 +135,12 @@
             </div>
             <div class="col-lg-6">
                 <div class="row">
-                    <h2 class="section-heading pull-left home-section-two">{{page.title2}}</h2>
+                    <h2 class="section-heading pull-left home-section-two">{{page.title_intro_section}}</h2>
                 </div>
                 <div class="row">
-                    <p class="pull-left home-section-two">{{ page.body_text_2 }}</p>
-                    {{ if {page.button_text_2} }}
-                    <p><a class="btn btn-primary" href="{{ page.into_links_to }}" >{{ page.button_text_2 }}</a></p>
+                    <p class="pull-left home-section-two">{{ page.intro_section_copy }}</p>
+                    {{ if {page.button_text_intro} }}
+                    <p><a class="btn btn-primary" href="{{ page.intro_button_link_to }}" >{{ page.button_text_intro }}</a></p>
                     {{ end-if }}
                 </div>
             </div>

@@ -84,35 +84,35 @@
           <templateset name="homepage" name_friendly="Homepage" view="homepage">
               <fields>
                   <!-- section 2: pet image and text fields-->
-                  <text name="title2" name_friendly="Title for Intro Section" />
-                  <images name="image2" name_friendly="Intro Section Image" limit="1" />
-                  <wysiwyg_advanced name="body_text_2" name_friendly="Intro Section Copy" />
-                  <text name="button_text_2" name_friendly="Button Text for Intro" />
-                  <internal_link name="into_links_to" name_friendly="Intro Button Links To" />
+                  <text name="title_intro_section" name_friendly="Title for Intro Section" />
+                  <images name="image_intro_section" name_friendly="Intro Section Image" limit="1" />
+                  <wysiwyg_advanced name="intro_section_copy" name_friendly="Intro Section Copy" />
+                  <text name="button_text_intro" name_friendly="Button Text for Intro" />
+                  <internal_link name="intro_button_link_to" name_friendly="Intro Button Links To" />
                   <!-- section 3: timeline text fields -->
-                  <text name="title3" name_friendly="Sub Title (Section 3)" />
-                  <text name="sub_title3" name_friendly="Title (Section 3)" />
-                  <text name="button_text_3" name_friendly="Button Text (Section 3)" />
+                  <text name="timeline_title" name_friendly="Timeline Title" />
+                  <text name="timeline_subtitle" name_friendly="Timeline Subtitle" />
+                  <text name="timeline_button_text" name_friendly="Timeline Button Text" />
                   <!-- section 4: squares fields -->
-                  <text name="title4" name_friendly="Title (Section 4)" />
-                  <text name="sub_title4" name_friendly="Sub Title (Section 4)" />
+                  <text name="squares_title" name_friendly="Squares Title" />
+                  <text name="squares_subtitle" name_friendly="Squares Subtitle" />
 
               </fields>
               <items>
                   <item link_title="Home" path_part="zesty_home">
                       <!-- section 2: pet image and text -->
-                      <title2><![CDATA[Zesty Pet Clinic]]></title2>
-                      <image2><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/cat-trans-bg.png]]></image2>
-                      <body_text_2><![CDATA[<p>From pre-appointment to post-appointment we take care of you every step of the way. We ensure that your pet is well cared for and that you can be comfortable with the decisions that you're making because you're well-informed of all your options. We'll treat your companion with compassionate care.</p>]]></body_text_2>
-                      <button_text_2><![CDATA[Learn More]]></button_text_2>
-                        <into_links_to><![CDATA[501]]></into_links_to>
+                      <title_intro_section><![CDATA[Zesty Pet Clinic]]></title_intro_section>
+                      <image_intro_section><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/cat-trans-bg.png]]></image_intro_section>
+                      <intro_section_copy><![CDATA[<p>From pre-appointment to post-appointment we take care of you every step of the way. We ensure that your pet is well cared for and that you can be comfortable with the decisions that you're making because you're well-informed of all your options. We'll treat your companion with compassionate care.</p>]]></intro_section_copy>
+                      <button_text_intro><![CDATA[Learn More]]></button_text_intro>
+                        <intro_button_link_to><![CDATA[501]]></intro_button_link_to>
                       <!-- section 3: timeline text -->
-                      <title3><![CDATA[Pet Care for Every Age]]></title3>
-                      <sub_title3><![CDATA[We offer the best care for pets of all ages]]></sub_title3>
-                      <button_text_3><![CDATA[Discover our services]]></button_text_3>
+                      <timeline_title><![CDATA[Pet Care for Every Age]]></timeline_title>
+                      <timeline_subtitle><![CDATA[We offer the best care for pets of all ages]]></timeline_subtitle>
+                      <timeline_button_text><![CDATA[Discover our services]]></timeline_button_text>
                       <!-- section 4: squares -->
-                      <title4><![CDATA[YOU BUILD PRODUCTS THAT CHANGE LIVES.]]></title4>
-                      <sub_title4><![CDATA[Let your customers tell others how]]></sub_title4>
+                      <squares_title><![CDATA[]]></squares_title>
+                      <squares_subtitle><![CDATA[]]></squares_subtitle>
 
                   </item>
               </items>
