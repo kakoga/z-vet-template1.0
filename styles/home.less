@@ -10,7 +10,7 @@
 		transition:all ease 250ms;
 	}
 	h3 {
-		background:rgba(255,255,255,0.45);
+			background:fade(@theme-primary,40%);
 		padding:20px;
 		text-align:center;
 		color:@accent-color;
@@ -18,7 +18,7 @@
 		bottom:0;
 		width:100%;
 		margin:0;
-		color:@theme-primary;
+		color:#fff;
 		transition:all ease 250ms;
 	}
 	a.btn {
@@ -32,6 +32,8 @@
 		transition:all ease 250ms;
 		border-radius:0;
 		padding:0;
+		background:@brand-primary;
+		border-color:@brand-primary;
 	}
 	&:hover {
 		img {
@@ -40,7 +42,8 @@
 		}
 
 		h3 {
-			background:rgba(255,255,255,0.9);
+			background:fade(@theme-primary,90%);
+			color:#fff;
 			bottom:50px;
 		}
 		a.btn {

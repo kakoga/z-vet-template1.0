@@ -19,14 +19,9 @@
         <clippings>
             <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[Zesty Pet Clinic]]></text>
             <images name="logo" name_friendly="Site Logo" limit="1" />
-            <text name="footer_text" name_friendly="Footer Text"><![CDATA[Zesty.io Brand Epicenter]]></text>
-            <text name="global_hashtag" name_friendly="Global Hashtag (tied to all areas of the site)"><![CDATA[#zestypetclinic]]></text>
-            <text name="product_nick_name" name_friendly="Product Nick Name (used in for short form product references)"><![CDATA[Services]]></text>
-
-
-            <text name="petdesk_ref_code" name_friendly="Petdesk Reference Code" required="1" />
-            <text name="form_webhook" name_friendly="Form Webhook (optional)" />
-            <text name="form_button_text" name_friendly="Form Button Text"><![CDATA[Join]]></text>
+            <text name="footer_text" name_friendly="Footer Text"><![CDATA[PetDesk with Zesty.io]]></text>
+            <text name="phone" name_friendly="Main Phone"><![CDATA[555-555-5555]]></text>
+            <text name="petdesk_ref_code" name_friendly="Petdesk Reference Code"><![CDATA[1359]]></text>
         </clippings>
         <ingredients>
 
@@ -75,8 +70,8 @@
               <items>
                   <item link_title="Home" path_part="zesty_home">
                     <!-- section 1: squares -->
-                    <title4><![CDATA[YOU BUILD PRODUCTS THAT CHANGE LIVES.]]></title4>
-                    <sub_title4><![CDATA[Let your customers tell others how]]></sub_title4>
+                    <title4><![CDATA[]]></title4>
+                    <sub_title4><![CDATA[]]></sub_title4>
                       <!-- section 2: timeline text -->
                       <title3><![CDATA[Pet Care for Every Age]]></title3>
                       <sub_title3><![CDATA[We offer the best care for pets of all ages]]></sub_title3>
@@ -162,6 +157,8 @@
                   <text name="image_title" name_friendly="Image Title" list="1" />
                   <images name="image" name_friendly="Image" list="1" />
                   <wysiwyg_advanced name="image_caption" name_friendly="Image Caption" list="1" />
+                    <text name="button_text" name_friendly="Button Text" list="1" />
+                    <internal_link name="links_to" name_friendly="Links To" list="1" />
                   <sort name="sort_order" name_friendly="Sort Order" list="1" />
                 </fields>
                 <items>
@@ -169,18 +166,24 @@
                     <image_title><![CDATA[Care Packages]]></image_title>
                     <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-1.jpg]]></image>
                     <image_caption><![CDATA[<p>We offer care packages for each stage of life.</p>]]></image_caption>
+                        <button_text><![CDATA[Learn More]]></button_text>
+                        <links_to><![CDATA[501]]></links_to>
                     <sort_order><![CDATA[1]]></sort_order>
                   </item>
                   <item>
                     <image_title><![CDATA[Day Care]]></image_title>
                     <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-2.jpeg]]></image>
                     <image_caption></image_caption>
+                        <button_text><![CDATA[Learn More]]></button_text>
+                        <links_to><![CDATA[501]]></links_to>
                     <sort_order><![CDATA[2]]></sort_order>
                   </item>
                   <item>
                     <image_title><![CDATA[Services]]></image_title>
                     <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-3.jpg]]></image>
                     <image_caption></image_caption>
+                        <button_text><![CDATA[Learn More]]></button_text>
+                        <links_to><![CDATA[501]]></links_to>
                     <sort_order><![CDATA[3]]></sort_order>
                   </item>
                 </items>
@@ -236,6 +239,7 @@
                   <textarea name="general_info_one" name_friendly="General Info 1" />
                   <textarea name="phone_number_one" name_friendly="Phone Number 1" />
                   <textarea name="general_info_two" name_friendly="General Info 2" />
+                  <textarea name="hours_title" name_friendly="Hours Title, e.g. Hours of Operation" />
                   <textarea name="phone_number_two" name_friendly="Phone Number 2" />
                   <textarea name="special_hours_info" name_friendly="Special Hours Info" />
                   <textarea name="general_info_three" name_friendly="General Info 3" />
@@ -252,6 +256,7 @@
                       <phone_number_one><![CDATA[555-555-5555]]></phone_number_one>
                       <general_info_two><![CDATA[For after-hour emergencies, call our on-call doctor at:]]></general_info_two>
                       <phone_number_two><![CDATA[1-800-555-5555]]></phone_number_two>
+                      <hours_title><![CDATA[Hours]]></hours_title>
                       <special_hours_info><![CDATA[Special Holiday Hours: We'll be closing at 3pm Christmas Eve and New Years Eve. We'll be closed on Thanksgiving, Christmas and New Years Day.]]></special_hours_info>
                       <general_info_three><![CDATA[We're available for holiday boarding. Call us for more information.]]></general_info_three>
                       <google_map_embed><![CDATA[<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.860843071991!2d-117.16122958492363!3d32.7163252809904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d954a79ef0967f%3A0x74a5fd5ef322db6f!2sZesty.io!5e0!3m2!1sen!2sus!4v1480742044074" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>]]></google_map_embed>

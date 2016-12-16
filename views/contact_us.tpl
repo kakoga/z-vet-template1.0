@@ -12,7 +12,7 @@
 					<p>{{ page.phone_number_one }}</p>
 					<p>{{ page.general_info_two }}</p>
 					<p>{{ page.phone_number_two }}</p>
-					<h4>Hours of Operation</h4>
+					<h4>{{ page.hours_title }}</h4>
 					{{ each hours_of_operation as hours sort by hours.sort_order }}
 					<p><span class="days">{{ hours.day_of_week}}</span> {{ hours.open}}am - {{ hours.close }}pm</p>
 					{{ end-each }}

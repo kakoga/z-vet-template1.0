@@ -120,7 +120,7 @@ img {
 }
 #mainNav {
     #request {
-        margin: 8px;
+        margin: 8px 0;
         @media (max-width: 768px) {
             position:fixed;
             bottom:0;
@@ -132,6 +132,23 @@ img {
             transition:all ease 250ms;
         }
         
+    }
+    .number {
+        h6 {
+            color:#fff;
+            margin:4px 0;
+            
+            @media (max-width: 768px) {
+                display:none;
+                
+            }
+        }
+        h3 {
+            margin:2px 0;
+            a {
+                color:@brand-primary;
+            }
+        }
     }
 }
 
@@ -181,7 +198,13 @@ img {
         }
     }
     .nav {
+        text-align:center;
         li {
+            
+            @media(min-width:768px) {
+                float:none;
+            display:inline-block;
+            }
             a {
                 .heading-font;
                 font-weight: 400;
@@ -210,28 +233,31 @@ img {
     &.always-dark{
         background-color: @gray-darker !important;
     }
-    @media(min-width:768px) {
-        &:not(.always-dark) { 
+    &:not(.always-dark) { 
+        @media(min-width:768px) {
+        background:fade(@gray-dark,35%);
+            /*
             .brand-image{
-                padding: 15px 20px !important;
-                margin-top: 0px;
-                background:fade(@gray-darker,75%);
-                border-radius:6px;
-                
-                img {
-                    max-height: 30px;
-                    max-width: 190px;
-                    margin-top: -10px;
-                    width:auto;
-                    display:inline-block;
-                    @media(max-width:768px) {
-                        max-height: 35px;
-                        max-width: 190px;
-                        margin-top: 13px;
-                        margin-left: 10px;
-                    }
-                }
-            }
+            padding: 15px 20px !important;
+            margin-top: 0px;
+            background:fade(@gray-darker,75%);
+            border-radius:6px;
+            
+            img {
+            max-height: 30px;
+            max-width: 190px;
+            margin-top: -10px;
+            width:auto;
+            display:inline-block;
+            @media(max-width:768px) {
+            max-height: 35px;
+            max-width: 190px;
+            margin-top: 13px;
+            margin-left: 10px;
+        }
+        }
+        }
+            */
         }
     }
 }

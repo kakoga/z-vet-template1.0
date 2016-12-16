@@ -11,7 +11,9 @@
                     <div class="intro-text">
                         <div class="intro-lead-in">{{slide.title}}</div>
                         <div class="intro-heading">{{slide.second_line}}</div>
+                        {{ if {slide.button_text} }}
                         <a href="{{ truepath({slide.links_to}) }}" class="page-scroll btn btn-xl">{{slide.button_text}}</a>
+                        {{ end-if }}
                     </div>
                 </div>
             </header>
@@ -24,7 +26,9 @@
                     <div class="intro-text">
                         <div class="intro-lead-in">{{slide.title}}</div>
                         <div class="intro-heading">{{slide.second_line}}</div>
+                        {{ if {slide.button_text} }}
                         <a href="{{ truepath({slide.links_to}) }}" class="page-scroll btn btn-xl">{{slide.button_text}}</a>
+                        {{ end-if }}
                     </div>
                 </div>
             </header>
@@ -54,14 +58,16 @@
 
 <!-- Team Section (section 4) -->
 <section id="team" class="bg-light-gray">
-    <div class="container">
+    <div class="padding20" style="padding:20px;">
         <div class="row">
             {{ each homepage_squares as square sort by square.sort_order }}
             <div class="col-md-4">
                 <div class="square-wrap">
                     <img src="{{ square.image.getImage() }}">
                     <h3>{{ square.image_title }}</h3>
-                    <a class="btn btn-lg btn-primary" href="#">Learn More</a>
+                    {{ if {square.button_text} }}
+                    <a class="btn btn-lg btn-primary" href="{{ truepath({square.links_to}) }}">{{ square.button_text }}</a>
+                    {{ end-if }}
                 </div>
             </div>
             {{ end-each }}
@@ -105,7 +111,9 @@
 
                     <li class="timeline-inverted">
                         <div class="timeline-image">
+                            {{ if {page.button_text_3} }}
                             <h4><a href="{{ truepath({page.button_links_to}) }}" >{{page.button_text_3}}</a></h4>
+                            {{ end-if }}
                             <ul class="list-inline social-buttons">
                                 <li>
                                     <!-- <a class="hashtag-popopen" href="https://www.facebook.com/sharer/sharer.php?">
@@ -140,7 +148,7 @@
                 <div class="row">
                     <p class="pull-left home-section-two">{{ page.body_text_2 }}</p>
                     {{ if {page.button_text_2} }}
-                    <p><a class="btn btn-primary" href="{{ page.into_links_to }}" >{{ page.button_text_2 }}</a></p>
+                    <p><a class="btn btn-primary" href="{{ truepath({page.into_links_to}) }}" >{{ page.button_text_2 }}</a></p>
                     {{ end-if }}
                 </div>
             </div>
