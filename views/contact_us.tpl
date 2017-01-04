@@ -14,7 +14,7 @@
 					<p>{{ page.phone_number_two }}</p>
 					<h4>{{ page.hours_title }}</h4>
 					{{ each hours_of_operation as hours sort by hours.sort_order }}
-					<p><span class="days">{{ hours.day_of_week}}</span> {{ hours.open}}am - {{ hours.close }}pm</p>
+					<p><span class="days">{{ hours.day_of_week}}</span> {{ if {hours.open} }}<span class="pull-right">{{hours.open}}am - {{ hours.close}}pm</span>{{ else }}<span class="pull-right">Closed</span>{{ end-if }}</p>
 					{{ end-each }}
 				</div>
 				<div class="col-md-8" >

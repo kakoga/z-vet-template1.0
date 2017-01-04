@@ -6,7 +6,7 @@
   color: @color;
   background-color: @background;
   border-color: @border;
-
+	border-radius:@btn-border-radius-base;
   &:hover,
   &:focus,
   &:active,
@@ -56,10 +56,15 @@
 }
 
 .body-font() {
-  font-family: @default-font, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: @font-family-base, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: @text-color;
+  font-size:@font-size-base;
+  line-height:@line-height-computed;
 }
 
 .heading-font() {
-  font-family: @heading-font, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: @headings-font-family, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height:@headings-line-height;
+  font-weight:@headings-font-weight;
   text-transform: uppercase;
 }
