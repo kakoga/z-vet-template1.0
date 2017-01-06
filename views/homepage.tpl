@@ -124,22 +124,24 @@
 
 <!-- About Section -->
 <section id="portfolio" class="bg-light-gray" style="background-image:url('{{ page.about_section_image.getImage() }}');background-size:contain;backgound-position:left bottom;background-repeat:no-repeat;">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 pull-left home-section-two-img">
-                &nbsp;
-            </div>
-            <div class="col-lg-6">
-                <div class="row">
-                    <h2 class="section-heading pull-left home-section-two">{{page.about_section_title}}</h2>
-                </div>
-                <div class="row">
-                    <p class="pull-left home-section-two">{{ page.about_section_copy }}</p>
-                    {{ if {page.about_section_button_txt} }}
-                    <p><a class="btn btn-primary" href="{{ truepath({page.about_section_btn_links_to}) }}" >{{ page.about_section_button_txt }}</a></p>
-                    {{ end-if }}
-                </div>
-            </div>
-        </div>
-    </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 pull-left home-section-two-img">
+				&nbsp;
+			</div>
+			<div class="col-lg-6">
+				<div class="opaque-bg">
+					<div class="row">
+						<h2 class="section-heading pull-left home-section-two">{{page.about_section_title}}</h2>
+					</div>
+					<div class="row">
+						<p class="pull-left home-section-two">{{ page.about_section_copy }}</p>
+						{{ if {page.about_section_button_txt} }}
+						<p><a class="btn btn-primary" href="{{ truepath({page.about_section_btn_links_to}) }}" >{{ page.about_section_button_txt }}</a></p>
+						{{ end-if }}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>

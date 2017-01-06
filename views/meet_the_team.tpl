@@ -3,6 +3,11 @@
 	<div class="container">
 		<div class="body-content" >
 			<div class="row">
+				<div class="mobile">
+					<div class="col-md-3" >
+						{{ include sectionlinks }}
+					</div>
+				</div>
 				<div class="col-md-9" >
 					<h1>{{ page.page_title }}</h1>
 					{{ page.body_text }}
@@ -15,7 +20,7 @@
 					</div>
 					<div class="row">
 						{{ end-if }}
-						<div class="col-md-4">
+						<div class="col-md-4 borderline">
 							<img src="{{ employee.employee_photo.getImage(700,700,crop) }}" alt="{{ employee.employee_first_name}} {{ employee.employee_last_name }} photo">
 							<h4>{{ employee.employee_first_name}} {{employee.employee_last_name}}</h4>
 							<p>{{ employee.employee_bio }}</p>
@@ -24,9 +29,11 @@
 					</div>
 					{{ end-each }}
 				</div>
-				<div class="col-md-3" >
-					{{ include sectionlinks }}
-					{{ include inner-page-sidebar }}
+				<div class="desktop">
+					<div class="col-md-3" >
+						{{ include sectionlinks }}
+						{{ include inner-page-sidebar }}
+					</div>
 				</div>
 			</div>
 		</div>

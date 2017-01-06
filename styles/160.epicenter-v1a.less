@@ -40,10 +40,16 @@ p {
 	font-size: @paragraph-font-size;
 	font-weight: 300;
 	line-height: @line-height-computed;
+	@media(max-width: @sm) {
+		font-size: @paragraph-font-size/1.35;
+	}
 }
 
 p.large {
 	font-size: (@paragraph-font-size * 1.2);
+	@media(max-width: @sm) {
+		font-size: @paragraph-font-size * 0.9;
+	}
 }
 
 a,
@@ -73,21 +79,39 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: @font-size-h1;
+	@media(max-width: @sm) {
+		font-size: @font-size-h1 * 0.9;
+	}
 }
 h2 {
 	font-size: @font-size-h2;
+	@media(max-width: @sm) {
+		font-size: @font-size-h2 * 0.9;
+	}
 }
 h3 {
 	font-size: @font-size-h3;
+	@media(max-width: @sm) {
+		font-size: @font-size-h3 * 0.9;
+	}
 }
 h4 {
 	font-size:@font-size-h4;
+	@media(max-width: @sm) {
+		font-size: @font-size-h4 * 0.9;
+	}
 }
 h5 {
 	font-size: @font-size-h5;
+	@media(max-width: @sm) {
+		font-size: @font-size-h5 * 0.9;
+	}
 }
 h6 {
 	font-size: @font-size-h6;
+	@media(max-width: @sm) {
+		font-size: @font-size-h6 * 0.9;
+	}
 }
 
 img {
@@ -140,7 +164,7 @@ img {
 	}
 	.below-logo {
 
-		@media (max-width: 768px) {
+		@media (max-width: @sm) {
 			display:none;
 
 		}
@@ -185,7 +209,7 @@ img {
 				max-height: 50px;
 				max-width: 190px;
 				margin-top: 5px;
-				@media(max-width:768px) {
+				@media(max-width: @sm) {
 					max-height: 35px;
 					max-width: 190px;
 					margin-top: 13px;
@@ -214,7 +238,7 @@ img {
 		float:none;
 		li {
 
-			@media(min-width:768px) {
+			@media(min-width: @sm) {
 				float:none;
 				display:inline-block;
 			}
@@ -247,7 +271,7 @@ img {
 		background-color: @navbar-default-bg !important;
 	}
 	&:not(.always-dark) {
-		@media(min-width:768px) {
+		@media(min-width: @sm) {
 			background:fade(@navbar-default-bg,35%);
 			/*
 			.brand-image{
@@ -275,7 +299,7 @@ img {
 	}
 }
 
-@media(min-width:768px) {
+@media(min-width: @sm) {
 	.navbar-custom {
 		background-color: transparent;
 		padding: 25px 0;
@@ -307,7 +331,7 @@ img {
 
 // Navbar Change on Scroll
 
-@media(min-width:768px) {
+@media(min-width: @sm) {
 	.navbar-custom.affix {
 		background-color: @navbar-default-bg;
 		padding: 10px 0;
@@ -329,6 +353,12 @@ header {
 		padding-top: 100px;
 		padding-bottom: 50px;
 		text-shadow:0px 0px 4px rgba(50,50,50,0.5);
+		@media(max-width: @sm) {
+				.btn.btn-xl {
+					font-size: 14px;
+					padding: 10px 20px;
+				}
+			}
 		.intro-lead-in {
 			.serif-font;
 			font-style: italic;
@@ -342,12 +372,19 @@ header {
 			font-size: 50px;
 			line-height: 50px;
 			margin-bottom: 25px;
+			@media(max-width: @sm) {
+				font-size: 29px;
+				line-height: 42px;
+
+			}
+
+
 		}
 	}
 
 }
 
-@media(min-width:768px) {
+@media(min-width: @sm) {
 	header {
 		.intro-text {
 			padding-top: 300px;
@@ -373,6 +410,9 @@ header {
 // Global Section Styles
 section {
 	padding: 100px 0;
+	@media(max-width: @sm) {
+		padding: 50px 0;
+	}
 }
 section, .recipe-wrap {
 
@@ -391,9 +431,9 @@ section, .recipe-wrap {
 	}
 }
 
-@media(min-width:768px) {
+@media(min-width: @sm) {
 	section {
-		padding: @deafult-spacing*4 0;
+		padding: @default-spacing*4 0;
 	}
 }
 
@@ -404,10 +444,10 @@ section, .recipe-wrap {
 	margin-right: auto;
 	margin-left: auto;
 	z-index: 2;
-	@media (min-width: 768px){
+	@media (min-width: @sm){
 		width: 750px;
 	}
-	@media (min-width: 992px){
+	@media (min-width: @md){
 
 		width: 970px;
 	}
@@ -423,6 +463,13 @@ section, .recipe-wrap {
 .service-heading {
 	margin: 15px 0;
 	text-transform: none;
+}
+
+section#portfolio {
+	@media(max-width: @sm) {
+		background-image: none !important;
+		padding: 50px 0;
+	}
 }
 
 #portfolio, .influencers-page, .product-page {
@@ -488,7 +535,7 @@ section, .recipe-wrap {
 	}
 }
 
-@media(min-width:767px) {
+@media(min-width:@sm) {
 	#portfolio, .influencers-page {
 		.portfolio-item {
 			margin: 0 0 30px;
@@ -561,6 +608,10 @@ section, .recipe-wrap {
 				line-height: 14px;
 				padding:5px 10px;
 				a {color:#fff;}
+				@media(max-width: @sm) {
+					margin-top: 9px;
+					padding: 4px 7px;
+				}
 			}
 		}
 		&.timeline-inverted > .timeline-panel {
@@ -601,7 +652,7 @@ section, .recipe-wrap {
 	}
 }
 
-@media(min-width:768px) {
+@media(min-width:@sm) {
 	.timeline {
 		&:before {
 			left: 50%;
@@ -635,7 +686,7 @@ section, .recipe-wrap {
 	}
 }
 
-@media(min-width:992px) {
+@media(min-width:@md) {
 	.timeline {
 		> li {
 			min-height: 150px;
@@ -781,6 +832,9 @@ footer {
 		.heading-font;
 		text-transform: none;
 	}
+	@media(max-width: @sm) {
+		margin-bottom: 60px;
+	}
 }
 
 // Social Buttons
@@ -817,7 +871,7 @@ footer {
 
 	}
 
-	@media (max-width: 768px){
+	@media (max-width: @sm){
 		text-align: right;
 		position: fixed;
 		bottom: 0px;

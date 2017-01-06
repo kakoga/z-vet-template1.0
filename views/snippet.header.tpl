@@ -40,9 +40,12 @@
 		<div class="container" >
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
+				<div class="mobile">
+				{{bootstrap.navigation(nav navbar-nav,1)}}
+				</div>
+				<div class="desktop">
 				{{bootstrap.navigation(nav navbar-nav,2)}}
-
+				</div>
 			</div>
 		</div>
 	</div>
