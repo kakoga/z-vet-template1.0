@@ -1,5 +1,3 @@
-
-
 <!-- Navigation -->
 <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top {{if {page.path_part} != 'zesty_home'}}always-dark{{end-if}}">
 
@@ -13,7 +11,7 @@
 					</button>
 					{{if {clippings.logo} }}
 					<a class="navbar-brand brand-image page-scroll pull-left" href="/">
-						<img src="{{clippings.logo.getImage()}}" alt="{{clippings.site_name}} logo"/>
+						<img src="{{clippings.logo.getImage()}}" style="height: {{ clippings.logo_height }}px;"alt="{{clippings.site_name}} logo"/>
 						{{ if {clippings.below_logo_text} }}
 						<span class="below-logo hidden-sm-down" >{{ clippings.below_logo_text }}</span>
 						{{ end-if }}
